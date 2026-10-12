@@ -260,6 +260,11 @@
     "fdcType": "Foundation",
     "weighed": "dry",
     "store": "costco",
+    "costco": {
+      "id": "245160",
+      "g": 22680,
+      "name": "Kirkland Signature Thai Hom Mali Jasmine Rice, 50 lbs"
+    },
     "per100g": {
       "protein": 7.04,
       "fat": 1.03,

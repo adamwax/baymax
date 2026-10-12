@@ -182,7 +182,7 @@
             }
           ],
           "time": "09:30",
-          "status": "planned",
+          "status": "eaten",
           "gcal": "qabrt5qot8skhdldfh45tse398"
         },
         {
@@ -219,7 +219,7 @@
             }
           ],
           "time": "12:30",
-          "status": "planned",
+          "status": "skipped",
           "gcal": "ml7bqcm03cp7g50ccoa548d7l0"
         },
         {
@@ -240,7 +240,7 @@
             }
           ],
           "time": "14:45",
-          "status": "planned",
+          "status": "skipped",
           "gcal": "vo91s6snqsais70lupfuvjg2lg"
         },
         {
@@ -280,32 +280,44 @@
               "g": 30
             }
           ],
-          "time": "17:45",
+          "time": "19:00",
           "status": "planned",
           "gcal": "it5s9ok90lj987jiv809jm90q8"
         },
         {
           "slot": "dinner",
-          "meal": "smash-burger-quesadilla",
+          "meal": "shrimp-fried-rice",
           "items": [
             {
-              "food": "ground-beef-85",
-              "g": 230
+              "food": "shrimp-raw",
+              "g": 250
             },
             {
-              "food": "flour-tortilla",
+              "food": "white-rice-dry",
+              "g": 150
+            },
+            {
+              "food": "egg",
               "count": 2
             },
             {
-              "food": "mozzarella-shredded",
-              "g": 50
+              "food": "carrot",
+              "g": 80
             },
             {
-              "food": "sriracha",
+              "food": "scallion",
+              "g": 30
+            },
+            {
+              "food": "soy-sauce",
+              "g": 20
+            },
+            {
+              "food": "sesame-oil",
               "g": 10
             }
           ],
-          "time": "19:30",
+          "time": "20:30",
           "status": "planned",
           "gcal": "s6vm9lf82je3eci1ljavvvs5sk"
         }
