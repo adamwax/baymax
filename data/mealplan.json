@@ -68,7 +68,7 @@
             }
           ],
           "time": "16:25",
-          "status": "planned",
+          "status": "skipped",
           "gcal": "3kpqe6n8a6jsgui1m0bb65b2uo"
         },
         {
@@ -118,15 +118,15 @@
           "items": [
             {
               "food": "chipotle-chicken-kirkland",
-              "g": 457
+              "g": 300
             },
             {
               "food": "white-rice-dry",
-              "g": 100
+              "g": 150
             },
             {
               "food": "flour-tortilla",
-              "count": 2
+              "g": 192
             },
             {
               "food": "mozzarella-shredded",
