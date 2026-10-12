@@ -3698,20 +3698,50 @@
   },
   {
     "date": "2026-10-12",
-    "kcal": 1250,
-    "protein": 58,
-    "carbs": 100,
-    "fat": 65,
+    "kcal": 1347,
+    "protein": 76,
+    "carbs": 132,
+    "fat": 54,
     "meals": [],
     "method": "reported-as-eaten",
     "deviations": [
       {
-        "desc": "Lunch out at Burma Love: lamb curry (braised lamb chunks + potatoes in oily tomato-onion gravy, mint) with a side bowl of white rice, all eaten, finished ~16:00. ESTIMATED from before/after photos, no published nutrition: ~250g cooked rice (325 kcal), ~200g braised lamb (520), ~120g potato (100), ~30g curry oil + gravy (305). Burmese curries usually contain fish sauce.",
+        "desc": "Lunch out at Burma Love: lamb curry (braised lamb chunks + potatoes in oily tomato-onion gravy, mint) with a side bowl of white rice, finished ~16:00 but left most of the gravy. ESTIMATED from before/after photos, no published nutrition: ~250g cooked rice (325 kcal), ~200g braised lamb (520), ~120g potato (100), ~10g oil + gravy actually eaten (~105; most of the sauce left in the bowl). Burmese curries usually contain fish sauce.",
         "at": "2026-10-12T16:00",
-        "kcal": 1250,
-        "protein": 58,
-        "carbs": 100,
-        "fat": 65
+        "kcal": 1050,
+        "protein": 57,
+        "carbs": 95,
+        "fat": 45
+      },
+      {
+        "desc": "09:30 Morning yogurt bowl + berries per the plan: 200g Greek yogurt, plain, whole milk + 20g Honey + 50g Raspberries + 50g Blackberries.",
+        "at": "2026-10-12T09:30",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-12T09:30"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-10-12T09:30"
+          },
+          {
+            "food": "raspberries",
+            "g": 50,
+            "at": "2026-10-12T09:30"
+          },
+          {
+            "food": "blackberries",
+            "g": 50,
+            "at": "2026-10-12T09:30"
+          }
+        ],
+        "kcal": 297,
+        "protein": 19,
+        "carbs": 37,
+        "fat": 9
       }
     ]
   }
