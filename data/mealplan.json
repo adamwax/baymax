@@ -135,6 +135,18 @@
             {
               "food": "spinach",
               "g": 30
+            },
+            {
+              "food": "honey",
+              "g": 11
+            },
+            {
+              "food": "sriracha",
+              "g": 15
+            },
+            {
+              "food": "lemon",
+              "g": 11
             }
           ],
           "time": "19:45",

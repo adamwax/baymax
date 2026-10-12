@@ -513,6 +513,30 @@
       "food": "white-rice-dry",
       "g": 44,
       "source": "chat"
+    },
+    {
+      "id": "k54",
+      "at": "2026-10-11T22:31",
+      "type": "share",
+      "food": "honey",
+      "g": 4,
+      "source": "chat"
+    },
+    {
+      "id": "k55",
+      "at": "2026-10-11T22:31",
+      "type": "share",
+      "food": "sriracha",
+      "g": 5,
+      "source": "chat"
+    },
+    {
+      "id": "k56",
+      "at": "2026-10-11T22:31",
+      "type": "share",
+      "food": "lemon",
+      "g": 4,
+      "source": "chat"
     }
   ],
   "legacy": [
