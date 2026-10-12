@@ -537,6 +537,26 @@
       "food": "lemon",
       "g": 4,
       "source": "chat"
+    },
+    {
+      "id": "k57",
+      "at": "2026-10-11T23:17",
+      "type": "count",
+      "food": "chipotle-chicken-kirkland",
+      "g": 0,
+      "where": "freezer",
+      "source": "chat",
+      "note": "Adam: no second bag; k12 was a double-count of the refrozen bag"
+    },
+    {
+      "id": "k58",
+      "at": "2026-10-11T23:17",
+      "type": "move",
+      "food": "shrimp-raw",
+      "g": 250,
+      "to": "fridge",
+      "source": "chat",
+      "note": "thawing for 10/12 shrimp fried rice"
     }
   ],
   "legacy": [

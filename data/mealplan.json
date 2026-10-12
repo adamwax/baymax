@@ -286,11 +286,11 @@
         },
         {
           "slot": "dinner",
-          "meal": "chipotle-chicken-quesadillas",
+          "meal": "smash-burger-quesadilla",
           "items": [
             {
-              "food": "chipotle-chicken-kirkland",
-              "g": 300
+              "food": "ground-beef-85",
+              "g": 230
             },
             {
               "food": "flour-tortilla",
@@ -301,8 +301,8 @@
               "g": 50
             },
             {
-              "food": "spinach",
-              "g": 30
+              "food": "sriracha",
+              "g": 10
             }
           ],
           "time": "19:30",
