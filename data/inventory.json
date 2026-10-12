@@ -474,6 +474,45 @@
       "food": "spinach",
       "g": 15,
       "source": "chat"
+    },
+    {
+      "id": "k49",
+      "at": "2026-10-11T22:18",
+      "type": "undo",
+      "ref": "k45",
+      "source": "chat"
+    },
+    {
+      "id": "k50",
+      "at": "2026-10-11T22:18",
+      "type": "share",
+      "food": "white-rice-dry",
+      "g": 44,
+      "source": "chat"
+    },
+    {
+      "id": "k51",
+      "at": "2026-10-11T22:18",
+      "type": "undo",
+      "ref": "k50",
+      "source": "chat"
+    },
+    {
+      "id": "k52",
+      "at": "2026-10-11T22:18",
+      "type": "count",
+      "food": "white-rice-dry",
+      "g": 178,
+      "where": "pantry",
+      "source": "chat"
+    },
+    {
+      "id": "k53",
+      "at": "2026-10-11T22:18",
+      "type": "share",
+      "food": "white-rice-dry",
+      "g": 44,
+      "source": "chat"
     }
   ],
   "legacy": [
