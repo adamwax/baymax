@@ -433,6 +433,47 @@
       "lot": "k40",
       "source": "chat",
       "note": "tonight's burritos (the refrozen bag)"
+    },
+    {
+      "id": "k44",
+      "at": "2026-10-11T22:13",
+      "type": "share",
+      "food": "chipotle-chicken-kirkland",
+      "g": 157,
+      "lot": "k43",
+      "source": "chat"
+    },
+    {
+      "id": "k45",
+      "at": "2026-10-11T22:13",
+      "type": "share",
+      "food": "white-rice-dry",
+      "g": 50,
+      "source": "chat"
+    },
+    {
+      "id": "k46",
+      "at": "2026-10-11T22:13",
+      "type": "share",
+      "food": "flour-tortilla",
+      "g": 64,
+      "source": "chat"
+    },
+    {
+      "id": "k47",
+      "at": "2026-10-11T22:13",
+      "type": "share",
+      "food": "mozzarella-shredded",
+      "g": 20,
+      "source": "chat"
+    },
+    {
+      "id": "k48",
+      "at": "2026-10-11T22:13",
+      "type": "share",
+      "food": "spinach",
+      "g": 15,
+      "source": "chat"
     }
   ],
   "legacy": [
