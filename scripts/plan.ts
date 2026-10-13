@@ -224,7 +224,7 @@ if (import.meta.main) {
   };
   const pair = (s: string) => {
     const [food, g] = s.split("=");
-    if (!foods.has(food!) || !(Number(g) > 0)) throw new Error(`bad food=g "${s}"`);
+    if (!foods.has(food!) || !(Number(g) >= 0)) throw new Error(`bad food=g "${s}"`);
     return { food: food!, g: Number(g) };
   };
   const printDay = (d: PlanDay) => {
@@ -340,6 +340,7 @@ if (import.meta.main) {
       if (it) Object.assign(it, { g: s.g, count: undefined });
       else items.push(s);
     }
+    items = items.filter((it) => it.g !== 0); // --set food=0 drops it (leftovers without the tortilla)
     items = [...scaleItems(items, fraction), ...adds];
     const at = flag("--at") ?? now();
     items = items.map((it) => ({ ...it, g: grams(it, foods), count: undefined, at }));

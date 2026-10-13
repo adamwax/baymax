@@ -557,6 +557,15 @@
       "to": "fridge",
       "source": "chat",
       "note": "thawing for 10/12 shrimp fried rice"
+    },
+    {
+      "id": "k59",
+      "at": "2026-10-12T23:19",
+      "type": "move",
+      "food": "shrimp-raw",
+      "g": 250,
+      "to": "freezer",
+      "source": "chat"
     }
   ],
   "legacy": [

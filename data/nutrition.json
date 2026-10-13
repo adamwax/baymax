@@ -3698,10 +3698,10 @@
   },
   {
     "date": "2026-10-12",
-    "kcal": 1347,
-    "protein": 76,
-    "carbs": 132,
-    "fat": 54,
+    "kcal": 1775,
+    "protein": 108,
+    "carbs": 188,
+    "fat": 62,
     "meals": [],
     "method": "reported-as-eaten",
     "deviations": [
@@ -3742,6 +3742,51 @@
         "protein": 19,
         "carbs": 37,
         "fat": 9
+      },
+      {
+        "desc": "23:19 Chipotle chicken burritos per the plan: 125g Grilled Chipotle Seasoned Chicken (Kirkland, fully cooked, sliced) + 56g White rice, long grain, dry + 17g Mozzarella, low-moisture part-skim, shredded + 12g Spinach, raw + 4g Honey + 6g Sriracha + 4g Lemon, raw. leftover burrito filling from 10/11 as a bowl, no tortilla; shrimp refrozen",
+        "at": "2026-10-12T23:19",
+        "items": [
+          {
+            "food": "chipotle-chicken-kirkland",
+            "g": 125,
+            "at": "2026-10-12T23:19"
+          },
+          {
+            "food": "white-rice-dry",
+            "g": 56,
+            "at": "2026-10-12T23:19"
+          },
+          {
+            "food": "mozzarella-shredded",
+            "g": 17,
+            "at": "2026-10-12T23:19"
+          },
+          {
+            "food": "spinach",
+            "g": 12,
+            "at": "2026-10-12T23:19"
+          },
+          {
+            "food": "honey",
+            "g": 4,
+            "at": "2026-10-12T23:19"
+          },
+          {
+            "food": "sriracha",
+            "g": 6,
+            "at": "2026-10-12T23:19"
+          },
+          {
+            "food": "lemon",
+            "g": 4,
+            "at": "2026-10-12T23:19"
+          }
+        ],
+        "kcal": 428,
+        "protein": 32,
+        "carbs": 56,
+        "fat": 8
       }
     ]
   }

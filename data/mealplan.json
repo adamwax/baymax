@@ -286,39 +286,31 @@
         },
         {
           "slot": "dinner",
-          "meal": "shrimp-fried-rice",
+          "meal": "chipotle-chicken-burritos",
           "items": [
             {
-              "food": "shrimp-raw",
-              "g": 250
+              "food": "chipotle-chicken-kirkland",
+              "g": 300
             },
             {
               "food": "white-rice-dry",
-              "g": 150
+              "g": 100
             },
             {
-              "food": "egg",
+              "food": "flour-tortilla",
               "count": 2
             },
             {
-              "food": "carrot",
-              "g": 80
+              "food": "mozzarella-shredded",
+              "g": 40
             },
             {
-              "food": "scallion",
+              "food": "spinach",
               "g": 30
-            },
-            {
-              "food": "soy-sauce",
-              "g": 20
-            },
-            {
-              "food": "sesame-oil",
-              "g": 10
             }
           ],
           "time": "20:30",
-          "status": "planned",
+          "status": "eaten",
           "gcal": "s6vm9lf82je3eci1ljavvvs5sk"
         }
       ]
