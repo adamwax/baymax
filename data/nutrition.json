@@ -3698,10 +3698,10 @@
   },
   {
     "date": "2026-10-12",
-    "kcal": 2600,
-    "protein": 150,
-    "carbs": 289,
-    "fat": 92,
+    "kcal": 2860,
+    "protein": 154,
+    "carbs": 321,
+    "fat": 105,
     "meals": [],
     "method": "reported-as-eaten",
     "deviations": [
@@ -3845,6 +3845,14 @@
         "protein": 14,
         "carbs": 14,
         "fat": 10
+      },
+      {
+        "desc": "00:57 (before bed, counted to 10/12) Ben & Jerry's Chocolate Fudge Brownie, 100g. ESTIMATED from the typical US label (~260 kcal/100g); not in foods.json.",
+        "at": "2026-10-13T00:57",
+        "kcal": 260,
+        "protein": 4,
+        "carbs": 32,
+        "fat": 13
       }
     ]
   }
