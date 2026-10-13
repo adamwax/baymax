@@ -370,7 +370,7 @@
             }
           ],
           "time": "12:30",
-          "status": "planned",
+          "status": "eaten",
           "gcal": "roqs4rmdf91o4ggk254r00f2bs"
         },
         {
@@ -613,7 +613,7 @@
           "items": [
             {
               "food": "ground-beef-85",
-              "g": 230
+              "g": 304
             },
             {
               "food": "potato",

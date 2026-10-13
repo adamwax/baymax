@@ -575,6 +575,33 @@
       "g": 22680,
       "where": "pantry",
       "source": "reported"
+    },
+    {
+      "id": "k61",
+      "at": "2026-10-13T15:14",
+      "type": "count",
+      "food": "ground-beef-85",
+      "g": 304,
+      "where": "fridge",
+      "source": "chat",
+      "note": "cooked 10/13 (raw-weight equivalent), half of the batch saved for 10/14 dinner"
+    },
+    {
+      "id": "k62",
+      "at": "2026-10-13T15:14",
+      "type": "undo",
+      "ref": "k61",
+      "source": "chat"
+    },
+    {
+      "id": "k63",
+      "at": "2026-10-13T15:20",
+      "type": "count",
+      "food": "ground-beef-85",
+      "g": 304,
+      "where": "fridge",
+      "source": "chat",
+      "note": "cooked 10/13 (raw-weight equivalent), half of the batch saved for 10/14 dinner"
     }
   ],
   "legacy": [

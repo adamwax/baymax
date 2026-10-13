@@ -3858,10 +3858,10 @@
   },
   {
     "date": "2026-10-13",
-    "kcal": 297,
-    "protein": 19,
-    "carbs": 37,
-    "fat": 9,
+    "kcal": 1288,
+    "protein": 88,
+    "carbs": 93,
+    "fat": 61,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -3894,6 +3894,41 @@
         "protein": 19,
         "carbs": 37,
         "fat": 9
+      },
+      {
+        "desc": "15:14 Beef rice bowl per the plan: 304g Ground beef 85/15, raw + 60g White rice, long grain, dry + 100g Cucumber, raw, with peel + 30g Mozzarella, low-moisture part-skim, shredded + 10g Sriracha.",
+        "at": "2026-10-13T15:14",
+        "items": [
+          {
+            "food": "ground-beef-85",
+            "g": 304,
+            "at": "2026-10-13T15:14"
+          },
+          {
+            "food": "white-rice-dry",
+            "g": 60,
+            "at": "2026-10-13T15:14"
+          },
+          {
+            "food": "cucumber",
+            "g": 100,
+            "at": "2026-10-13T15:14"
+          },
+          {
+            "food": "mozzarella-shredded",
+            "g": 30,
+            "at": "2026-10-13T15:14"
+          },
+          {
+            "food": "sriracha",
+            "g": 10,
+            "at": "2026-10-13T15:14"
+          }
+        ],
+        "kcal": 991,
+        "protein": 69,
+        "carbs": 56,
+        "fat": 52
       }
     ],
     "notes": ""
