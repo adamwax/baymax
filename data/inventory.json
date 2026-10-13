@@ -566,6 +566,15 @@
       "g": 250,
       "to": "freezer",
       "source": "chat"
+    },
+    {
+      "id": "k60",
+      "at": "2026-10-13T11:15",
+      "type": "buy",
+      "food": "white-rice-dry",
+      "g": 22680,
+      "where": "pantry",
+      "source": "reported"
     }
   ],
   "legacy": [
