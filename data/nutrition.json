@@ -3858,10 +3858,10 @@
   },
   {
     "date": "2026-10-13",
-    "kcal": 2278,
-    "protein": 130,
-    "carbs": 197,
-    "fat": 104,
+    "kcal": 3018,
+    "protein": 168,
+    "carbs": 297,
+    "fat": 126,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -3937,6 +3937,51 @@
         "protein": 42,
         "carbs": 104,
         "fat": 43
+      },
+      {
+        "desc": "00:11 Post-lift yogurt-oat-mango smoothie per the plan: 350g Greek yogurt, plain, whole milk + 200g Trader Joe's Non-Dairy Oat Beverage with Vitamins A, D & B12 + 60g Mango (frozen chunks ok) + 35g Oats, dry + 45g Honey + 30g Raspberries + 30g Blackberries. extra 150g yogurt + 15g honey blended in; no chia (out)",
+        "at": "2026-10-14T00:11",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 350,
+            "at": "2026-10-14T00:11"
+          },
+          {
+            "food": "oat-milk",
+            "g": 200,
+            "at": "2026-10-14T00:11"
+          },
+          {
+            "food": "mango",
+            "g": 60,
+            "at": "2026-10-14T00:11"
+          },
+          {
+            "food": "oats-dry",
+            "g": 35,
+            "at": "2026-10-14T00:11"
+          },
+          {
+            "food": "honey",
+            "g": 45,
+            "at": "2026-10-14T00:11"
+          },
+          {
+            "food": "raspberries",
+            "g": 30,
+            "at": "2026-10-14T00:11"
+          },
+          {
+            "food": "blackberries",
+            "g": 30,
+            "at": "2026-10-14T00:11"
+          }
+        ],
+        "kcal": 740,
+        "protein": 38,
+        "carbs": 100,
+        "fat": 22
       }
     ],
     "notes": ""
