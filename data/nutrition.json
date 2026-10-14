@@ -3858,10 +3858,10 @@
   },
   {
     "date": "2026-10-13",
-    "kcal": 1288,
-    "protein": 88,
-    "carbs": 93,
-    "fat": 61,
+    "kcal": 2278,
+    "protein": 130,
+    "carbs": 197,
+    "fat": 104,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -3929,6 +3929,14 @@
         "protein": 69,
         "carbs": 56,
         "fat": 52
+      },
+      {
+        "desc": "Dinner out at Hinodeya: tonkotsu ramen (noodles + toppings eaten, roughly half the broth left, per photo IMG_5062) ~750 kcal + 4 pork gyoza ~240 kcal. ESTIMATED, no published nutrition. Hinodeya's house broths are bonito/kombu dashi; the tonkotsu may share it (fish).",
+        "at": "2026-10-13T21:30",
+        "kcal": 990,
+        "protein": 42,
+        "carbs": 104,
+        "fat": 43
       }
     ],
     "notes": ""

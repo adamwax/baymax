@@ -12552,7 +12552,7 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "lb": 72,
+              "lb": 74,
               "reps": [
                 8
               ]
@@ -12622,6 +12622,146 @@
               "reps": [
                 8,
                 8
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "type": "push",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 205,
+              "reps": [
+                1
+              ]
+            },
+            {
+              "lb": 175,
+              "reps": [
+                8,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 33,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                10,
+                10,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "lb": 80,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Skull Crusher",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": "Lift moved to ~17:30 after a late Burma Love lunch; pre-lift toast skipped."
+    },
+    {
+      "date": "2026-10-13",
+      "type": "pull",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 190,
+              "reps": [
+                8,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "lb": 180,
+              "reps": [
+                8,
+                8,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "lb": 67,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "lb": 40,
+              "reps": [
+                10,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Lat Pullover",
+          "sets": [
+            {
+              "lb": 40,
+              "reps": [
+                8,
+                7
               ]
             }
           ]
