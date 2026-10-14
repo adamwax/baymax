@@ -505,11 +505,49 @@
             }
           ],
           "time": "09:30",
-          "status": "planned",
+          "status": "eaten",
           "gcal": "bi2n9rdfu6ioc2ljtuq2j4g6ng"
         },
         {
           "slot": "lunch",
+          "meal": "shrimp-cocktail",
+          "items": [
+            {
+              "food": "kirkland-shrimp-cocktail",
+              "g": 300
+            },
+            {
+              "food": "cocktail-sauce-kirkland",
+              "g": 40
+            }
+          ],
+          "time": "12:30",
+          "status": "eaten",
+          "gcal": "grnlgt40bapthb48ir79rumiq4"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            }
+          ],
+          "time": "13:00",
+          "status": "planned",
+          "gcal": "g77p4ohmd9bnetnsl2l19v3uuk"
+        },
+        {
+          "slot": "snack",
           "meal": "honey-garlic-chicken-bowl",
           "items": [
             {
@@ -541,30 +579,9 @@
               "g": 100
             }
           ],
-          "time": "12:30",
+          "time": "16:15",
           "status": "planned",
-          "gcal": "grnlgt40bapthb48ir79rumiq4"
-        },
-        {
-          "slot": "pre-lift",
-          "meal": "pre-lift-carb",
-          "items": [
-            {
-              "food": "bread-sourdough",
-              "g": 90
-            },
-            {
-              "food": "honey",
-              "g": 25
-            },
-            {
-              "food": "mandarin",
-              "count": 1
-            }
-          ],
-          "time": "14:45",
-          "status": "planned",
-          "gcal": "g77p4ohmd9bnetnsl2l19v3uuk"
+          "gcal": "i86ak6ds65lthqr4boe8rf290k"
         },
         {
           "slot": "post-lift",
@@ -591,16 +608,8 @@
               "g": 30
             },
             {
-              "food": "chia",
-              "g": 15
-            },
-            {
-              "food": "raspberries",
-              "g": 25
-            },
-            {
-              "food": "blackberries",
-              "g": 25
+              "food": "strawberries",
+              "g": 60
             }
           ],
           "time": "17:45",
@@ -631,23 +640,6 @@
           "time": "19:30",
           "status": "planned",
           "gcal": "eqme46bjvg9tvc4j5n4n1u290s"
-        },
-        {
-          "slot": "snack",
-          "meal": "shrimp-cocktail",
-          "items": [
-            {
-              "food": "kirkland-shrimp-cocktail",
-              "g": 225
-            },
-            {
-              "food": "cocktail-sauce-kirkland",
-              "g": 20
-            }
-          ],
-          "time": "21:30",
-          "status": "planned",
-          "gcal": "i86ak6ds65lthqr4boe8rf290k"
         }
       ]
     },

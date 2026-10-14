@@ -602,6 +602,33 @@
       "where": "fridge",
       "source": "chat",
       "note": "cooked 10/13 (raw-weight equivalent), half of the batch saved for 10/14 dinner"
+    },
+    {
+      "id": "k64",
+      "at": "2026-10-14T13:13",
+      "type": "toss",
+      "food": "raspberries",
+      "g": 75,
+      "source": "chat",
+      "note": "went bad"
+    },
+    {
+      "id": "k65",
+      "at": "2026-10-14T13:13",
+      "type": "toss",
+      "food": "blackberries",
+      "g": 75,
+      "source": "chat",
+      "note": "went bad"
+    },
+    {
+      "id": "k66",
+      "at": "2026-10-14T00:30",
+      "type": "move",
+      "food": "ground-chicken",
+      "g": 454,
+      "to": "fridge",
+      "source": "chat"
     }
   ],
   "legacy": [

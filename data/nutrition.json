@@ -3985,5 +3985,57 @@
       }
     ],
     "notes": ""
+  },
+  {
+    "date": "2026-10-14",
+    "kcal": 498,
+    "protein": 72,
+    "carbs": 32,
+    "fat": 10,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "09:30 Morning yogurt bowl + berries per the plan: 200g Greek yogurt, plain, whole milk + 20g Honey. plain, berries went bad",
+        "at": "2026-10-14T09:30",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-14T09:30"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-10-14T09:30"
+          }
+        ],
+        "kcal": 250,
+        "protein": 18,
+        "carbs": 26,
+        "fat": 9
+      },
+      {
+        "desc": "12:30 Shrimp cocktail per the plan: 225g Shrimp Cocktail tray shrimp, cooked, tail-on (Kirkland, refrigerated) + 20g Cocktail sauce (cup in the Kirkland shrimp cocktail tray).",
+        "at": "2026-10-14T12:30",
+        "items": [
+          {
+            "food": "kirkland-shrimp-cocktail",
+            "g": 225,
+            "at": "2026-10-14T12:30"
+          },
+          {
+            "food": "cocktail-sauce-kirkland",
+            "g": 20,
+            "at": "2026-10-14T12:30"
+          }
+        ],
+        "kcal": 248,
+        "protein": 54,
+        "carbs": 6,
+        "fat": 1
+      }
+    ],
+    "notes": ""
   }
 ]

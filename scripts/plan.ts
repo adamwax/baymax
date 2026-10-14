@@ -302,6 +302,7 @@ if (import.meta.main) {
     const it = s.items.find((it) => it.food === food);
     if (it) Object.assign(it, { g, count: undefined });
     else s.items.push({ food, g });
+    s.items = s.items.filter((it) => it.g !== 0); // 0 drops the item
     await save();
     printDay(day(rest[0]));
     report();
