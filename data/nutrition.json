@@ -5637,10 +5637,10 @@
   },
   {
     "date": "2026-11-01",
-    "kcal": 2139,
-    "protein": 129,
-    "carbs": 277,
-    "fat": 56,
+    "kcal": 3219,
+    "protein": 198,
+    "carbs": 355,
+    "fat": 108,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -5763,6 +5763,56 @@
         "protein": 75,
         "carbs": 71,
         "fat": 29
+      },
+      {
+        "desc": "21:39 Beef rice bowl per the plan: 300g Ground beef 85/15, raw + 80g White rice, long grain, dry + 30g Mozzarella, low-moisture part-skim, shredded.",
+        "at": "2026-11-01T21:39",
+        "items": [
+          {
+            "food": "ground-beef-85",
+            "g": 300,
+            "at": "2026-11-01T21:39"
+          },
+          {
+            "food": "white-rice-dry",
+            "g": 80,
+            "at": "2026-11-01T21:39"
+          },
+          {
+            "food": "mozzarella-shredded",
+            "g": 30,
+            "at": "2026-11-01T21:39"
+          }
+        ],
+        "kcal": 1032,
+        "protein": 68,
+        "carbs": 67,
+        "fat": 52
+      },
+      {
+        "desc": "21:42 Ad-hoc: 10g Sriracha + 10g Honey + 15g Soy sauce. sauce on the 21:39 beef bowl (amounts estimated)",
+        "at": "2026-11-01T21:42",
+        "items": [
+          {
+            "food": "sriracha",
+            "g": 10,
+            "at": "2026-11-01T21:42"
+          },
+          {
+            "food": "honey",
+            "g": 10,
+            "at": "2026-11-01T21:42"
+          },
+          {
+            "food": "soy-sauce",
+            "g": 15,
+            "at": "2026-11-01T21:42"
+          }
+        ],
+        "kcal": 48,
+        "protein": 1,
+        "carbs": 11,
+        "fat": 0
       }
     ],
     "notes": ""
