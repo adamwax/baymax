@@ -3988,10 +3988,10 @@
   },
   {
     "date": "2026-10-14",
-    "kcal": 498,
-    "protein": 72,
-    "carbs": 32,
-    "fat": 10,
+    "kcal": 3362,
+    "protein": 188,
+    "carbs": 361,
+    "fat": 133,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -4034,6 +4034,1735 @@
         "protein": 54,
         "carbs": 6,
         "fat": 1
+      },
+      {
+        "desc": "14:25 Pre-lift toast + honey + fruit per the plan: 90g Sourdough bread (bakery) + 25g Honey.",
+        "at": "2026-10-14T14:25",
+        "items": [
+          {
+            "food": "bread-sourdough",
+            "g": 90,
+            "at": "2026-10-14T14:25"
+          },
+          {
+            "food": "honey",
+            "g": 25,
+            "at": "2026-10-14T14:25"
+          }
+        ],
+        "kcal": 321,
+        "protein": 10,
+        "carbs": 67,
+        "fat": 2
+      },
+      {
+        "desc": "17:36 Beef + potato dinner per the plan: 304g Ground beef 85/15, raw + 300g Potato, flesh and skin, raw + 80g Spinach, raw + 8g Butter, salted.",
+        "at": "2026-10-14T17:36",
+        "items": [
+          {
+            "food": "ground-beef-85",
+            "g": 304,
+            "at": "2026-10-14T17:36"
+          },
+          {
+            "food": "potato",
+            "g": 300,
+            "at": "2026-10-14T17:36"
+          },
+          {
+            "food": "spinach",
+            "g": 80,
+            "at": "2026-10-14T17:36"
+          },
+          {
+            "food": "butter",
+            "g": 8,
+            "at": "2026-10-14T17:36"
+          }
+        ],
+        "kcal": 960,
+        "protein": 65,
+        "carbs": 55,
+        "fat": 53
+      },
+      {
+        "desc": "21:45 Post-lift yogurt-oat-mango smoothie per the plan: 200g Greek yogurt, plain, whole milk + 200g Trader Joe's Non-Dairy Oat Beverage with Vitamins A, D & B12 + 60g Mango (frozen chunks ok) + 35g Oats, dry + 30g Honey + 60g Strawberries.",
+        "at": "2026-10-14T21:45",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-14T21:45"
+          },
+          {
+            "food": "oat-milk",
+            "g": 200,
+            "at": "2026-10-14T21:45"
+          },
+          {
+            "food": "mango",
+            "g": 60,
+            "at": "2026-10-14T21:45"
+          },
+          {
+            "food": "oats-dry",
+            "g": 35,
+            "at": "2026-10-14T21:45"
+          },
+          {
+            "food": "honey",
+            "g": 30,
+            "at": "2026-10-14T21:45"
+          },
+          {
+            "food": "strawberries",
+            "g": 60,
+            "at": "2026-10-14T21:45"
+          }
+        ],
+        "kcal": 543,
+        "protein": 25,
+        "carbs": 79,
+        "fat": 16
+      },
+      {
+        "desc": "00:45 (before bed, counted to 10/14) Ben & Jerry's Chocolate Fudge Brownie, the whole pint (~400g), replacing the skipped chicken bowl. ESTIMATED from the 10/12 entry (~260 kcal/100g), scaled x4; not in foods.json.",
+        "at": "2026-10-15T00:45",
+        "kcal": 1040,
+        "protein": 16,
+        "carbs": 128,
+        "fat": 52
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-10-15",
+    "kcal": 3820,
+    "protein": 132,
+    "carbs": 342,
+    "fat": 185,
+    "meals": [],
+    "method": "reported-as-eaten, mostly ESTIMATED (restaurant + recalled amounts, reported the next morning). DAY CLOSED.",
+    "deviations": [
+      {
+        "desc": "12:45 Erik's DeliCafé, replacing the yogurt breakfast (no yogurt on hand). From Erik's official nutrition PDF (E-68-2): HALF California Crunch, no avocado (half sandwich 430/25P/43C/17F minus the PDF's avocado-half 130/1P/7C/9F = ~300/24P/36C/8F) + cup (7oz) New England clam chowder 200/4P/17C/14F + 2 saltine packets (~50/1P/8C/1F, est.) + half a pickle (~5, est.). Erik's allergen chart marks the chowder FISH=Y.",
+        "at": "2026-10-15T12:45",
+        "kcal": 555,
+        "protein": 29,
+        "carbs": 61,
+        "fat": 23
+      },
+      {
+        "desc": "21:00 Ad-hoc: 300g Lightly Breaded Chicken Breast Chunks (Just Bare, frozen, fully cooked). Air-fried, with ~40g Polynesian sauce logged separately (estimate). Replaced the planned chicken bowl.",
+        "at": "2026-10-15T21:00",
+        "items": [
+          {
+            "food": "just-bare-chunks",
+            "g": 300,
+            "at": "2026-10-15T21:00"
+          }
+        ],
+        "kcal": 572,
+        "protein": 57,
+        "carbs": 32,
+        "fat": 25
+      },
+      {
+        "desc": "~19:30 Modí (88 Natoma): about HALF the Risotto Milano Mexico (saffron risotto, Milanese style) + ALL the roasted bone marrow with chimichurri scraped on top. ESTIMATED, no published nutrition: half risotto ~450/12P/55C/20F; marrow (~60g) + chimichurri ~500/4P/1C/55F. Replaced the planned beef gnocchi dinner.",
+        "at": "2026-10-15T19:30",
+        "kcal": 950,
+        "protein": 16,
+        "carbs": 56,
+        "fat": 75
+      },
+      {
+        "desc": "Modí: 2 pineapple drinks. ASSUMED cocktails (tequila/mezcal + pineapple + agave), ~220 kcal each; alcohol kcal counted as carbs here. Not confirmed, could be non-alcoholic.",
+        "at": "2026-10-15T19:30",
+        "kcal": 440,
+        "protein": 0,
+        "carbs": 40,
+        "fat": 0
+      },
+      {
+        "desc": "~40g Polynesian sauce with the Just Bare chunks. ESTIMATED from Chick-fil-A's label (28g packet = 110 kcal / 13C / 6F).",
+        "at": "2026-10-15T21:00",
+        "kcal": 155,
+        "protein": 0,
+        "carbs": 18,
+        "fat": 9
+      },
+      {
+        "desc": "Late night: 'hella' Ben & Jerry's Chocolate Chip Cookie Dough. ESTIMATED as 2 of the pint's 3 servings (label 370 kcal / 6P / 42C / 20F per 2/3 cup), amount unconfirmed.",
+        "at": "2026-10-15T23:00",
+        "kcal": 740,
+        "protein": 12,
+        "carbs": 84,
+        "fat": 40
+      },
+      {
+        "desc": "3 edibles (brand unknown). ESTIMATED ~15 kcal each.",
+        "at": "2026-10-15T23:00",
+        "kcal": 45,
+        "protein": 0,
+        "carbs": 11,
+        "fat": 0
+      },
+      {
+        "desc": "Trader Joe's frozen steamed chicken soup dumplings, 6ct/170g tray (ASSUMED the same product as 7/29, Adam said '6 dim sum'). Label macros from the 7/29 entry.",
+        "at": "2026-10-15T22:00",
+        "kcal": 250,
+        "protein": 16,
+        "carbs": 29,
+        "fat": 7
+      },
+      {
+        "desc": "23:30 Ad-hoc: 300g Trader Joe's Non-Dairy Oat Beverage with Vitamins A, D & B12. Large glass of oat milk late night (~300g est.).",
+        "at": "2026-10-15T23:30",
+        "items": [
+          {
+            "food": "oat-milk",
+            "g": 300,
+            "at": "2026-10-15T23:30"
+          }
+        ],
+        "kcal": 113,
+        "protein": 2,
+        "carbs": 11,
+        "fat": 6
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-10-16",
+    "kcal": 1533,
+    "protein": 76,
+    "carbs": 224,
+    "fat": 39,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "14:00 Honey-garlic ground chicken bowl per the plan: 300g Natural ground chicken, ~92% lean, raw (Trader Joe's) + 150g White rice, long grain, dry + 20g Soy sauce + 15g Honey + 10g Garlic, raw + 5g Sesame oil, toasted + 100g Cucumber, raw, with peel. Cooked the whole 454g pack with scaled sauce; Adam ate 66%, Nanda the rest.",
+        "at": "2026-10-16T14:00",
+        "items": [
+          {
+            "food": "ground-chicken",
+            "g": 300,
+            "at": "2026-10-16T14:00"
+          },
+          {
+            "food": "white-rice-dry",
+            "g": 150,
+            "at": "2026-10-16T14:00"
+          },
+          {
+            "food": "soy-sauce",
+            "g": 20,
+            "at": "2026-10-16T14:00"
+          },
+          {
+            "food": "honey",
+            "g": 15,
+            "at": "2026-10-16T14:00"
+          },
+          {
+            "food": "garlic",
+            "g": 10,
+            "at": "2026-10-16T14:00"
+          },
+          {
+            "food": "sesame-oil",
+            "g": 5,
+            "at": "2026-10-16T14:00"
+          },
+          {
+            "food": "cucumber",
+            "g": 100,
+            "at": "2026-10-16T14:00"
+          }
+        ],
+        "kcal": 1114,
+        "protein": 68,
+        "carbs": 141,
+        "fat": 31
+      },
+      {
+        "desc": "14:40 Kirkland Signature Sparkling Energy drink (from the fridge pack), 12oz can. ESTIMATED ~10 kcal (zero-sugar style); not in foods.json.",
+        "at": "2026-10-16T14:40",
+        "kcal": 10,
+        "protein": 0,
+        "carbs": 2,
+        "fat": 0
+      },
+      {
+        "desc": "18:44 Post-lift yogurt-oat-mango smoothie per the plan: 250g Trader Joe's Non-Dairy Oat Beverage with Vitamins A, D & B12 + 120g Mango (frozen chunks ok) + 35g Oats, dry + 30g Honey + 60g Strawberries.",
+        "at": "2026-10-16T18:44",
+        "items": [
+          {
+            "food": "oat-milk",
+            "g": 250,
+            "at": "2026-10-16T18:44"
+          },
+          {
+            "food": "mango",
+            "g": 120,
+            "at": "2026-10-16T18:44"
+          },
+          {
+            "food": "oats-dry",
+            "g": 35,
+            "at": "2026-10-16T18:44"
+          },
+          {
+            "food": "honey",
+            "g": 30,
+            "at": "2026-10-16T18:44"
+          },
+          {
+            "food": "strawberries",
+            "g": 60,
+            "at": "2026-10-16T18:44"
+          }
+        ],
+        "kcal": 409,
+        "protein": 8,
+        "carbs": 81,
+        "fat": 8
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-10-18",
+    "kcal": 3732,
+    "protein": 197,
+    "carbs": 278,
+    "fat": 209,
+    "meals": [],
+    "method": "reported-as-eaten, ESTIMATED (restaurants + photos while traveling to LA through 10/21). DAY CLOSED.",
+    "deviations": [
+      {
+        "desc": "Mad Yolks (San Jose) Breakfast Burger, first food of the day: beef patty, over-easy egg, extra sharp cheddar, lettuce, tomato, caramelized onions, spicy aioli on brioche. No published nutrition; component estimate: brioche ~250/8P/40C/6F + ~1/4lb 80/20 patty ~330/28P/0C/24F + egg 90/6P/0C/7F + 1oz cheddar 115/7P/0C/9F + ~1.5 tbsp aioli ~150/0P/0C/16F + onions/lettuce/tomato ~60/1P/8C/2F.",
+        "at": "2026-10-18T10:00",
+        "kcal": 942,
+        "protein": 48,
+        "carbs": 48,
+        "fat": 62
+      },
+      {
+        "desc": "13:25 Roy's at Pebble Beach (Inn at Spanish Bay), shared appetizers, ESTIMATED from photos: ~4 Wood-Grilled Szechwan BBQ Baby Back Pork Ribs (~130g meat + Roy's BBQ glaze, sesame; ~450/32P/20C/27F) + ~2 pieces Crispy Spanish Octopus (~120g cooked, pan-crisped; ~250/36P/5C/8F) with aioli/saffron sauces (~1.5 tbsp, ~140/0P/1C/15F). Menu lists the octopus with crispy macadamia nut quinoa (N); Adam confirmed he did not eat the quinoa.",
+        "at": "2026-10-18T13:25",
+        "kcal": 830,
+        "protein": 68,
+        "carbs": 26,
+        "fat": 50
+      },
+      {
+        "desc": "19:22 Quest Protein Cookie, Chocolate Chip (59g), current label: 240 kcal / 15P / 19C (9 fiber, 8 sugar alcohol) / 17F. No nut ingredients; facility processes peanuts + tree nuts.",
+        "at": "2026-10-18T19:22",
+        "kcal": 240,
+        "protein": 15,
+        "carbs": 19,
+        "fat": 17
+      },
+      {
+        "desc": "21:10 Joe's Cafe (Santa Barbara), ESTIMATED from photos: spaghetti with meat sauce/meatballs (~350g cooked pasta ~550/20P/108C/3F + ~200g meat sauce ~400/22P/15C/27F) + some of the side cup of parmesan (~40/4P/0C/3F) + garlic bread, 4 baguette pieces with butter + cheese (~450/12P/50C/22F) + side Caesar salad, not pictured (~300/8P/12C/25F). Caesar dressing usually contains anchovy (finned fish) — Adam ate it.",
+        "at": "2026-10-18T21:10",
+        "kcal": 1720,
+        "protein": 66,
+        "carbs": 185,
+        "fat": 80
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-10-19",
+    "kcal": 2560,
+    "protein": 134,
+    "carbs": 243,
+    "fat": 112,
+    "meals": [],
+    "method": "reported-as-eaten, ESTIMATED (restaurants + photos while traveling in LA through 10/21). DAY CLOSED.",
+    "deviations": [
+      {
+        "desc": "Morning pho ga (chicken pho) at a pho shop in Chino Hills, ESTIMATED from photos: regular bowl, all noodles + chicken eaten, most broth left. ~300g cooked rice noodles ~330/5P/75C/1F + ~110g poached chicken (mixed white/dark) ~190/30P/0C/7F + sipped broth ~40/2P/2C/2F + hoisin/sriracha dipping ~40/0P/9C/0F. Pho broth almost always has fish sauce (finned fish), Adam ate it.",
+        "at": "2026-10-19T10:30",
+        "kcal": 600,
+        "protein": 37,
+        "carbs": 86,
+        "fat": 10
+      },
+      {
+        "desc": "Mini flan-style custard cake from a bakery off USC campus. ESTIMATED, no published nutrition: individual size ~110g ~300/6P/42C/12F.",
+        "at": "2026-10-19T15:00",
+        "kcal": 300,
+        "protein": 6,
+        "carbs": 42,
+        "fat": 12
+      },
+      {
+        "desc": "~20:00 Wally's (Beverly Hills) client dinner with Dr. Sadrieh. Per Wally's menu, NY Prime Steak Frites = 10oz grass-fed NY strip + bearnaise + fries. ESTIMATED, no published nutrition: 10oz raw (~210g cooked) grass-fed strip ~460/62P/0C/23F + bearnaise ~2 tbsp ~150/0P/0C/16F + the plate's fries ~150g ~450/5P/55C/23F + 3 slices Truffle Pizza (porcini truffle puree, truffle oil, buffalo mozzarella, arugula), assumed half a ~12in pie ~600/24P/60C/28F.",
+        "at": "2026-10-19T20:00",
+        "kcal": 1660,
+        "protein": 91,
+        "carbs": 115,
+        "fat": 90
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-10-22",
+    "kcal": 2780,
+    "protein": 150,
+    "carbs": 304,
+    "fat": 110,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "14:00 Chicken chunk rice bowl per the plan: 250g Lightly Breaded Chicken Breast Chunks (Just Bare, frozen, fully cooked). no rice: Instant Pot was dirty",
+        "at": "2026-10-22T14:00",
+        "items": [
+          {
+            "food": "just-bare-chunks",
+            "g": 250,
+            "at": "2026-10-22T14:00"
+          }
+        ],
+        "kcal": 477,
+        "protein": 48,
+        "carbs": 27,
+        "fat": 21
+      },
+      {
+        "desc": "16:28 Pre-lift toast + honey + fruit per the plan: 40g Honey + 150g Italian bread (bakery loaf).",
+        "at": "2026-10-22T16:28",
+        "items": [
+          {
+            "food": "honey",
+            "g": 40,
+            "at": "2026-10-22T16:28"
+          },
+          {
+            "food": "bread-italian",
+            "g": 150,
+            "at": "2026-10-22T16:28"
+          }
+        ],
+        "kcal": 510,
+        "protein": 14,
+        "carbs": 105,
+        "fat": 4
+      },
+      {
+        "desc": "~19:50 RT Rotisserie rice bowl with chicken + lamb and garlic aioli (replaced the planned smash burger quesadilla): chicken-fat rice, pickled onions, cabbage, cucumber, radish, seed mix, herbs. Same estimate as the prior identical order (RT publishes no nutrition); plausible range 1,000-1,400 kcal.",
+        "at": "2026-10-22T19:50",
+        "kcal": 1200,
+        "protein": 62,
+        "carbs": 82,
+        "fat": 69
+      },
+      {
+        "desc": "00:34 Post-lift yogurt-oat-mango smoothie per the plan: 200g Greek yogurt, plain, whole milk + 200g Trader Joe's Non-Dairy Oat Beverage with Vitamins A, D & B12 + 80g Mango (frozen chunks ok) + 35g Oats, dry + 30g Honey + 60g Raspberries + 60g Blackberries.",
+        "at": "2026-10-23T00:34",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-23T00:34"
+          },
+          {
+            "food": "oat-milk",
+            "g": 200,
+            "at": "2026-10-23T00:34"
+          },
+          {
+            "food": "mango",
+            "g": 80,
+            "at": "2026-10-23T00:34"
+          },
+          {
+            "food": "oats-dry",
+            "g": 35,
+            "at": "2026-10-23T00:34"
+          },
+          {
+            "food": "honey",
+            "g": 30,
+            "at": "2026-10-23T00:34"
+          },
+          {
+            "food": "raspberries",
+            "g": 60,
+            "at": "2026-10-23T00:34"
+          },
+          {
+            "food": "blackberries",
+            "g": 60,
+            "at": "2026-10-23T00:34"
+          }
+        ],
+        "kcal": 593,
+        "protein": 26,
+        "carbs": 90,
+        "fat": 16
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-10-23",
+    "kcal": 2757,
+    "protein": 194,
+    "carbs": 265,
+    "fat": 101,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "09:30 Morning yogurt bowl + berries per the plan: 200g Greek yogurt, plain, whole milk + 20g Honey + 93g Raspberries + 93g Blackberries.",
+        "at": "2026-10-23T09:30",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-23T09:30"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-10-23T09:30"
+          },
+          {
+            "food": "raspberries",
+            "g": 93,
+            "at": "2026-10-23T09:30"
+          },
+          {
+            "food": "blackberries",
+            "g": 93,
+            "at": "2026-10-23T09:30"
+          }
+        ],
+        "kcal": 338,
+        "protein": 20,
+        "carbs": 46,
+        "fat": 10
+      },
+      {
+        "desc": "16:06 Chipotle chicken burritos per the plan: 300g Grilled Chipotle Seasoned Chicken (Kirkland, fully cooked, sliced) + 70g White rice, long grain, dry + 40g Mozzarella, low-moisture part-skim, shredded + 30g Spinach, raw + 15g Soy sauce + 10g Sriracha + 15g Honey. no tortillas, bowl-style; sauce amounts estimated",
+        "at": "2026-10-23T16:06",
+        "items": [
+          {
+            "food": "chipotle-chicken-kirkland",
+            "g": 300,
+            "at": "2026-10-23T16:06"
+          },
+          {
+            "food": "white-rice-dry",
+            "g": 70,
+            "at": "2026-10-23T16:06"
+          },
+          {
+            "food": "mozzarella-shredded",
+            "g": 40,
+            "at": "2026-10-23T16:06"
+          },
+          {
+            "food": "spinach",
+            "g": 30,
+            "at": "2026-10-23T16:06"
+          },
+          {
+            "food": "soy-sauce",
+            "g": 15,
+            "at": "2026-10-23T16:06"
+          },
+          {
+            "food": "sriracha",
+            "g": 10,
+            "at": "2026-10-23T16:06"
+          },
+          {
+            "food": "honey",
+            "g": 15,
+            "at": "2026-10-23T16:06"
+          }
+        ],
+        "kcal": 804,
+        "protein": 73,
+        "carbs": 86,
+        "fat": 18
+      },
+      {
+        "desc": "13:40 Cheesecake Oreo yogurt per the plan: 200g Greek yogurt, plain, whole milk + 7g Jell-O Sugar Free Cheesecake instant pudding mix (dry) + 21.75g Oreo Thins (original chocolate).",
+        "at": "2026-10-23T13:40",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-23T13:40"
+          },
+          {
+            "food": "jello-cheesecake-sf",
+            "g": 7,
+            "at": "2026-10-23T13:40"
+          },
+          {
+            "food": "oreo-thins",
+            "g": 21.75,
+            "at": "2026-10-23T13:40"
+          }
+        ],
+        "kcal": 319,
+        "protein": 18,
+        "carbs": 30,
+        "fat": 13
+      },
+      {
+        "desc": "19:23 Ad-hoc: 10g Honey.",
+        "at": "2026-10-23T19:23",
+        "items": [
+          {
+            "food": "honey",
+            "g": 10,
+            "at": "2026-10-23T19:23"
+          }
+        ],
+        "kcal": 30,
+        "protein": 0,
+        "carbs": 8,
+        "fat": 0
+      },
+      {
+        "desc": "00:30 Beef + potato dinner per the plan: 308g Ground beef 85/15, raw + 370g Potato, flesh and skin, raw. potatoes crisped in the beef grease",
+        "at": "2026-10-24T00:30",
+        "items": [
+          {
+            "food": "ground-beef-85",
+            "g": 308,
+            "at": "2026-10-24T00:30"
+          },
+          {
+            "food": "potato",
+            "g": 370,
+            "at": "2026-10-24T00:30"
+          }
+        ],
+        "kcal": 947,
+        "protein": 65,
+        "carbs": 65,
+        "fat": 47
+      },
+      {
+        "desc": "21:20 Cheesecake Oreo yogurt per the plan: 200g Greek yogurt, plain, whole milk + 7g Jell-O Sugar Free Cheesecake instant pudding mix (dry) + 21.75g Oreo Thins (original chocolate).",
+        "at": "2026-10-23T21:20",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-23T21:20"
+          },
+          {
+            "food": "jello-cheesecake-sf",
+            "g": 7,
+            "at": "2026-10-23T21:20"
+          },
+          {
+            "food": "oreo-thins",
+            "g": 21.75,
+            "at": "2026-10-23T21:20"
+          }
+        ],
+        "kcal": 319,
+        "protein": 18,
+        "carbs": 30,
+        "fat": 13
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-10-24",
+    "kcal": 5695,
+    "protein": 238,
+    "carbs": 717,
+    "fat": 210,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "10:21 Morning yogurt bowl + berries per the plan: 200g Greek yogurt, plain, whole milk + 20g Honey + 60g Raspberries.",
+        "at": "2026-10-24T10:21",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-24T10:21"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-10-24T10:21"
+          },
+          {
+            "food": "raspberries",
+            "g": 60,
+            "at": "2026-10-24T10:21"
+          }
+        ],
+        "kcal": 281,
+        "protein": 18,
+        "carbs": 33,
+        "fat": 9
+      },
+      {
+        "desc": "17:14 Shrimp fried rice per the plan: 250g Shrimp, raw, peeled (Kirkland 50-70 frozen) + 130g White rice, long grain, dry + 100g Cucumber, raw, with peel. shrimp rice bowl with ~20g soy sauce instead of fried rice",
+        "at": "2026-10-24T17:14",
+        "items": [
+          {
+            "food": "shrimp-raw",
+            "g": 250,
+            "at": "2026-10-24T17:14"
+          },
+          {
+            "food": "white-rice-dry",
+            "g": 130,
+            "at": "2026-10-24T17:14"
+          },
+          {
+            "food": "cucumber",
+            "g": 100,
+            "at": "2026-10-24T17:14"
+          },
+          {
+            "food": "soy-sauce",
+            "g": 20,
+            "at": "2026-10-24T17:14"
+          }
+        ],
+        "kcal": 719,
+        "protein": 62,
+        "carbs": 109,
+        "fat": 3
+      },
+      {
+        "desc": "09:15 Pre-lift toast + honey + fruit per the plan: 40g Honey + 90g Italian bread (bakery loaf).",
+        "at": "2026-10-24T09:15",
+        "items": [
+          {
+            "food": "honey",
+            "g": 40,
+            "at": "2026-10-24T09:15"
+          },
+          {
+            "food": "bread-italian",
+            "g": 90,
+            "at": "2026-10-24T09:15"
+          }
+        ],
+        "kcal": 355,
+        "protein": 9,
+        "carbs": 76,
+        "fat": 2
+      },
+      {
+        "desc": "12:00 Post-lift yogurt-oat-mango smoothie per the plan: 200g Greek yogurt, plain, whole milk + 200g Trader Joe's Non-Dairy Oat Beverage with Vitamins A, D & B12 + 120g Mango (frozen chunks ok) + 35g Oats, dry + 30g Honey.",
+        "at": "2026-10-24T12:00",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-24T12:00"
+          },
+          {
+            "food": "oat-milk",
+            "g": 200,
+            "at": "2026-10-24T12:00"
+          },
+          {
+            "food": "mango",
+            "g": 120,
+            "at": "2026-10-24T12:00"
+          },
+          {
+            "food": "oats-dry",
+            "g": 35,
+            "at": "2026-10-24T12:00"
+          },
+          {
+            "food": "honey",
+            "g": 30,
+            "at": "2026-10-24T12:00"
+          }
+        ],
+        "kcal": 560,
+        "protein": 25,
+        "carbs": 83,
+        "fat": 16
+      },
+      {
+        "desc": "17:34 Cheesecake Oreo yogurt per the plan: 200g Greek yogurt, plain, whole milk + 7g Jell-O Sugar Free Cheesecake instant pudding mix (dry) + 36.25g Oreo Thins (original chocolate). 5 Oreo Thins",
+        "at": "2026-10-24T17:34",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-24T17:34"
+          },
+          {
+            "food": "jello-cheesecake-sf",
+            "g": 7,
+            "at": "2026-10-24T17:34"
+          },
+          {
+            "food": "oreo-thins",
+            "g": 36.25,
+            "at": "2026-10-24T17:34"
+          }
+        ],
+        "kcal": 389,
+        "protein": 19,
+        "carbs": 41,
+        "fat": 16
+      },
+      {
+        "desc": "Dumpling Story: half an order of dan dan noodles (wheat noodles, pork, chili oil, sesame/peanut sauce). Restaurant estimate; no published nutrition.",
+        "at": "2026-10-24T19:30",
+        "kcal": 480,
+        "protein": 18,
+        "carbs": 55,
+        "fat": 22
+      },
+      {
+        "desc": "Dumpling Story: ~8 pork soup dumplings (xiao long bao). Restaurant estimate (~50 kcal each).",
+        "at": "2026-10-24T19:30",
+        "kcal": 400,
+        "protein": 20,
+        "carbs": 40,
+        "fat": 16
+      },
+      {
+        "desc": "Dumpling Story: 4 pork bao. Restaurant estimate (~120 kcal each).",
+        "at": "2026-10-24T19:30",
+        "kcal": 480,
+        "protein": 20,
+        "carbs": 56,
+        "fat": 20
+      },
+      {
+        "desc": "Medium ice cream, 'brookies and cream'-type flavor, nearby shop. Estimate ~2 scoops; plausible 450-650.",
+        "at": "2026-10-24T20:45",
+        "kcal": 550,
+        "protein": 8,
+        "carbs": 65,
+        "fat": 28
+      },
+      {
+        "desc": "Movie theater large popcorn, ate ~6/7 (~940 of ~1,100 kcal). Estimate assumes no extra butter topping; with butter add ~200-300.",
+        "at": "2026-10-24T21:30",
+        "kcal": 940,
+        "protein": 15,
+        "carbs": 100,
+        "fat": 55
+      },
+      {
+        "desc": "23:45 Cheesecake Oreo yogurt: 250g Greek yogurt, plain, whole milk + 7g Jell-O Sugar Free Cheesecake instant pudding mix (dry) + 58g Oreo Thins (original chocolate). late-night, 250g yogurt + 8 Oreo Thins",
+        "at": "2026-10-24T23:45",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 250,
+            "at": "2026-10-24T23:45"
+          },
+          {
+            "food": "jello-cheesecake-sf",
+            "g": 7,
+            "at": "2026-10-24T23:45"
+          },
+          {
+            "food": "oreo-thins",
+            "g": 58,
+            "at": "2026-10-24T23:45"
+          }
+        ],
+        "kcal": 541,
+        "protein": 24,
+        "carbs": 59,
+        "fat": 23
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-10-25",
+    "kcal": 2107,
+    "protein": 117,
+    "carbs": 261,
+    "fat": 67,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "12:40 Pre-lift toast + honey + fruit per the plan: 40g Honey + 90g Italian bread (bakery loaf).",
+        "at": "2026-10-25T12:40",
+        "items": [
+          {
+            "food": "honey",
+            "g": 40,
+            "at": "2026-10-25T12:40"
+          },
+          {
+            "food": "bread-italian",
+            "g": 90,
+            "at": "2026-10-25T12:40"
+          }
+        ],
+        "kcal": 355,
+        "protein": 9,
+        "carbs": 76,
+        "fat": 2
+      },
+      {
+        "desc": "21:04 Post-lift yogurt-oat-mango smoothie per the plan: 200g Greek yogurt, plain, whole milk + 200g Trader Joe's Non-Dairy Oat Beverage with Vitamins A, D & B12 + 60g Mango (frozen chunks ok) + 35g Oats, dry + 30g Honey + 127g Raspberries.",
+        "at": "2026-10-25T21:04",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-25T21:04"
+          },
+          {
+            "food": "oat-milk",
+            "g": 200,
+            "at": "2026-10-25T21:04"
+          },
+          {
+            "food": "mango",
+            "g": 60,
+            "at": "2026-10-25T21:04"
+          },
+          {
+            "food": "oats-dry",
+            "g": 35,
+            "at": "2026-10-25T21:04"
+          },
+          {
+            "food": "honey",
+            "g": 30,
+            "at": "2026-10-25T21:04"
+          },
+          {
+            "food": "raspberries",
+            "g": 127,
+            "at": "2026-10-25T21:04"
+          }
+        ],
+        "kcal": 590,
+        "protein": 26,
+        "carbs": 90,
+        "fat": 16
+      },
+      {
+        "desc": "21:31 Cheesecake Oreo yogurt per the plan: 200g Greek yogurt, plain, whole milk + 7g Jell-O Sugar Free Cheesecake instant pudding mix (dry) + 21.75g Oreo Thins (original chocolate).",
+        "at": "2026-10-25T21:31",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-25T21:31"
+          },
+          {
+            "food": "jello-cheesecake-sf",
+            "g": 7,
+            "at": "2026-10-25T21:31"
+          },
+          {
+            "food": "oreo-thins",
+            "g": 21.75,
+            "at": "2026-10-25T21:31"
+          }
+        ],
+        "kcal": 319,
+        "protein": 18,
+        "carbs": 30,
+        "fat": 13
+      },
+      {
+        "desc": "00:19 Garlic butter shrimp scampi per the plan, 0.33 of it: 134g Shrimp, raw, peeled (Kirkland 50-70 frozen) + 66g Pasta, wheat, dry (penne/spaghetti) + 10g Butter, salted + 3g Olive oil, extra virgin + 5g Garlic, raw + 19.14g Lemon, raw. too spicy (seasoning spill); 2/3 left over",
+        "at": "2026-10-26T00:19",
+        "items": [
+          {
+            "food": "shrimp-raw",
+            "g": 134,
+            "at": "2026-10-26T00:19"
+          },
+          {
+            "food": "pasta-dry",
+            "g": 66,
+            "at": "2026-10-26T00:19"
+          },
+          {
+            "food": "butter",
+            "g": 10,
+            "at": "2026-10-26T00:19"
+          },
+          {
+            "food": "olive-oil",
+            "g": 3,
+            "at": "2026-10-26T00:19"
+          },
+          {
+            "food": "garlic",
+            "g": 5,
+            "at": "2026-10-26T00:19"
+          },
+          {
+            "food": "lemon",
+            "g": 19.14,
+            "at": "2026-10-26T00:19"
+          }
+        ],
+        "kcal": 470,
+        "protein": 36,
+        "carbs": 53,
+        "fat": 13
+      },
+      {
+        "desc": "00:21 Beef bolognese pasta per the plan: 150g Ground beef 85/15, raw + 28g Chick-fil-A Honey Mustard sauce (packet). half the cooked beef at midnight + CFA honey mustard",
+        "at": "2026-10-26T00:21",
+        "items": [
+          {
+            "food": "ground-beef-85",
+            "g": 150,
+            "at": "2026-10-26T00:21"
+          },
+          {
+            "food": "chick-fil-a-honey-mustard",
+            "g": 28,
+            "at": "2026-10-26T00:21"
+          }
+        ],
+        "kcal": 373,
+        "protein": 28,
+        "carbs": 12,
+        "fat": 23
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-10-26",
+    "kcal": 3272,
+    "protein": 186,
+    "carbs": 329,
+    "fat": 134,
+    "meals": [],
+    "method": "reported-as-eaten. DAY CLOSED. Rest day. Bolognese never made: leftover beef eaten straight ~17:30; inari + Chalos empanadas lunch; Chipotle quesadilla (no rice) replaced the burritos; scampi thrown out (too spicy); nightcap with 130g yogurt, no Oreo Thins; late Just Bare chunks.",
+    "deviations": [
+      {
+        "desc": "11:10 Morning yogurt bowl + berries per the plan: 200g Greek yogurt, plain, whole milk + 20g Honey. + medium Philz black coffee",
+        "at": "2026-10-26T11:10",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-26T11:10"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-10-26T11:10"
+          }
+        ],
+        "kcal": 250,
+        "protein": 18,
+        "carbs": 26,
+        "fat": 9
+      },
+      {
+        "desc": "~17:30 150g Ground beef 85/15, raw weight: the rest of the cooked beef, eaten straight when he got home. No pasta or marinara (NOT the bolognese).",
+        "at": "2026-10-26T17:30",
+        "items": [
+          {
+            "food": "ground-beef-85",
+            "g": 150,
+            "at": "2026-10-26T17:30"
+          }
+        ],
+        "kcal": 323,
+        "protein": 28,
+        "carbs": 0,
+        "fat": 23
+      },
+      {
+        "desc": "~14:30 lunch at the FiDi WeWork, PHOTO ESTIMATE, replacing the planned 12:30 Chipotle chicken burritos: 4 store-bought inari (sweet fried tofu + sushi rice, ~90 kcal each) ~360/9P/62C/8F, plus 2 baked beef empanadas from Chalos Express (100 1st St, next to Salesforce Tower; no published nutrition, assumed 2 at ~310/13P/28C/16F each) ~620/26P/56C/32F. ALLERGY: tofu is safe. ALL THREE Chalos beef empanadas (Carne, Carne Dulce, Carne Picante) list RED BELL PEPPER (ground beef, onion, green onion, hard-boiled egg, red bell pepper). Adam felt fine.",
+        "at": "2026-10-26T14:30",
+        "kcal": 980,
+        "protein": 35,
+        "carbs": 118,
+        "fat": 40
+      },
+      {
+        "desc": "20:15 Pre-lift toast + honey + fruit per the plan: 25g Honey + 85g Sourdough bread (bakery).",
+        "at": "2026-10-26T20:15",
+        "items": [
+          {
+            "food": "honey",
+            "g": 25,
+            "at": "2026-10-26T20:15"
+          },
+          {
+            "food": "bread-sourdough",
+            "g": 85,
+            "at": "2026-10-26T20:15"
+          }
+        ],
+        "kcal": 307,
+        "protein": 9,
+        "carbs": 65,
+        "fat": 2
+      },
+      {
+        "desc": "~20:30 Chipotle chicken quesadilla (\"quesadilla pollo, everything except hot sauce and beans\"); the rice was forgotten, so none. ESTIMATE from Chipotle's published per-component nutrition: flour tortilla 320, double cheese 220, chicken 180, sour cream 110, corn salsa 80, fresh tomato salsa 25, minus ~25 for portion variance. Replaces the planned chipotle chicken burritos and the shrimp scampi dinner.",
+        "at": "2026-10-26T20:30",
+        "kcal": 900,
+        "protein": 57,
+        "carbs": 72,
+        "fat": 42
+      },
+      {
+        "desc": "23:28 Cheesecake Oreo yogurt per the plan: 130g Greek yogurt, plain, whole milk + 5g Jell-O Sugar Free Cheesecake instant pudding mix (dry) + 13g Honey. No Oreo Thins on hand; honey instead.",
+        "at": "2026-10-26T23:28",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 130,
+            "at": "2026-10-26T23:28"
+          },
+          {
+            "food": "jello-cheesecake-sf",
+            "g": 5,
+            "at": "2026-10-26T23:28"
+          },
+          {
+            "food": "honey",
+            "g": 13,
+            "at": "2026-10-26T23:28"
+          }
+        ],
+        "kcal": 180,
+        "protein": 11,
+        "carbs": 20,
+        "fat": 6
+      },
+      {
+        "desc": "23:43 Ad-hoc: 148g Lightly Breaded Chicken Breast Chunks (Just Bare, frozen, fully cooked) + 28g Chick-fil-A Honey Mustard sauce (packet). late snack, air fried",
+        "at": "2026-10-26T23:43",
+        "items": [
+          {
+            "food": "just-bare-chunks",
+            "g": 148,
+            "at": "2026-10-26T23:43"
+          },
+          {
+            "food": "chick-fil-a-honey-mustard",
+            "g": 28,
+            "at": "2026-10-26T23:43"
+          }
+        ],
+        "kcal": 332,
+        "protein": 28,
+        "carbs": 28,
+        "fat": 12
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-10-27",
+    "kcal": 3246,
+    "protein": 146,
+    "carbs": 299,
+    "fat": 165,
+    "meals": [],
+    "method": "reported-as-eaten. DAY CLOSED. Lift-day plan skipped entirely (nothing eaten until ~16:00); restaurant estimates only. Leftovers (half Starbird salad, 1/7 Delam beef+rice) carried to 10/28.",
+    "deviations": [
+      {
+        "desc": "~16:20 DoorDash Starbird (restaurant, nothing else eaten all day): half an Elote Chop Salad w/ double crispy tenders + Jalapeno Lime Dressing (Starbird Jan-2025 sheet: fried Elote Chop 840 kcal/37P + dressing 292 + ~3 extra tenders @120/9P; full ~1492/64P, half logged) + full Truffle Fries (~610, third-party) + a bit of truffle aioli (~100).",
+        "at": "2026-10-27T16:20",
+        "kcal": 1456,
+        "protein": 43,
+        "carbs": 128,
+        "fat": 90
+      },
+      {
+        "desc": "~20:00 Delam (Persian, Valencia St): ~6/7 of two filet mignon (barg) skewers (~340g cooked est.) + ~6/7 of the saffron rice (~350g cooked w/ butter); last 1/7 saved for 10/28 + grilled tomato + small shirazi-style salad. No yogurt dip or drink (not his). Photo-estimated.",
+        "at": "2026-10-27T20:00",
+        "kcal": 1250,
+        "protein": 97,
+        "carbs": 111,
+        "fat": 45
+      },
+      {
+        "desc": "~21:50 Small slice of Biscoff cake from Hilo (nearby): sponge layers + cream + Biscoff spread/crumbs, ~75g, photo-estimated.",
+        "at": "2026-10-27T21:50",
+        "kcal": 270,
+        "protein": 3,
+        "carbs": 30,
+        "fat": 15
+      },
+      {
+        "desc": "~22:00 Second small slice of the Hilo Biscoff cake (same size as the first, ~75g est.).",
+        "at": "2026-10-27T22:00",
+        "kcal": 270,
+        "protein": 3,
+        "carbs": 30,
+        "fat": 15
+      }
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "kcal": 3049,
+    "protein": 180,
+    "carbs": 269,
+    "fat": 135,
+    "meals": [],
+    "method": "reported-as-eaten. Breakfast skipped (nothing eaten in the morning); planned chipotle burrito lunch replaced by a restaurant meal. Dinner: Starbird half-salad leftover + Proposition Chicken Flipped sandwich w/ chips (estimated).",
+    "deviations": [
+      {
+        "desc": "~12:30 Lunch at the 300 Grant Ave food court (Thai-style stall near Sazabi HQ): grilled chicken breast plate over egg fried rice + broccoli/carrot + chili dipping sauce. ESTIMATED from photo, no published nutrition: ~220g grilled chicken breast w/ oil ~400/68P/0C/12F + ~350g egg fried rice ~630/16P/100C/18F + ~80g broccoli/carrot ~25/2P/5C + some dipping sauce ~40/0P/15C. Thai fried rice/dip usually contain fish sauce (finned fish); Adam ate it.",
+        "at": "2026-10-28T12:30",
+        "kcal": 1095,
+        "protein": 86,
+        "carbs": 120,
+        "fat": 30
+      },
+      {
+        "desc": "~19:30 Delam leftover from 10/27: last 1/7 of the filet mignon barg + saffron rice (1/6 of the 6/7 logged 10/27).",
+        "at": "2026-10-28T19:30",
+        "kcal": 208,
+        "protein": 16,
+        "carbs": 19,
+        "fat": 8
+      },
+      {
+        "desc": "Starbird leftover from 10/27: the other half of the Elote Chop Salad w/ double crispy tenders + Jalapeno Lime Dressing (half of Starbird Jan-2025 sheet full ~1492/64P, matching the half logged 10/27). Carbs/fat split estimated.",
+        "at": "2026-10-28T23:16",
+        "kcal": 746,
+        "protein": 32,
+        "carbs": 45,
+        "fat": 50
+      },
+      {
+        "desc": "Proposition Chicken (SF): Flipped (grilled chicken) sandwich + side of chips. No official nutrition published (only an unverified aggregator figure for the chicken alone); ESTIMATED: sandwich ~700/42P/50C/30F (bun ~250, ~150g grilled chicken ~300, sauce/slaw ~150) + chips ~300/4P/35C/17F.",
+        "at": "2026-10-28T23:16",
+        "kcal": 1000,
+        "protein": 46,
+        "carbs": 85,
+        "fat": 47
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "kcal": 3116,
+    "protein": 159,
+    "carbs": 362,
+    "fat": 118,
+    "meals": [],
+    "method": "reported-as-eaten. Planned yogurt bowl replaced by a Starbucks wrap (friend bought it); at a friend's office afterward, nothing else eaten by 14:17; then 1/3 of a Kirkland chocolate milk and a Kirkland seaweed snack pack; 4 Pure Organic fruit bars; THRIVE double-chicken bowl (2/3 ~17:00, rest ~23:20); ~1 serving Kirkland lasagna ~18:15. Late strawberry-mango oat smoothie ~23:45.",
+    "deviations": [
+      {
+        "desc": "~09:45 Starbucks Bacon, Sausage & Egg Wrap (Starbucks app: 640 kcal, 33F, 27P, 2g sugar; carbs derived ~59).",
+        "at": "2026-10-29T09:45",
+        "kcal": 640,
+        "protein": 27,
+        "carbs": 59,
+        "fat": 33
+      },
+      {
+        "desc": "~14:30 Kirkland Signature Organic Reduced Fat Chocolate Milk, ~1/3 of an 8.25 fl oz carton (didn't like it). Label per carton: 160 kcal / 8P / 21C / 5F; logged at 1/3. Ingredients: milk, cane sugar, cocoa, carrageenan, vit A/D3 - no fish oil/DHA, no nuts.",
+        "at": "2026-10-29T14:30",
+        "kcal": 53,
+        "protein": 3,
+        "carbs": 7,
+        "fat": 2
+      },
+      {
+        "desc": "~15:35 Kirkland Signature Organic Roasted Seaweed Snack, one 17g (0.6 oz) pack, assumed. ~100 kcal / 3P / 1C / 8F (third-party listings; 3g = 20 kcal / 1.5F / 1P). Ingredients: seaweed, sunflower oil, sesame oil, salt - no fish ingredient.",
+        "at": "2026-10-29T15:35",
+        "kcal": 100,
+        "protein": 3,
+        "carbs": 1,
+        "fat": 8
+      },
+      {
+        "desc": "~17:00 lunch, ATE ~2/3 of the bowl (logged at 2/3 of the full-bowl estimate 1095/91P/93C/40F); DoorDash from THRIVE Protein Bowls (order 3da03b83, $36.03 incl. $2.50 tip, to AVA 55 9th St #715): BBQ Chicken Bowl + extra BBQ chicken, white rice, jammy egg, roasted sweet potatoes, roasted mushrooms, tzatziki. Protein from THRIVE's per-component menu claims (37+37 chicken +4 rice +6 egg +1 +2 +4 = 91g); kcal/carbs/fat ESTIMATED (dd-cli has no calorie data). Built custom to avoid avocado in the signature bowls; no beans/hummus. BBQ sauce ingredients unverified for bell pepper.",
+        "at": "2026-10-29T17:00",
+        "kcal": 730,
+        "protein": 61,
+        "carbs": 62,
+        "fat": 27
+      },
+      {
+        "desc": "~16:30 4x (3 + \"another gelatin stick\", assumed the same bar) Pure Organic Layered Fruit Bar, Pineapple Passionfruit (0.63 oz / 18g each, photo). Brand page: 50 kcal / 0P / ~13C / 0F per bar. Ingredients: apple, passion fruit, pineapple + lemon concentrates, pectin, carrot/blueberry color - no banana, no nuts.",
+        "at": "2026-10-29T16:30",
+        "kcal": 200,
+        "protein": 0,
+        "carbs": 52,
+        "fat": 0
+      },
+      {
+        "desc": "~18:15 dinner at a friend's: Kirkland Signature Italian Sausage & Beef Lasagna (sausage visible in photo), ~1 serving (226g, 1/6 of a 3 lb tray) photo-ESTIMATED from a ~3.5x3in square + loose meat sauce. Costco label per serving: 410 kcal / 23P / 30C / 22F. No bell pepper, nuts, fish, legumes, avocado.",
+        "at": "2026-10-29T18:15",
+        "kcal": 410,
+        "protein": 23,
+        "carbs": 30,
+        "fat": 22
+      },
+      {
+        "desc": "~23:20 rest of the THRIVE bowl (the remaining ~1/3; 1/3 of the full-bowl estimate 1095/91P/93C/40F).",
+        "at": "2026-10-29T23:20",
+        "kcal": 365,
+        "protein": 30,
+        "carbs": 31,
+        "fat": 13
+      },
+      {
+        "desc": "~23:45 late carb-up smoothie (no yogurt on hand): 50g dry oats + 200g frozen strawberries + 150g frozen mango + 400g oat milk + 40g honey. Logged as planned per the adherence protocol.",
+        "at": "2026-10-29T23:45",
+        "items": [
+          {
+            "food": "oats-dry",
+            "g": 50
+          },
+          {
+            "food": "strawberries",
+            "g": 200
+          },
+          {
+            "food": "mango",
+            "g": 150
+          },
+          {
+            "food": "oat-milk",
+            "g": 400
+          },
+          {
+            "food": "honey",
+            "g": 40
+          }
+        ],
+        "kcal": 618,
+        "protein": 12,
+        "carbs": 120,
+        "fat": 13
+      }
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "kcal": 3455,
+    "protein": 211,
+    "carbs": 259,
+    "fat": 176,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN. Breakfast skipped; planned beef rice bowl lunch replaced by a taqueria quesadilla.",
+    "deviations": [
+      {
+        "desc": "~12:00 Taqueria in Hayes Valley: steak (carne asada) quesadilla, light sour cream, no pico/guac. No published nutrition; ESTIMATED: ~13in flour tortilla ~320/8P/50C/8F + ~110g melted cheese ~420/26P/2C/34F + ~140g carne asada ~315/40P/0C/16F + griddle oil ~50/0P/0C/6F + ~20g sour cream ~40/1P/1C/4F.",
+        "at": "2026-10-30T12:00",
+        "kcal": 1145,
+        "protein": 75,
+        "carbs": 53,
+        "fat": 68
+      },
+      {
+        "desc": "18:20 Shrimp cocktail per the plan: 160g Shrimp Cocktail tray shrimp, cooked, tail-on (Kirkland, refrigerated) + 20g Cocktail sauce (cup in the Kirkland shrimp cocktail tray).",
+        "at": "2026-10-30T18:20",
+        "items": [
+          {
+            "food": "kirkland-shrimp-cocktail",
+            "g": 160,
+            "at": "2026-10-30T18:20"
+          },
+          {
+            "food": "cocktail-sauce-kirkland",
+            "g": 20,
+            "at": "2026-10-30T18:20"
+          }
+        ],
+        "kcal": 183,
+        "protein": 39,
+        "carbs": 6,
+        "fat": 1
+      },
+      {
+        "desc": "18:05 Cheesecake Oreo yogurt per the plan: 300g Greek yogurt, plain, whole milk + 7g Jell-O Sugar Free Cheesecake instant pudding mix (dry) + 30g Honey + 60g Raspberries + 60g Blackberries.",
+        "at": "2026-10-30T18:05",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 300,
+            "at": "2026-10-30T18:05"
+          },
+          {
+            "food": "jello-cheesecake-sf",
+            "g": 7,
+            "at": "2026-10-30T18:05"
+          },
+          {
+            "food": "honey",
+            "g": 30,
+            "at": "2026-10-30T18:05"
+          },
+          {
+            "food": "raspberries",
+            "g": 60,
+            "at": "2026-10-30T18:05"
+          },
+          {
+            "food": "blackberries",
+            "g": 60,
+            "at": "2026-10-30T18:05"
+          }
+        ],
+        "kcal": 457,
+        "protein": 28,
+        "carbs": 57,
+        "fat": 14
+      },
+      {
+        "desc": "Dumpling Story: 4 pork dumplings. No published nutrition; ESTIMATED ~70 kcal each (~35g, wheat wrapper + pork filling): 280/16P/26C/12F. Creatine 5g + D3 2,000 IU taken around this time.",
+        "at": "2026-10-30T19:45",
+        "kcal": 280,
+        "protein": 16,
+        "carbs": 26,
+        "fat": 12
+      },
+      {
+        "desc": "~01:00 (after midnight, counted on 10/30 as the same night) In-N-Out Double-Double Animal Style. Published Double-Double 670/37P/39C/41F; animal style (extra spread, grilled onions, mustard-cooked patties, pickles) not published, ESTIMATED +130/0P/6C/11F.",
+        "at": "2026-10-31T01:00",
+        "kcal": 800,
+        "protein": 37,
+        "carbs": 45,
+        "fat": 52
+      },
+      {
+        "desc": "~01:00 In-N-Out chocolate shake (15 oz), In-N-Out published nutrition ~590 kcal / 16P / 72C / 29F.",
+        "at": "2026-10-31T01:00",
+        "kcal": 590,
+        "protein": 16,
+        "carbs": 72,
+        "fat": 29
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-10-31",
+    "kcal": 2996,
+    "protein": 162,
+    "carbs": 442,
+    "fat": 65,
+    "meals": [],
+    "method": "reported-as-eaten. DAY CLOSED. Rest day. Planned chicken chunk lunch replaced by leftover Dumpling Story dan dan noodles; 100g of the dinner shrimp eaten as a 15:31 snack; pre-lift eggs skipped (too full); dinner late ~22:40, nightcap ~22:50.",
+    "deviations": [
+      {
+        "desc": "12:27 Morning yogurt bowl + berries per the plan: 200g Greek yogurt, plain, whole milk + 20g Honey + 60g Raspberries + 60g Blackberries + 7g Jell-O Sugar Free Cheesecake instant pudding mix (dry).",
+        "at": "2026-10-31T12:27",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-31T12:27"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-10-31T12:27"
+          },
+          {
+            "food": "raspberries",
+            "g": 60,
+            "at": "2026-10-31T12:27"
+          },
+          {
+            "food": "blackberries",
+            "g": 60,
+            "at": "2026-10-31T12:27"
+          },
+          {
+            "food": "jello-cheesecake-sf",
+            "g": 7,
+            "at": "2026-10-31T12:27"
+          }
+        ],
+        "kcal": 332,
+        "protein": 19,
+        "carbs": 44,
+        "fat": 9
+      },
+      {
+        "desc": "~12:35 Dumpling Story dry dan dan noodles, leftover from 10/30. Adam says the portion was smaller than the first estimate (~half an order). No published nutrition; ESTIMATED: ~150g cooked wheat noodles ~210/7P/42C/1F + ~70g seasoned ground pork ~190/12P/0C/15F + chili oil/sauce ~80/0P/3C/9F + carrot/cucumber ~10/1P/2C. Adam checked ingredients (peanut risk flagged once 10/31).",
+        "at": "2026-10-31T12:35",
+        "kcal": 490,
+        "protein": 20,
+        "carbs": 47,
+        "fat": 25
+      },
+      {
+        "desc": "15:31 Ad-hoc: 100g Shrimp Cocktail tray shrimp, cooked, tail-on (Kirkland, refrigerated) + 15g Cocktail sauce (cup in the Kirkland shrimp cocktail tray). slugged before dinner; taken out of the dinner bowl",
+        "at": "2026-10-31T15:31",
+        "items": [
+          {
+            "food": "kirkland-shrimp-cocktail",
+            "g": 100,
+            "at": "2026-10-31T15:31"
+          },
+          {
+            "food": "cocktail-sauce-kirkland",
+            "g": 15,
+            "at": "2026-10-31T15:31"
+          }
+        ],
+        "kcal": 118,
+        "protein": 24,
+        "carbs": 4,
+        "fat": 0
+      },
+      {
+        "desc": "18:26 Pre-lift toast + honey + fruit per the plan: 90g Sourdough bread (bakery) + 25g Honey + 250g Mandarin/tangerine. eggs not yet eaten — log separately",
+        "at": "2026-10-31T18:26",
+        "items": [
+          {
+            "food": "bread-sourdough",
+            "g": 90,
+            "at": "2026-10-31T18:26"
+          },
+          {
+            "food": "honey",
+            "g": 25,
+            "at": "2026-10-31T18:26"
+          },
+          {
+            "food": "mandarin",
+            "g": 250,
+            "at": "2026-10-31T18:26"
+          }
+        ],
+        "kcal": 453,
+        "protein": 12,
+        "carbs": 101,
+        "fat": 2
+      },
+      {
+        "desc": "22:41 Soy-honey shrimp rice bowl per the plan: 250g White rice, long grain, dry + 20g Butter, salted + 15g Soy sauce + 10g Honey + 10g Sriracha + 200g Shrimp Cocktail tray shrimp, cooked, tail-on (Kirkland, refrigerated) + 60g Spinach, raw.",
+        "at": "2026-10-31T22:41",
+        "items": [
+          {
+            "food": "white-rice-dry",
+            "g": 250,
+            "at": "2026-10-31T22:41"
+          },
+          {
+            "food": "butter",
+            "g": 20,
+            "at": "2026-10-31T22:41"
+          },
+          {
+            "food": "soy-sauce",
+            "g": 15,
+            "at": "2026-10-31T22:41"
+          },
+          {
+            "food": "honey",
+            "g": 10,
+            "at": "2026-10-31T22:41"
+          },
+          {
+            "food": "sriracha",
+            "g": 10,
+            "at": "2026-10-31T22:41"
+          },
+          {
+            "food": "kirkland-shrimp-cocktail",
+            "g": 200,
+            "at": "2026-10-31T22:41"
+          },
+          {
+            "food": "spinach",
+            "g": 60,
+            "at": "2026-10-31T22:41"
+          }
+        ],
+        "kcal": 1327,
+        "protein": 69,
+        "carbs": 214,
+        "fat": 20
+      },
+      {
+        "desc": "22:50 Yogurt + strawberry nightcap per the plan: 200g Greek yogurt, plain, whole milk + 80g Strawberries + 20g Honey.",
+        "at": "2026-10-31T22:50",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-31T22:50"
+          },
+          {
+            "food": "strawberries",
+            "g": 80,
+            "at": "2026-10-31T22:50"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-10-31T22:50"
+          }
+        ],
+        "kcal": 276,
+        "protein": 18,
+        "carbs": 32,
+        "fat": 9
+      }
+    ],
+    "notes": "Creatine 5g + D3 2,000 IU taken with dinner."
+  },
+  {
+    "date": "2026-11-01",
+    "kcal": 2139,
+    "protein": 129,
+    "carbs": 277,
+    "fat": 56,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "12:06 Morning yogurt bowl + berries per the plan: 200g Greek yogurt, plain, whole milk + 20g Honey + 60g Raspberries + 60g Blackberries + 7g Jell-O Sugar Free Cheesecake instant pudding mix (dry). with 2 shots of espresso",
+        "at": "2026-11-01T12:06",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-11-01T12:06"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-11-01T12:06"
+          },
+          {
+            "food": "raspberries",
+            "g": 60,
+            "at": "2026-11-01T12:06"
+          },
+          {
+            "food": "blackberries",
+            "g": 60,
+            "at": "2026-11-01T12:06"
+          },
+          {
+            "food": "jello-cheesecake-sf",
+            "g": 7,
+            "at": "2026-11-01T12:06"
+          }
+        ],
+        "kcal": 332,
+        "protein": 19,
+        "carbs": 44,
+        "fat": 9
+      },
+      {
+        "desc": "12:06 Pre-lift toast + honey + fruit per the plan: 90g Sourdough bread (bakery) + 25g Honey + 88g Mandarin/tangerine.",
+        "at": "2026-11-01T12:06",
+        "items": [
+          {
+            "food": "bread-sourdough",
+            "g": 90,
+            "at": "2026-11-01T12:06"
+          },
+          {
+            "food": "honey",
+            "g": 25,
+            "at": "2026-11-01T12:06"
+          },
+          {
+            "food": "mandarin",
+            "g": 88,
+            "at": "2026-11-01T12:06"
+          }
+        ],
+        "kcal": 367,
+        "protein": 10,
+        "carbs": 79,
+        "fat": 2
+      },
+      {
+        "desc": "14:07 Post-lift yogurt-oat-mango smoothie per the plan: 200g Greek yogurt, plain, whole milk + 200g Trader Joe's Non-Dairy Oat Beverage with Vitamins A, D & B12 + 120g Mango (frozen chunks ok) + 35g Oats, dry + 30g Honey.",
+        "at": "2026-11-01T14:07",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-11-01T14:07"
+          },
+          {
+            "food": "oat-milk",
+            "g": 200,
+            "at": "2026-11-01T14:07"
+          },
+          {
+            "food": "mango",
+            "g": 120,
+            "at": "2026-11-01T14:07"
+          },
+          {
+            "food": "oats-dry",
+            "g": 35,
+            "at": "2026-11-01T14:07"
+          },
+          {
+            "food": "honey",
+            "g": 30,
+            "at": "2026-11-01T14:07"
+          }
+        ],
+        "kcal": 560,
+        "protein": 25,
+        "carbs": 83,
+        "fat": 16
+      },
+      {
+        "desc": "19:10 Buffalo wings + rice per the plan: 340g Crispy Chicken Wings with Classic Buffalo Sauce (Kirkland, frozen, fully cooked) + 70g White rice, long grain, dry + 60g Spinach, raw.",
+        "at": "2026-11-01T19:10",
+        "items": [
+          {
+            "food": "kirkland-buffalo-wings",
+            "g": 340,
+            "at": "2026-11-01T19:10"
+          },
+          {
+            "food": "white-rice-dry",
+            "g": 70,
+            "at": "2026-11-01T19:10"
+          },
+          {
+            "food": "spinach",
+            "g": 60,
+            "at": "2026-11-01T19:10"
+          }
+        ],
+        "kcal": 880,
+        "protein": 75,
+        "carbs": 71,
+        "fat": 29
       }
     ],
     "notes": ""

@@ -923,5 +923,45 @@
       }
     ],
     "notes": "Adam's favorite (\"that shit is just fire\"). Kirkland deli tray, straight from the fridge with the cocktail sauce and lemon. Counts as shrimp for the one-meat rule. An opened tray lasts ~3 days."
+  },
+  {
+    "id": "cheesecake-oreo-yogurt",
+    "name": "Cheesecake Oreo yogurt",
+    "slot": "nightcap",
+    "try": true,
+    "items": [
+      {
+        "food": "greek-yogurt-whole",
+        "g": 200
+      },
+      {
+        "food": "jello-cheesecake-sf",
+        "g": 7
+      },
+      {
+        "food": "oreo-thins",
+        "count": 3
+      }
+    ],
+    "notes": "Stir 1/4 box (7g, ~1 tbsp) sugar-free cheesecake mix into the yogurt until smooth, rest 5 min to thicken, crush 3 Oreo Thins on top right before eating. Works as breakfast too."
+  },
+  {
+    "id": "buffalo-wings-rice",
+    "name": "Buffalo wings + rice",
+    "items": [
+      {
+        "food": "kirkland-buffalo-wings",
+        "g": 340
+      },
+      {
+        "food": "white-rice-dry",
+        "g": 110
+      },
+      {
+        "food": "spinach",
+        "g": 60
+      }
+    ],
+    "method": "Kirkland crispy wings straight from frozen: air fry 400F ~12-14 min (flip halfway), toss in 1-2 of the included Classic Buffalo sauce packets. Rice on the side, spinach wilted into the hot rice. ~340g is about 16 wings, bone-in weight."
   }
 ]

@@ -629,6 +629,621 @@
       "g": 454,
       "to": "fridge",
       "source": "chat"
+    },
+    {
+      "id": "k67",
+      "at": "2026-10-16T11:16",
+      "type": "count",
+      "food": "spinach",
+      "g": 100,
+      "where": "fridge",
+      "est": true,
+      "source": "chat",
+      "note": "photo 10/16, clamshell ~1/3 full"
+    },
+    {
+      "id": "k68",
+      "at": "2026-10-16T11:42",
+      "type": "share",
+      "food": "ground-chicken",
+      "g": 154,
+      "source": "chat",
+      "note": "Nanda wanted some; Adam keeps 300g for his bowl"
+    },
+    {
+      "id": "k69",
+      "at": "2026-10-22T09:50",
+      "type": "toss",
+      "food": "kirkland-shrimp-cocktail",
+      "g": 200,
+      "source": "chat",
+      "note": "photo check 10/22: past use-by after LA trip"
+    },
+    {
+      "id": "k70",
+      "at": "2026-10-22T09:50",
+      "type": "toss",
+      "food": "cocktail-sauce-kirkland",
+      "g": 20,
+      "source": "chat",
+      "note": "photo check 10/22: past use-by after LA trip"
+    },
+    {
+      "id": "k71",
+      "at": "2026-10-22T09:50",
+      "type": "toss",
+      "food": "marinara-raos",
+      "g": 150,
+      "source": "chat",
+      "note": "photo check 10/22: past use-by after LA trip (opened jar)"
+    },
+    {
+      "id": "k72",
+      "at": "2026-10-22T09:50",
+      "type": "toss",
+      "food": "greek-yogurt-whole",
+      "g": 57,
+      "source": "chat",
+      "note": "photo check 10/22: past use-by after LA trip"
+    },
+    {
+      "id": "k73",
+      "at": "2026-10-22T09:50",
+      "type": "toss",
+      "food": "cucumber",
+      "g": 300,
+      "source": "chat",
+      "note": "photo check 10/22: past use-by after LA trip (not in photos)"
+    },
+    {
+      "id": "k74",
+      "at": "2026-10-22T09:52",
+      "type": "count",
+      "food": "mango",
+      "g": 1500,
+      "where": "freezer",
+      "est": true,
+      "source": "chat",
+      "note": "photo 10/22: ~3 bags (TJ + Costco) in freezer drawer"
+    },
+    {
+      "id": "k75",
+      "at": "2026-10-22T13:27",
+      "type": "buy",
+      "food": "greek-yogurt-whole",
+      "g": 2721,
+      "where": "fridge",
+      "source": "costco-sameday order 102221485344722463012"
+    },
+    {
+      "id": "k76",
+      "at": "2026-10-22T13:27",
+      "type": "buy",
+      "food": "oat-milk",
+      "g": 5676,
+      "where": "pantry",
+      "source": "costco-sameday order 102221485344722463012"
+    },
+    {
+      "id": "k77",
+      "at": "2026-10-22T13:27",
+      "type": "buy",
+      "food": "cucumber",
+      "g": 1000,
+      "where": "fridge",
+      "source": "costco-sameday order 102221485344722463012"
+    },
+    {
+      "id": "k78",
+      "at": "2026-10-22T13:27",
+      "type": "buy",
+      "food": "raspberries",
+      "g": 340,
+      "where": "fridge",
+      "source": "costco-sameday order 102221485344722463012"
+    },
+    {
+      "id": "k79",
+      "at": "2026-10-22T13:27",
+      "type": "buy",
+      "food": "blackberries",
+      "g": 340,
+      "where": "fridge",
+      "source": "costco-sameday order 102221485344722463012"
+    },
+    {
+      "id": "k80",
+      "at": "2026-10-22T13:27",
+      "type": "buy",
+      "food": "chipotle-chicken-kirkland",
+      "g": 907,
+      "where": "fridge",
+      "source": "costco-sameday order 102221485344722463012"
+    },
+    {
+      "id": "k81",
+      "at": "2026-10-22T13:27",
+      "type": "buy",
+      "food": "pasta-dry",
+      "g": 4000,
+      "where": "pantry",
+      "source": "costco-sameday order 102221485344722463012"
+    },
+    {
+      "id": "k82",
+      "at": "2026-10-22T13:27",
+      "type": "buy",
+      "food": "ground-beef-85",
+      "g": 608,
+      "where": "fridge",
+      "source": "costco-sameday order 102221485344722463012"
+    },
+    {
+      "id": "k83",
+      "at": "2026-10-22T13:27",
+      "type": "buy",
+      "food": "ground-beef-85",
+      "g": 1215,
+      "where": "freezer",
+      "source": "costco-sameday order 102221485344722463012"
+    },
+    {
+      "id": "k84",
+      "at": "2026-10-22T13:27",
+      "type": "buy",
+      "food": "shrimp-raw",
+      "g": 1814,
+      "where": "freezer",
+      "source": "costco-sameday order 102221485344722463012"
+    },
+    {
+      "id": "k85",
+      "at": "2026-10-22T13:27",
+      "type": "buy",
+      "food": "spinach",
+      "g": 454,
+      "where": "fridge",
+      "source": "costco-sameday order 102221485344722463012"
+    },
+    {
+      "id": "k86",
+      "at": "2026-10-22T13:27",
+      "type": "buy",
+      "food": "bread-italian",
+      "g": 450,
+      "where": "pantry",
+      "source": "costco-sameday order 102221485344722463012",
+      "note": "substituted for sourdough boule"
+    },
+    {
+      "id": "k87",
+      "at": "2026-10-22T13:27",
+      "type": "buy",
+      "food": "bread-italian",
+      "g": 457,
+      "where": "freezer",
+      "source": "costco-sameday order 102221485344722463012",
+      "note": "substituted for sourdough boule; second half frozen"
+    },
+    {
+      "id": "k88",
+      "at": "2026-10-22T14:57",
+      "type": "buy",
+      "food": "jello-cheesecake-sf",
+      "g": 84,
+      "where": "pantry",
+      "source": "amazon order 106-8277262-1580223",
+      "note": "3 x 1oz boxes; arriving 10/23"
+    },
+    {
+      "id": "k89",
+      "at": "2026-10-22T14:57",
+      "type": "buy",
+      "food": "oreo-thins",
+      "g": 334,
+      "where": "pantry",
+      "source": "amazon order 106-8277262-1580223",
+      "note": "family size 11.78oz; arriving 10/23"
+    },
+    {
+      "id": "k90",
+      "at": "2026-10-22T16:27",
+      "type": "count",
+      "food": "mandarin",
+      "g": 0,
+      "where": "fridge",
+      "source": "chat",
+      "note": "Adam 10/22: no mandarins"
+    },
+    {
+      "id": "k91",
+      "at": "2026-10-23T00:34",
+      "type": "undo",
+      "ref": "k80",
+      "source": "chat"
+    },
+    {
+      "id": "k92",
+      "at": "2026-10-23T00:34",
+      "type": "buy",
+      "food": "chipotle-chicken-kirkland",
+      "g": 907,
+      "where": "freezer",
+      "source": "costco-sameday order 102221485344722463012",
+      "note": "arrived frozen"
+    },
+    {
+      "id": "k93",
+      "at": "2026-10-24T00:32",
+      "type": "move",
+      "food": "shrimp-raw",
+      "g": 250,
+      "to": "fridge",
+      "source": "chat",
+      "note": "thawing for 10/24 shrimp fried rice"
+    },
+    {
+      "id": "k94",
+      "at": "2026-10-24T10:21",
+      "type": "count",
+      "food": "blackberries",
+      "g": 0,
+      "where": "fridge",
+      "source": "chat",
+      "note": "Adam 10/24: blackberries finished"
+    },
+    {
+      "id": "k95",
+      "at": "2026-10-24T15:08",
+      "type": "count",
+      "food": "egg",
+      "g": 0,
+      "where": "fridge",
+      "source": "chat",
+      "note": "Adam 10/24: none left"
+    },
+    {
+      "id": "k96",
+      "at": "2026-10-24T15:08",
+      "type": "count",
+      "food": "carrot",
+      "g": 0,
+      "where": "fridge",
+      "source": "chat",
+      "note": "Adam 10/24: none left"
+    },
+    {
+      "id": "k97",
+      "at": "2026-10-24T15:08",
+      "type": "count",
+      "food": "scallion",
+      "g": 0,
+      "where": "fridge",
+      "source": "chat",
+      "note": "Adam 10/24: none"
+    },
+    {
+      "id": "k98",
+      "at": "2026-10-24T17:18",
+      "type": "count",
+      "food": "flour-tortilla",
+      "g": 0,
+      "where": "pantry",
+      "source": "chat",
+      "note": "Adam 10/24: none left"
+    },
+    {
+      "id": "k99",
+      "at": "2026-10-23T23:30",
+      "type": "move",
+      "food": "chipotle-chicken-kirkland",
+      "g": 607,
+      "to": "fridge",
+      "lot": "k92",
+      "source": "chat",
+      "note": "whole bag ended up in the fridge (Adam 10/24)"
+    },
+    {
+      "id": "k100",
+      "at": "2026-10-23T23:30",
+      "type": "move",
+      "food": "shrimp-raw",
+      "g": 407,
+      "to": "fridge",
+      "lot": "k32",
+      "source": "chat",
+      "note": "rest of the opened bag thawing (Adam 10/24)"
+    },
+    {
+      "id": "k101",
+      "at": "2026-10-24T19:23",
+      "type": "move",
+      "food": "chipotle-chicken-kirkland",
+      "g": 307,
+      "to": "freezer",
+      "source": "chat",
+      "note": "refreeze half: cooked + fridge-thawed is safe to refreeze; only 300g fits before use-by"
+    },
+    {
+      "id": "k102",
+      "at": "2026-10-24T19:24",
+      "type": "count",
+      "food": "shrimp-raw",
+      "g": 407,
+      "where": "fridge",
+      "thawedOn": "2026-10-23",
+      "source": "chat",
+      "note": "rest of the opened bag, thawing since 10/23 night"
+    },
+    {
+      "id": "k103",
+      "at": "2026-10-24T19:24",
+      "type": "count",
+      "food": "shrimp-raw",
+      "g": 2064,
+      "where": "freezer",
+      "source": "chat",
+      "note": "unopened 2lb bags (1814) + the 250 lot"
+    },
+    {
+      "id": "k104",
+      "at": "2026-10-25T18:54",
+      "type": "toss",
+      "food": "potato",
+      "g": 1330,
+      "source": "chat",
+      "note": "thrown out 10/25"
+    },
+    {
+      "id": "k105",
+      "at": "2026-10-25T19:01",
+      "type": "toss",
+      "food": "ground-beef-85",
+      "g": 300,
+      "lot": "k82",
+      "source": "chat",
+      "note": "past use-by 10/24"
+    },
+    {
+      "id": "k106",
+      "at": "2026-10-25T21:05",
+      "type": "undo",
+      "ref": "k105",
+      "source": "chat"
+    },
+    {
+      "id": "k107",
+      "at": "2026-10-26T00:19",
+      "type": "toss",
+      "food": "chipotle-chicken-kirkland",
+      "g": 300,
+      "lot": "k99",
+      "source": "chat",
+      "note": "gone per Adam 10/26 (not on hand)"
+    },
+    {
+      "id": "k108",
+      "at": "2026-10-26T00:27",
+      "type": "toss",
+      "food": "lemon",
+      "g": 199,
+      "lot": "k7",
+      "source": "chat",
+      "note": "gone bad, tossed 10/26"
+    },
+    {
+      "id": "k109",
+      "at": "2026-10-26T18:42",
+      "type": "count",
+      "food": "oreo-thins",
+      "g": 0,
+      "where": "pantry",
+      "source": "chat",
+      "note": "Adam: no more Oreos (10/26)"
+    },
+    {
+      "id": "k110",
+      "at": "2026-10-26T23:20",
+      "type": "toss",
+      "food": "shrimp-raw",
+      "g": 273,
+      "lot": "k102",
+      "source": "chat",
+      "note": "cooked as the 10/26 scampi, too spicy, thrown out"
+    },
+    {
+      "id": "k111",
+      "at": "2026-10-26T23:20",
+      "type": "toss",
+      "food": "pasta-dry",
+      "g": 134,
+      "source": "chat",
+      "note": "cooked in the 10/26 scampi, thrown out"
+    },
+    {
+      "id": "k112",
+      "at": "2026-10-26T23:28",
+      "type": "count",
+      "food": "greek-yogurt-whole",
+      "g": 130,
+      "where": "fridge",
+      "source": "chat",
+      "note": "Adam: only 130g left before the 10/26 nightcap"
+    },
+    {
+      "id": "k113",
+      "at": "2026-10-27T10:37",
+      "type": "count",
+      "food": "grapes",
+      "g": 0,
+      "where": "fridge",
+      "source": "chat",
+      "note": "10/27 photo check: Adam says none left"
+    },
+    {
+      "id": "k114",
+      "at": "2026-10-27T10:37",
+      "type": "count",
+      "food": "mozzarella-shredded",
+      "g": 0,
+      "where": "fridge",
+      "source": "chat",
+      "note": "10/27 photo check: Adam says none left"
+    },
+    {
+      "id": "k115",
+      "at": "2026-10-27T10:37",
+      "type": "count",
+      "food": "marinara-raos",
+      "g": 0,
+      "where": "fridge",
+      "source": "chat",
+      "note": "10/27 photo check: Adam says none left"
+    },
+    {
+      "id": "k116",
+      "at": "2026-10-27T10:37",
+      "type": "undo",
+      "ref": "k115",
+      "source": "chat"
+    },
+    {
+      "id": "k117",
+      "at": "2026-10-27T10:37",
+      "type": "count",
+      "food": "marinara-raos",
+      "g": 0,
+      "where": "pantry",
+      "source": "chat",
+      "note": "10/27 photo check: Adam says none left"
+    },
+    {
+      "id": "k118",
+      "at": "2026-10-28T22:00",
+      "type": "move",
+      "food": "ground-beef-85",
+      "g": 608,
+      "to": "fridge",
+      "source": "chat",
+      "note": "one 608g pack, thawed 10/28 night (reported 10/29)"
+    },
+    {
+      "id": "k119",
+      "at": "2026-10-30T17:45",
+      "type": "buy",
+      "food": "greek-yogurt-whole",
+      "g": 2721,
+      "where": "fridge",
+      "source": "photo",
+      "note": "3x Green Mountain 2% Greek 2lb tubs, Costco 10/30"
+    },
+    {
+      "id": "k120",
+      "at": "2026-10-30T17:45",
+      "type": "buy",
+      "food": "kirkland-shrimp-cocktail",
+      "g": 725,
+      "where": "fridge",
+      "source": "photo",
+      "note": "Costco tray 10/30"
+    },
+    {
+      "id": "k121",
+      "at": "2026-10-30T17:45",
+      "type": "buy",
+      "food": "mandarin",
+      "g": 1361,
+      "where": "fridge",
+      "source": "photo",
+      "note": "Costco 3lb bag 10/30"
+    },
+    {
+      "id": "k122",
+      "at": "2026-10-30T17:45",
+      "type": "buy",
+      "food": "egg",
+      "g": 1200,
+      "where": "fridge",
+      "source": "photo",
+      "note": "Costco 24ct large 10/30"
+    },
+    {
+      "id": "k123",
+      "at": "2026-10-30T17:45",
+      "type": "buy",
+      "food": "spinach",
+      "g": 454,
+      "where": "fridge",
+      "source": "photo",
+      "note": "Costco 1lb organic baby spinach 10/30"
+    },
+    {
+      "id": "k124",
+      "at": "2026-10-30T17:45",
+      "type": "buy",
+      "food": "mozzarella-shredded",
+      "g": 454,
+      "where": "fridge",
+      "source": "photo",
+      "note": "shredded mozz bag in 10/30 photo, size est"
+    },
+    {
+      "id": "k125",
+      "at": "2026-10-31T11:42",
+      "type": "toss",
+      "food": "ground-beef-85",
+      "g": 608,
+      "source": "chat",
+      "note": "thawed 10/28, not cooked by use-by 10/30; thrown out 10/31"
+    },
+    {
+      "id": "k126",
+      "at": "2026-10-31T11:44",
+      "type": "buy",
+      "food": "raspberries",
+      "g": 340,
+      "where": "fridge",
+      "source": "chat",
+      "note": "Costco 12oz, full per Adam 10/31 (Instacart)"
+    },
+    {
+      "id": "k127",
+      "at": "2026-10-31T11:44",
+      "type": "buy",
+      "food": "blackberries",
+      "g": 340,
+      "where": "fridge",
+      "source": "chat",
+      "note": "Costco 12oz, full per Adam 10/31 (Instacart)"
+    },
+    {
+      "id": "k128",
+      "at": "2026-10-31T11:45",
+      "type": "buy",
+      "food": "kirkland-buffalo-wings",
+      "g": 1814,
+      "where": "freezer",
+      "source": "chat",
+      "note": "Instacart 10/31, new 64oz bag"
+    },
+    {
+      "id": "k129",
+      "at": "2026-10-31T22:42",
+      "type": "move",
+      "food": "ground-beef-85",
+      "g": 607,
+      "to": "fridge",
+      "lot": "k34",
+      "source": "chat"
+    },
+    {
+      "id": "k130",
+      "at": "2026-11-01T14:11",
+      "type": "count",
+      "food": "kirkland-shrimp-cocktail",
+      "g": 30,
+      "where": "fridge",
+      "source": "chat"
     }
   ],
   "legacy": [

@@ -543,44 +543,32 @@
             }
           ],
           "time": "13:00",
-          "status": "planned",
+          "status": "eaten",
           "gcal": "g77p4ohmd9bnetnsl2l19v3uuk"
         },
         {
           "slot": "snack",
-          "meal": "honey-garlic-chicken-bowl",
+          "meal": "beef-potato-dinner",
           "items": [
             {
-              "food": "ground-chicken",
+              "food": "ground-beef-85",
+              "g": 304
+            },
+            {
+              "food": "potato",
               "g": 300
             },
             {
-              "food": "white-rice-dry",
-              "g": 70
+              "food": "spinach",
+              "g": 80
             },
             {
-              "food": "soy-sauce",
-              "g": 20
-            },
-            {
-              "food": "honey",
-              "g": 15
-            },
-            {
-              "food": "garlic",
-              "g": 10
-            },
-            {
-              "food": "sesame-oil",
-              "g": 5
-            },
-            {
-              "food": "cucumber",
-              "g": 100
+              "food": "butter",
+              "g": 8
             }
           ],
-          "time": "16:15",
-          "status": "planned",
+          "time": "17:35",
+          "status": "eaten",
           "gcal": "grnlgt40bapthb48ir79rumiq4"
         },
         {
@@ -612,9 +600,674 @@
               "g": 60
             }
           ],
-          "time": "17:45",
-          "status": "planned",
+          "time": "21:35",
+          "status": "eaten",
           "gcal": "fpju9dahvsmimfkkieg3fucrtk"
+        },
+        {
+          "slot": "dinner",
+          "meal": "honey-garlic-chicken-bowl",
+          "items": [
+            {
+              "food": "ground-chicken",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 70
+            },
+            {
+              "food": "soy-sauce",
+              "g": 20
+            },
+            {
+              "food": "honey",
+              "g": 15
+            },
+            {
+              "food": "garlic",
+              "g": 10
+            },
+            {
+              "food": "sesame-oil",
+              "g": 5
+            },
+            {
+              "food": "cucumber",
+              "g": 100
+            }
+          ],
+          "time": "22:45",
+          "status": "skipped",
+          "gcal": "eqme46bjvg9tvc4j5n4n1u290s"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "lift": false,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 50
+            },
+            {
+              "food": "blackberries",
+              "g": 50
+            }
+          ],
+          "time": "09:30",
+          "status": "skipped",
+          "gcal": "go4a4vbg80f7j3uim7hg6r5clg"
+        },
+        {
+          "slot": "afternoon",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            }
+          ],
+          "time": "15:30",
+          "status": "skipped",
+          "gcal": "m88ti0ebpnv92rfltgo1eamlak"
+        },
+        {
+          "slot": "lunch",
+          "meal": "honey-garlic-chicken-bowl",
+          "items": [
+            {
+              "food": "ground-chicken",
+              "g": 454
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 110
+            },
+            {
+              "food": "soy-sauce",
+              "g": 20
+            },
+            {
+              "food": "honey",
+              "g": 15
+            },
+            {
+              "food": "garlic",
+              "g": 10
+            },
+            {
+              "food": "sesame-oil",
+              "g": 5
+            },
+            {
+              "food": "cucumber",
+              "g": 100
+            }
+          ],
+          "time": "16:00",
+          "status": "skipped",
+          "gcal": "8ut4b2ls5fes3tnji5aih0qkp0"
+        },
+        {
+          "slot": "dinner",
+          "meal": "beef-crispy-gnocchi",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 230
+            },
+            {
+              "food": "gnocchi",
+              "g": 200
+            },
+            {
+              "food": "marinara-raos",
+              "g": 150
+            },
+            {
+              "food": "butter",
+              "g": 10
+            },
+            {
+              "food": "spinach",
+              "g": 60
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 25
+            }
+          ],
+          "time": "19:30",
+          "status": "skipped",
+          "gcal": "t4hucb871jpjncotuvmrs1ddek"
+        },
+        {
+          "slot": "nightcap",
+          "meal": "yogurt-nightcap",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "strawberries",
+              "g": 80
+            },
+            {
+              "food": "honey",
+              "g": 20
+            }
+          ],
+          "time": "21:30",
+          "status": "skipped",
+          "gcal": "pl16qcig59h9pkql37hucon6s8"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 50
+            },
+            {
+              "food": "blackberries",
+              "g": 50
+            }
+          ],
+          "time": "09:30",
+          "status": "skipped",
+          "gcal": "vpfp4f2ks26hi3agn0t9i7am58"
+        },
+        {
+          "slot": "lunch",
+          "meal": "honey-garlic-chicken-bowl",
+          "items": [
+            {
+              "food": "ground-chicken",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 150
+            },
+            {
+              "food": "soy-sauce",
+              "g": 20
+            },
+            {
+              "food": "honey",
+              "g": 15
+            },
+            {
+              "food": "garlic",
+              "g": 10
+            },
+            {
+              "food": "sesame-oil",
+              "g": 5
+            },
+            {
+              "food": "cucumber",
+              "g": 100
+            }
+          ],
+          "time": "11:45",
+          "status": "eaten",
+          "gcal": "86f0p8q9c930u3omm4h0kk5d68"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            }
+          ],
+          "time": "13:15",
+          "status": "skipped",
+          "gcal": "aemnf69l4ue3hfb0bjp6mmiq04"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "oat-milk",
+              "g": 250
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            },
+            {
+              "food": "strawberries",
+              "g": 60
+            },
+            {
+              "food": "egg",
+              "g": 150
+            }
+          ],
+          "time": "16:45",
+          "status": "eaten",
+          "gcal": "r2t2mhehgmpus6b72t1e722mtk"
+        },
+        {
+          "slot": "dinner",
+          "meal": "beef-rice-bowl",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 150
+            },
+            {
+              "food": "cucumber",
+              "g": 100
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 30
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            }
+          ],
+          "time": "23:59",
+          "status": "planned",
+          "gcal": "i45uufbviobm916u7m0ionmpuk"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "lift": false,
+      "slots": [],
+      "away": "LA trip"
+    },
+    {
+      "date": "2026-10-18",
+      "lift": false,
+      "slots": [],
+      "away": "LA trip"
+    },
+    {
+      "date": "2026-10-19",
+      "lift": false,
+      "slots": [],
+      "away": "LA trip"
+    },
+    {
+      "date": "2026-10-20",
+      "lift": false,
+      "slots": [],
+      "away": "LA trip"
+    },
+    {
+      "date": "2026-10-21",
+      "lift": false,
+      "slots": [],
+      "away": "LA trip"
+    },
+    {
+      "date": "2026-10-22",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "rest-scramble",
+          "items": [
+            {
+              "food": "egg",
+              "count": 4
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 25
+            },
+            {
+              "food": "flour-tortilla",
+              "count": 1
+            },
+            {
+              "food": "spinach",
+              "g": 60
+            }
+          ],
+          "time": "09:30",
+          "status": "skipped",
+          "gcal": "p5iplu5hbgc7li9dl1vfvif37s"
+        },
+        {
+          "slot": "lunch",
+          "meal": "chicken-chunk-rice-bowl",
+          "items": [
+            {
+              "food": "just-bare-chunks",
+              "g": 250
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 150
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            }
+          ],
+          "time": "13:45",
+          "status": "eaten",
+          "gcal": "3isc28pqbmn4uo0uc7lhg1nrjo"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "honey",
+              "g": 40
+            },
+            {
+              "food": "bread-italian",
+              "g": 150
+            }
+          ],
+          "time": "16:27",
+          "status": "eaten",
+          "gcal": "82tbmb4d9ru6u87bodqv3e00t8"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 80
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            },
+            {
+              "food": "raspberries",
+              "g": 60
+            },
+            {
+              "food": "blackberries",
+              "g": 60
+            }
+          ],
+          "time": "17:30",
+          "status": "eaten",
+          "gcal": "5fvgcapdig13bmqhp1fhun8180"
+        },
+        {
+          "slot": "dinner",
+          "meal": "smash-burger-quesadilla",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 300
+            },
+            {
+              "food": "flour-tortilla",
+              "g": 192
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 50
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            }
+          ],
+          "time": "19:30",
+          "status": "skipped",
+          "gcal": "5mnvifslkorjlfkde1h5p1k4io"
+        },
+        {
+          "slot": "nightcap",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 85
+            },
+            {
+              "food": "blackberries",
+              "g": 85
+            }
+          ],
+          "time": "21:30",
+          "status": "skipped",
+          "gcal": "ofo6seuobsq05tjhe10puvap9g"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 93
+            },
+            {
+              "food": "blackberries",
+              "g": 93
+            }
+          ],
+          "time": "09:30",
+          "status": "eaten",
+          "gcal": "kh3ti9dcih40gioson8r0omjqs"
+        },
+        {
+          "slot": "snack",
+          "meal": "cheesecake-oreo-yogurt",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "jello-cheesecake-sf",
+              "g": 7
+            },
+            {
+              "food": "oreo-thins",
+              "count": 3
+            }
+          ],
+          "time": "13:35",
+          "status": "eaten",
+          "gcal": "ms92vkf511p63te7c9i8o0b6k0"
+        },
+        {
+          "slot": "lunch",
+          "meal": "chipotle-chicken-burritos",
+          "items": [
+            {
+              "food": "chipotle-chicken-kirkland",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 70
+            },
+            {
+              "food": "flour-tortilla",
+              "count": 2
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 40
+            },
+            {
+              "food": "spinach",
+              "g": 30
+            }
+          ],
+          "time": "13:50",
+          "status": "eaten",
+          "gcal": "cj9b7jqvvjklgpt4ah32s69d7c"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "honey",
+              "g": 40
+            },
+            {
+              "food": "bread-italian",
+              "g": 90
+            }
+          ],
+          "time": "14:45",
+          "status": "skipped",
+          "gcal": "bjgtiogho5d13f5ocnkc9nf42k"
+        },
+        {
+          "slot": "nightcap",
+          "meal": "cheesecake-oreo-yogurt",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "jello-cheesecake-sf",
+              "g": 7
+            },
+            {
+              "food": "oreo-thins",
+              "count": 3
+            }
+          ],
+          "time": "21:15",
+          "status": "eaten",
+          "gcal": "38rj5p4harssiiee21dij4e8io"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            }
+          ],
+          "time": "21:35",
+          "status": "skipped",
+          "gcal": "7i2l6ef6geln3em1kiueo9elu8"
         },
         {
           "slot": "dinner",
@@ -622,11 +1275,11 @@
           "items": [
             {
               "food": "ground-beef-85",
-              "g": 304
+              "g": 308
             },
             {
               "food": "potato",
-              "g": 300
+              "g": 370
             },
             {
               "food": "spinach",
@@ -637,35 +1290,1916 @@
               "g": 8
             }
           ],
-          "time": "19:30",
-          "status": "planned",
-          "gcal": "eqme46bjvg9tvc4j5n4n1u290s"
+          "time": "22:00",
+          "status": "eaten",
+          "gcal": "vtlm53dkp0l80grocvvh0v8d10"
         }
       ]
     },
     {
-      "date": "2026-10-15",
-      "lift": false,
-      "slots": [],
-      "away": "Tahoe trip"
+      "date": "2026-10-24",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 93
+            },
+            {
+              "food": "blackberries",
+              "g": 93
+            }
+          ],
+          "time": "09:00",
+          "status": "eaten",
+          "gcal": "k0nkqfssp35dl06nopmt8qtd08"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "honey",
+              "g": 40
+            },
+            {
+              "food": "bread-italian",
+              "g": 90
+            }
+          ],
+          "time": "09:15",
+          "status": "eaten",
+          "gcal": "pn6l64v494btua9gclgeb1d8ao"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            }
+          ],
+          "time": "11:50",
+          "status": "eaten",
+          "gcal": "26r1mhipocp4iqb58nam02u010"
+        },
+        {
+          "slot": "lunch",
+          "meal": "shrimp-fried-rice",
+          "items": [
+            {
+              "food": "shrimp-raw",
+              "g": 250
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 130
+            },
+            {
+              "food": "soy-sauce",
+              "g": 20
+            },
+            {
+              "food": "sesame-oil",
+              "g": 10
+            }
+          ],
+          "time": "13:30",
+          "status": "eaten",
+          "gcal": "2a5ql8kv9l8cit16rb0hkesjdc"
+        },
+        {
+          "slot": "dessert",
+          "meal": "cheesecake-oreo-yogurt",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "jello-cheesecake-sf",
+              "g": 7
+            },
+            {
+              "food": "oreo-thins",
+              "count": 3
+            }
+          ],
+          "time": "17:25",
+          "status": "eaten",
+          "gcal": "nbo9ohl48fmv74942lcsopg0h8"
+        },
+        {
+          "slot": "dinner",
+          "meal": "smash-burger-quesadilla",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 300
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 50
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            },
+            {
+              "food": "bread-italian",
+              "g": 80
+            }
+          ],
+          "time": "19:30",
+          "status": "skipped",
+          "gcal": "qvvjihgmrqdddhqtb1lmdr3ra0"
+        },
+        {
+          "slot": "nightcap",
+          "meal": "cheesecake-oreo-yogurt",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "jello-cheesecake-sf",
+              "g": 7
+            },
+            {
+              "food": "oreo-thins",
+              "count": 3
+            }
+          ],
+          "time": "21:30",
+          "status": "skipped",
+          "gcal": "8jm57r1548594rb1kmoi0tup30"
+        }
+      ]
     },
     {
-      "date": "2026-10-16",
-      "lift": false,
-      "slots": [],
-      "away": "Tahoe trip"
+      "date": "2026-10-25",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "honey",
+              "g": 40
+            },
+            {
+              "food": "bread-italian",
+              "g": 90
+            }
+          ],
+          "time": "12:33",
+          "status": "eaten",
+          "gcal": "66jl87ksfotseh73gf5np5lqqk"
+        },
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 127
+            }
+          ],
+          "time": "12:45",
+          "status": "skipped",
+          "gcal": "43c362n5bturhrk5nj3ok2ft6o"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 60
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            },
+            {
+              "food": "raspberries",
+              "g": 127
+            }
+          ],
+          "time": "14:50",
+          "status": "eaten",
+          "gcal": "ru4qc41epk06lfc9irpkfrh9b8"
+        },
+        {
+          "slot": "nightcap",
+          "meal": "cheesecake-oreo-yogurt",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "jello-cheesecake-sf",
+              "g": 7
+            },
+            {
+              "food": "oreo-thins",
+              "count": 3
+            }
+          ],
+          "time": "21:05",
+          "status": "eaten"
+        },
+        {
+          "slot": "lunch",
+          "meal": "beef-bolognese-pasta",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 300
+            },
+            {
+              "food": "pasta-dry",
+              "g": 120
+            },
+            {
+              "food": "marinara-raos",
+              "g": 200
+            },
+            {
+              "food": "olive-oil",
+              "g": 5
+            }
+          ],
+          "time": "21:30",
+          "status": "eaten",
+          "gcal": "r3og13v1q2nsfc3rqkt6mplg48"
+        },
+        {
+          "slot": "dinner",
+          "meal": "shrimp-scampi",
+          "items": [
+            {
+              "food": "shrimp-raw",
+              "g": 407
+            },
+            {
+              "food": "pasta-dry",
+              "g": 200
+            },
+            {
+              "food": "butter",
+              "g": 30
+            },
+            {
+              "food": "olive-oil",
+              "g": 10
+            },
+            {
+              "food": "garlic",
+              "g": 15
+            },
+            {
+              "food": "lemon",
+              "count": 1
+            }
+          ],
+          "time": "22:00",
+          "status": "eaten",
+          "gcal": "flik1b97p4mn066o67t8l7iijg",
+          "fraction": 0.33
+        }
+      ]
     },
     {
-      "date": "2026-10-17",
+      "date": "2026-10-26",
       "lift": false,
-      "slots": [],
-      "away": "Tahoe trip"
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            }
+          ],
+          "time": "09:30",
+          "status": "eaten",
+          "gcal": "f3r0b0f7p7qfnucoeuoto3dcq8"
+        },
+        {
+          "slot": "snack",
+          "meal": "beef-bolognese-pasta",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 230
+            },
+            {
+              "food": "pasta-dry",
+              "g": 120
+            },
+            {
+              "food": "marinara-raos",
+              "g": 200
+            },
+            {
+              "food": "olive-oil",
+              "g": 5
+            }
+          ],
+          "time": "11:15",
+          "status": "eaten"
+        },
+        {
+          "slot": "lunch",
+          "meal": "chipotle-chicken-burritos",
+          "items": [
+            {
+              "food": "chipotle-chicken-kirkland",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 120
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 40
+            },
+            {
+              "food": "spinach",
+              "g": 30
+            }
+          ],
+          "time": "12:30",
+          "status": "skipped",
+          "gcal": "1rc37l12tdgj49bkdij4pvgdb8"
+        },
+        {
+          "slot": "afternoon",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "honey",
+              "g": 40
+            },
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            }
+          ],
+          "time": "15:30",
+          "status": "eaten",
+          "gcal": "m1o764jbtijsjn3ch9ve0at0kk"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            }
+          ],
+          "time": "17:45",
+          "status": "skipped",
+          "gcal": "f5gl6nodp6hf8k9smjvrjqf4i4"
+        },
+        {
+          "slot": "dinner",
+          "meal": "shrimp-scampi",
+          "items": [
+            {
+              "food": "shrimp-raw",
+              "g": 273
+            },
+            {
+              "food": "pasta-dry",
+              "g": 134
+            },
+            {
+              "food": "butter",
+              "g": 20
+            },
+            {
+              "food": "olive-oil",
+              "g": 7
+            },
+            {
+              "food": "garlic",
+              "g": 10
+            }
+          ],
+          "time": "19:30",
+          "status": "skipped",
+          "gcal": "esihkkr1hlii42vr9km2c5lti0"
+        },
+        {
+          "slot": "nightcap",
+          "meal": "cheesecake-oreo-yogurt",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "jello-cheesecake-sf",
+              "g": 7
+            },
+            {
+              "food": "oreo-thins",
+              "count": 3
+            }
+          ],
+          "time": "21:30",
+          "status": "eaten",
+          "gcal": "sjs4ps455lbiha7h22r67c1df8"
+        }
+      ]
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-27",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            }
+          ],
+          "time": "09:30",
+          "status": "planned",
+          "gcal": "ja0bu6aqpcd95j5nf2qrujda1s"
+        },
+        {
+          "slot": "lunch",
+          "meal": "beef-bulgogi-bowl",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 250
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 90
+            },
+            {
+              "food": "soy-sauce",
+              "g": 20
+            },
+            {
+              "food": "honey",
+              "g": 15
+            },
+            {
+              "food": "garlic",
+              "g": 10
+            },
+            {
+              "food": "sesame-oil",
+              "g": 5
+            },
+            {
+              "food": "scallion",
+              "g": 20
+            },
+            {
+              "food": "cucumber",
+              "g": 100
+            }
+          ],
+          "time": "12:30",
+          "status": "planned",
+          "gcal": "bh50b8j1qbuht85uo5dfs884h0"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 40
+            }
+          ],
+          "time": "14:45",
+          "status": "planned",
+          "gcal": "ghoi5r2q0jvm979c31rk427hcs"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            }
+          ],
+          "time": "17:45",
+          "status": "planned",
+          "gcal": "aeqc1amfl21a8a5o59o6lu075k"
+        },
+        {
+          "slot": "dinner",
+          "meal": "chicken-chunk-rice-bowl",
+          "items": [
+            {
+              "food": "just-bare-chunks",
+              "g": 250
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 100
+            },
+            {
+              "food": "cucumber",
+              "g": 100
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            }
+          ],
+          "time": "19:30",
+          "status": "planned",
+          "gcal": "lf9elhl4b2ksr69ff604foq5is"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "lift": false,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            }
+          ],
+          "time": "09:30",
+          "status": "skipped"
+        },
+        {
+          "slot": "lunch",
+          "meal": "chipotle-chicken-burritos",
+          "items": [
+            {
+              "food": "chipotle-chicken-kirkland",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 100
+            },
+            {
+              "food": "flour-tortilla",
+              "count": 2
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 40
+            },
+            {
+              "food": "spinach",
+              "g": 30
+            }
+          ],
+          "time": "12:30",
+          "status": "skipped"
+        },
+        {
+          "slot": "afternoon",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 40
+            }
+          ],
+          "time": "15:30",
+          "status": "skipped"
+        },
+        {
+          "slot": "dinner",
+          "meal": "beef-bolognese-pasta",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 230
+            },
+            {
+              "food": "pasta-dry",
+              "g": 120
+            },
+            {
+              "food": "marinara-raos",
+              "g": 200
+            },
+            {
+              "food": "olive-oil",
+              "g": 5
+            }
+          ],
+          "time": "22:15",
+          "status": "skipped",
+          "gcal": "l106729mj3bpg35cpeu9abjbrk"
+        },
+        {
+          "slot": "nightcap",
+          "meal": "cheesecake-oreo-yogurt",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "jello-cheesecake-sf",
+              "g": 7
+            },
+            {
+              "food": "oreo-thins",
+              "count": 3
+            }
+          ],
+          "time": "21:30",
+          "status": "skipped"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 50
+            },
+            {
+              "food": "blackberries",
+              "g": 50
+            }
+          ],
+          "time": "09:30",
+          "status": "skipped"
+        },
+        {
+          "slot": "lunch",
+          "meal": "beef-rice-bowl",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 90
+            },
+            {
+              "food": "cucumber",
+              "g": 100
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 30
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            }
+          ],
+          "time": "12:30",
+          "status": "skipped"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            }
+          ],
+          "time": "14:45",
+          "status": "skipped"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            },
+            {
+              "food": "chia",
+              "g": 15
+            }
+          ],
+          "time": "17:45",
+          "status": "skipped"
+        },
+        {
+          "slot": "dinner",
+          "meal": "chicken-chunk-rice-bowl",
+          "items": [
+            {
+              "food": "just-bare-chunks",
+              "g": 250
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 90
+            },
+            {
+              "food": "cucumber",
+              "g": 100
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            }
+          ],
+          "time": "19:30",
+          "status": "skipped"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 50
+            },
+            {
+              "food": "blackberries",
+              "g": 50
+            }
+          ],
+          "time": "09:30",
+          "status": "skipped"
+        },
+        {
+          "slot": "lunch",
+          "meal": "beef-rice-bowl",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 130
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            }
+          ],
+          "time": "11:45",
+          "status": "skipped"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 25
+            }
+          ],
+          "time": "12:50",
+          "status": "skipped"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "cheesecake-oreo-yogurt",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 300
+            },
+            {
+              "food": "jello-cheesecake-sf",
+              "g": 7
+            },
+            {
+              "food": "honey",
+              "g": 30
+            },
+            {
+              "food": "raspberries",
+              "g": 60
+            },
+            {
+              "food": "blackberries",
+              "g": 60
+            }
+          ],
+          "time": "18:00",
+          "status": "eaten",
+          "gcal": "4makt33tsjnqik0vn45j4at660"
+        },
+        {
+          "slot": "dinner",
+          "meal": "shrimp-cocktail",
+          "items": [
+            {
+              "food": "kirkland-shrimp-cocktail",
+              "g": 300
+            },
+            {
+              "food": "cocktail-sauce-kirkland",
+              "g": 40
+            }
+          ],
+          "time": "19:00",
+          "status": "eaten",
+          "gcal": "ob5sroo7e89emaho5g5gu3goi0"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "lift": false,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 60
+            },
+            {
+              "food": "blackberries",
+              "g": 60
+            },
+            {
+              "food": "jello-cheesecake-sf",
+              "g": 7
+            }
+          ],
+          "time": "12:15",
+          "status": "eaten",
+          "gcal": "cfaui7u2em1li6pmk51tgf199s"
+        },
+        {
+          "slot": "lunch",
+          "meal": "chicken-chunk-rice-bowl",
+          "items": [
+            {
+              "food": "just-bare-chunks",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 150
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            },
+            {
+              "food": "spinach",
+              "g": 60
+            }
+          ],
+          "time": "14:00",
+          "status": "skipped",
+          "gcal": "p2dap6k4ee813ovn4ltn96kgmo"
+        },
+        {
+          "slot": "afternoon",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "g": 250
+            }
+          ],
+          "time": "16:30",
+          "status": "eaten",
+          "gcal": "4utqk7k3c1dreeec48e77rpb1s"
+        },
+        {
+          "slot": "dinner",
+          "meal": "soy-honey-shrimp-bowl",
+          "items": [
+            {
+              "food": "white-rice-dry",
+              "g": 250
+            },
+            {
+              "food": "butter",
+              "g": 20
+            },
+            {
+              "food": "soy-sauce",
+              "g": 15
+            },
+            {
+              "food": "honey",
+              "g": 10
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            },
+            {
+              "food": "kirkland-shrimp-cocktail",
+              "g": 200
+            },
+            {
+              "food": "spinach",
+              "g": 60
+            }
+          ],
+          "time": "19:00",
+          "status": "eaten",
+          "gcal": "76c31utrv31k4hrksbq3r2sl5s"
+        },
+        {
+          "slot": "nightcap",
+          "meal": "yogurt-nightcap",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "strawberries",
+              "g": 80
+            },
+            {
+              "food": "honey",
+              "g": 20
+            }
+          ],
+          "time": "21:30",
+          "status": "eaten",
+          "gcal": "buputbjp36ehs21itst6ud2esk"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 60
+            },
+            {
+              "food": "blackberries",
+              "g": 60
+            }
+          ],
+          "time": "11:00",
+          "status": "eaten",
+          "gcal": "6v0gf05t6uatclnbqvm9mpu4q4"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            }
+          ],
+          "time": "11:05",
+          "status": "eaten",
+          "gcal": "00l584mmipf50keapbjdqeukho"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            }
+          ],
+          "time": "13:45",
+          "status": "eaten",
+          "gcal": "k1p12jdutokjs9v8ht7gskh6j0"
+        },
+        {
+          "slot": "lunch",
+          "meal": "beef-rice-bowl",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 80
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 30
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            },
+            {
+              "food": "spinach",
+              "g": 60
+            }
+          ],
+          "time": "15:00",
+          "status": "planned",
+          "gcal": "ht6mpk12srqhbmvchii6clmels"
+        },
+        {
+          "slot": "snack",
+          "meal": "shrimp-cocktail",
+          "items": [
+            {
+              "food": "kirkland-shrimp-cocktail",
+              "g": 30
+            },
+            {
+              "food": "egg",
+              "g": 200
+            }
+          ],
+          "time": "17:30",
+          "status": "skipped",
+          "gcal": "qkbav1rqm5lu4uc6enl34lns6k"
+        },
+        {
+          "slot": "dinner",
+          "meal": "buffalo-wings-rice",
+          "items": [
+            {
+              "food": "kirkland-buffalo-wings",
+              "g": 340
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 70
+            },
+            {
+              "food": "spinach",
+              "g": 60
+            }
+          ],
+          "time": "19:30",
+          "status": "eaten",
+          "gcal": "oiknide3jqj2sder2naluampgc"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 60
+            },
+            {
+              "food": "blackberries",
+              "g": 60
+            }
+          ],
+          "time": "09:30",
+          "status": "planned",
+          "gcal": "6pd7stvvp3volagr267sbn1usg"
+        },
+        {
+          "slot": "lunch",
+          "meal": "beef-bolognese-pasta",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 230
+            },
+            {
+              "food": "pasta-dry",
+              "g": 120
+            },
+            {
+              "food": "marinara-raos",
+              "g": 200
+            },
+            {
+              "food": "olive-oil",
+              "g": 5
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 40
+            }
+          ],
+          "time": "12:30",
+          "status": "planned",
+          "gcal": "na5kqp8bn56qqo5sta6vfvfebk"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            }
+          ],
+          "time": "14:45",
+          "status": "planned",
+          "gcal": "lfmsb4emleijhhpcg7jfm59k2c"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            }
+          ],
+          "time": "17:45",
+          "status": "planned",
+          "gcal": "a6f07c7h0f61pnvr4sedb22gf0"
+        },
+        {
+          "slot": "dinner",
+          "meal": "chicken-chunk-rice-bowl",
+          "items": [
+            {
+              "food": "just-bare-chunks",
+              "g": 250
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 100
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            },
+            {
+              "food": "spinach",
+              "g": 60
+            }
+          ],
+          "time": "19:30",
+          "status": "planned",
+          "gcal": "c9au12s3d78p6d1e81po19caos"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 60
+            },
+            {
+              "food": "blackberries",
+              "g": 60
+            }
+          ],
+          "time": "09:30",
+          "status": "planned"
+        },
+        {
+          "slot": "lunch",
+          "meal": "soy-honey-shrimp-bowl",
+          "items": [
+            {
+              "food": "shrimp-raw",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 150
+            },
+            {
+              "food": "butter",
+              "g": 10
+            },
+            {
+              "food": "soy-sauce",
+              "g": 15
+            },
+            {
+              "food": "honey",
+              "g": 10
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            },
+            {
+              "food": "spinach",
+              "g": 60
+            }
+          ],
+          "time": "12:30",
+          "status": "planned"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            }
+          ],
+          "time": "14:45",
+          "status": "planned"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            }
+          ],
+          "time": "17:45",
+          "status": "planned"
+        },
+        {
+          "slot": "dinner",
+          "meal": "buffalo-wings-rice",
+          "items": [
+            {
+              "food": "kirkland-buffalo-wings",
+              "g": 340
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 110
+            },
+            {
+              "food": "spinach",
+              "g": 60
+            }
+          ],
+          "time": "19:30",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "lift": false,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            }
+          ],
+          "time": "09:30",
+          "status": "planned"
+        },
+        {
+          "slot": "lunch",
+          "meal": "beef-rice-bowl",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 100
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 30
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            },
+            {
+              "food": "spinach",
+              "g": 60
+            }
+          ],
+          "time": "12:30",
+          "status": "planned"
+        },
+        {
+          "slot": "afternoon",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            },
+            {
+              "food": "bread-italian",
+              "g": 90
+            }
+          ],
+          "time": "15:30",
+          "status": "planned"
+        },
+        {
+          "slot": "dinner",
+          "meal": "chicken-chunk-rice-bowl",
+          "items": [
+            {
+              "food": "just-bare-chunks",
+              "g": 250
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 150
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            },
+            {
+              "food": "spinach",
+              "g": 60
+            }
+          ],
+          "time": "19:00",
+          "status": "planned"
+        },
+        {
+          "slot": "nightcap",
+          "meal": "yogurt-nightcap",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "strawberries",
+              "g": 80
+            },
+            {
+              "food": "honey",
+              "g": 20
+            }
+          ],
+          "time": "21:30",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            }
+          ],
+          "time": "09:30",
+          "status": "planned"
+        },
+        {
+          "slot": "lunch",
+          "meal": "beef-bolognese-pasta",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 230
+            },
+            {
+              "food": "pasta-dry",
+              "g": 120
+            },
+            {
+              "food": "marinara-raos",
+              "g": 200
+            },
+            {
+              "food": "olive-oil",
+              "g": 5
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 40
+            }
+          ],
+          "time": "12:30",
+          "status": "planned"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            },
+            {
+              "food": "bread-italian",
+              "g": 90
+            }
+          ],
+          "time": "14:45",
+          "status": "planned"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            }
+          ],
+          "time": "17:45",
+          "status": "planned"
+        },
+        {
+          "slot": "dinner",
+          "meal": "soy-honey-shrimp-bowl",
+          "items": [
+            {
+              "food": "shrimp-raw",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 150
+            },
+            {
+              "food": "butter",
+              "g": 10
+            },
+            {
+              "food": "soy-sauce",
+              "g": 15
+            },
+            {
+              "food": "honey",
+              "g": 10
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            }
+          ],
+          "time": "19:30",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            }
+          ],
+          "time": "09:30",
+          "status": "planned"
+        },
+        {
+          "slot": "lunch",
+          "meal": "beef-rice-bowl",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 100
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 30
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            }
+          ],
+          "time": "12:30",
+          "status": "planned"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            },
+            {
+              "food": "bread-italian",
+              "g": 90
+            }
+          ],
+          "time": "14:45",
+          "status": "planned"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            }
+          ],
+          "time": "17:45",
+          "status": "planned"
+        },
+        {
+          "slot": "dinner",
+          "meal": "buffalo-wings-rice",
+          "items": [
+            {
+              "food": "kirkland-buffalo-wings",
+              "g": 340
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 110
+            },
+            {
+              "food": "spinach",
+              "g": 60
+            }
+          ],
+          "time": "19:30",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15 2026-11-16 2026-11-17 2026-11-18 2026-11-19 2026-11-20 2026-11-21 2026-11-22 2026-11-23 2026-11-24 2026-11-25 2026-11-26 2026-11-27 2026-11-28 2026-11-29 2026-11-30 2026-12-01 2026-12-02 2026-12-03 2026-12-04 2026-12-05 2026-12-06 2026-12-07 2026-12-08 2026-12-09 2026-12-10 2026-12-11 2026-12-12 2026-12-13 2026-12-14 2026-12-15 2026-12-16 2026-12-17 2026-12-18 2026-12-19 2026-12-20 2026-12-21 2026-12-22 2026-12-23 2026-12-24 2026-12-25 2026-12-26 2026-12-27 2026-12-28 2026-12-29 2026-12-30 2026-12-31 2027-01-01 2027-01-02 2027-01-03 2027-01-04 2027-01-05 2027-01-06 2027-01-07 2027-01-08 2027-01-09 2027-01-10 2027-01-11 2027-01-12 2027-01-13 2027-01-14 2027-01-15",
       "lift": false,
       "slots": [],
-      "away": "Tahoe trip"
+      "away": "home Nov 15 - Jan 15"
     }
   ]
 }

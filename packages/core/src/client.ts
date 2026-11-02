@@ -39,6 +39,8 @@ const bodyGoalZ = z
     // flat the empirical TDEE collapses to your own average intake, so every missed day
     // ratchets tomorrow's target down — the estimator chases its own tail.
     targetKcalOverride: z.number().positive().optional(),
+    // Pins the protein target, overriding proteinTarget() (0.9 g/lb).
+    targetProteinOverride: z.number().positive().optional(),
   })
   .passthrough();
 const intakeZ = z.array(z.object({ date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/), kcal: z.number().positive() }).passthrough());
@@ -334,7 +336,7 @@ export class HealthClient {
       method,
       tdee,
       targetKcal: target,
-      proteinG: proteinTarget(weightForCalc),
+      proteinG: goal.targetProteinOverride ?? proteinTarget(weightForCalc),
       goal: { targetLb: goal.targetLb, ratePerWeekLb: goal.ratePerWeekLb },
       currentWeightLb,
       lastWeighIn: weighIns.at(-1)?.date ?? null,

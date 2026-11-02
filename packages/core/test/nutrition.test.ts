@@ -56,9 +56,10 @@ describe("HealthClient.nutrition", () => {
     const client = new HealthClient({ dbPath: join(dir, "test.db") });
     const computed = client.nutrition({ now: NOW }).targetKcal;
 
-    writeFileSync(goals, JSON.stringify([{ ...base, targetKcalOverride: 3200 }]));
+    writeFileSync(goals, JSON.stringify([{ ...base, targetKcalOverride: 3200, targetProteinOverride: 180 }]));
     const pinned = new HealthClient({ dbPath: join(dir, "test.db") }).nutrition({ now: NOW });
     expect(pinned.targetKcal).toBe(3200);
+    expect(pinned.proteinG).toBe(180);
     expect(pinned.notes.join(" ")).toContain(`would say ${computed}`);
 
     writeFileSync(goals, JSON.stringify([base])); // restore for the other tests

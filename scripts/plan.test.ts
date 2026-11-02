@@ -67,3 +67,18 @@ test("thaw line counts today's meals eating from the freezer", () => {
   const last = calendar(days, "2026-10-11", byId, foods, lots).at(-1)!;
   expect(last.description).toContain("move 250g Shrimp");
 });
+
+test("thaw line counts planned meals on the days before a future day", () => {
+  const beef = (g: number) => [{ food: "ground-beef-85", g }];
+  const slot = (items: any[]) => ({ slot: "dinner", meal: "beef-potato-dinner", items, time: "19:00", status: "planned" as const });
+  const days = [
+    { date: "2099-01-01", lift: true, slots: [slot(beef(230))] },
+    { date: "2099-01-02", lift: true, slots: [slot(beef(300))] },
+    { date: "2099-01-03", lift: true, slots: [slot(beef(230))] },
+  ];
+  const lots = [
+    { id: "k1", food: "ground-beef-85", where: "fridge" as const, g: 608, since: "2098-12-31" },
+    { id: "k2", food: "ground-beef-85", where: "freezer" as const, g: 1215, since: "2098-12-31" },
+  ];
+  expect(calendar(days, "2099-01-02", byId, foods, lots).at(-1)!.description).toContain("move 152g Ground beef");
+});

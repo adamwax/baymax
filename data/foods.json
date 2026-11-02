@@ -385,7 +385,14 @@
       "vitC": 0,
       "ala": 0.13
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "pantryDays": 4,
+      "fridgeDays": 7,
+      "freezerDays": 90,
+      "thawedDays": 3,
+      "fromFrozen": true
+    }
   },
   {
     "id": "flour-tortilla",
@@ -711,6 +718,11 @@
     "allergyChecked": "2026-07-16",
     "shelfLife": {
       "fridgeDays": 5
+    },
+    "costco": {
+      "id": "16522045",
+      "g": 454,
+      "name": "Organic Baby Spinach, 1 lb"
     }
   },
   {
@@ -769,7 +781,7 @@
       "name": "Raspberries, 12 oz"
     },
     "shelfLife": {
-      "fridgeDays": 4
+      "fridgeDays": 3
     }
   },
   {
@@ -801,7 +813,7 @@
       "name": "Organic Blackberries, 12 oz"
     },
     "shelfLife": {
-      "fridgeDays": 4
+      "fridgeDays": 3
     }
   },
   {
@@ -871,6 +883,11 @@
     "shelfLife": {
       "fridgeDays": 10,
       "pantryDays": 180
+    },
+    "costco": {
+      "id": "20137005",
+      "g": 5676,
+      "name": "Kirkland Signature Organic Non-Dairy Oat Beverage, 32 oz, 6-count (shelf-stable; stand-in for TJ oat beverage)"
     }
   },
   {
@@ -1089,6 +1106,11 @@
     "notes": "per100g from FDC SR values for dry wheat pasta; verify box. MUST be plain wheat pasta - skip 'high-protein'/red-lentil/chickpea pastas (legume allergy)",
     "shelfLife": {
       "pantryDays": 365
+    },
+    "costco": {
+      "id": "17088743",
+      "g": 4000,
+      "name": "Garofalo Organic Spaghetti, 17.6 oz, 8-count"
     }
   },
   {
@@ -1123,6 +1145,11 @@
     "allergyChecked": "2026-08-15",
     "shelfLife": {
       "fridgeDays": 7
+    },
+    "costco": {
+      "id": "3115405",
+      "g": 1000,
+      "name": "Organic English Cucumbers, 3-count"
     }
   },
   {
@@ -1153,6 +1180,11 @@
       "freezerDays": 90,
       "thawedDays": 3,
       "fromFrozen": true
+    },
+    "costco": {
+      "id": "32404222",
+      "g": 900,
+      "name": "Kirkland Signature Sourdough Boule (g est.)"
     }
   },
   {
@@ -1463,7 +1495,7 @@
       "sodium": 250
     },
     "allergyChecked": "2026-09-29",
-    "notes": "Costco deli tray #11159, 1.5-1.75 lb at $9.99/lb. Shrimp ingredients: shrimp, water, salt. No shrimp-only label panel online, so USDA cooked-shrimp values (same as shrimp-cooked). Weigh the shrimp with tails on and it slightly overstates the meat. Shellfish, explicitly safe.",
+    "notes": "Costco deli tray #11159, 1.5-1.75 lb at $9.99/lb. Shrimp ingredients: shrimp, water, salt. No shrimp-only label panel online, so USDA cooked-shrimp values (same as shrimp-cooked). Weigh the shrimp with tails on and it slightly overstates the meat. Shellfish, explicitly safe. TRAY BUYS: the Same-Day listing (SKU 50059371) is 'About 1.6 lb / package' = ~725g GROSS, including the cocktail sauce, lemon and tails. The 10/30 tray yielded ~490g of shrimp (460g eaten + ~30g left on 11/1), so log a `kitchen buy` of ~490g, not 725g.",
     "shelfLife": {
       "fridgeDays": 3
     },
@@ -1612,7 +1644,7 @@
     "weighed": "raw",
     "per100g": {
       "kcal": 63,
-      "protein": 1.0,
+      "protein": 1,
       "carbs": 15.8,
       "fat": 0.3,
       "fiber": 1.4
@@ -1655,5 +1687,95 @@
     },
     "notes": "USDA-style raw fruit values. Not on profile.diet allergies (kiwi is explicitlyOk).",
     "unitG": 200
+  },
+  {
+    "id": "jello-cheesecake-sf",
+    "name": "Jell-O Sugar Free Cheesecake instant pudding mix (dry)",
+    "store": "grocery",
+    "brand": "Jell-O",
+    "fdcType": "label",
+    "weighed": "dry",
+    "packageG": 28,
+    "per100g": {
+      "kcal": 357,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 71,
+      "fiber": 0,
+      "sodium": 4140
+    },
+    "shelfLife": {
+      "pantryDays": 365
+    },
+    "allergyChecked": "2026-10-22",
+    "notes": "1 oz box = 4 x 7g servings (25 kcal each, 290mg sodium). Contains milk; no nut/peanut/legume/fish ingredients. Not sold at Costco Same-Day; buy at Safeway/Target/Walgreens."
+  },
+  {
+    "id": "oreo-thins",
+    "name": "Oreo Thins (original chocolate)",
+    "store": "grocery",
+    "brand": "Nabisco",
+    "fdcType": "label",
+    "weighed": "as sold",
+    "unitG": 7.25,
+    "per100g": {
+      "kcal": 483,
+      "protein": 3.4,
+      "fat": 20.7,
+      "carbs": 72.4,
+      "fiber": 0,
+      "sodium": 328
+    },
+    "shelfLife": {
+      "pantryDays": 120
+    },
+    "allergyChecked": "2026-10-22",
+    "notes": "Label: 4 cookies (29g) = 140 kcal, 6F/21C/1P. Wheat + soy lecithin (whole-soy-derived, fine), may contain milk; no peanut/tree nut ingredients. Not sold at Costco Same-Day."
+  },
+  {
+    "id": "chick-fil-a-honey-mustard",
+    "name": "Chick-fil-A Honey Mustard sauce (packet)",
+    "store": "any",
+    "brand": "Chick-fil-A",
+    "fdcType": "label",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 179,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 43,
+      "sodium": 570
+    },
+    "allergyChecked": "2026-10-26",
+    "notes": "approx label: 28g packet ≈ 50kcal/0P/0F/12C (from memory, verify vs CFA nutrition PDF). Honey, mustard, vinegar, sugar — no profile allergens"
+  },
+  {
+    "id": "kirkland-buffalo-wings",
+    "name": "Crispy Chicken Wings with Classic Buffalo Sauce (Kirkland, frozen, fully cooked)",
+    "brand": "Kirkland Signature",
+    "store": "costco",
+    "fdcType": "label",
+    "weighed": "cooked",
+    "per100g": {
+      "kcal": 178.6,
+      "protein": 20.2,
+      "carbs": 3.6,
+      "fat": 8.3,
+      "fiber": 0,
+      "sodium": 1036
+    },
+    "packageG": 1814,
+    "allergyChecked": "2026-10-31",
+    "notes": "Costco 64 oz bag; buffalo sauce packets included (sauce ~30 kcal per 2 tbsp, ~990mg sodium, not in per100g). Label per 84g: 150 kcal, 17P, 3C, 7F, 870mg sodium (Costco listing/reviews). Adam checked the ingredient label himself 10/31. Bone-in weight: grams are as-served wings incl. bone. Air fry from frozen.",
+    "shelfLife": {
+      "fridgeDays": 3,
+      "thawedDays": 3,
+      "freezerDays": 180,
+      "fromFrozen": true
+    },
+    "costco": {
+      "name": "Kirkland Signature Crispy Wings with Classic Buffalo Sauce, 64 oz",
+      "g": 1814
+    }
   }
 ]
