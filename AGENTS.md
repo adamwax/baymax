@@ -189,7 +189,7 @@ minutes, workouts, and the first VO2 max sample.
 
 ## The inspection step
 
-The registry's 44 types are deliberately generous because **you can't discover
+The registry's 46 types are deliberately generous because **you can't discover
 what you never request**. To re-inspect after new devices/apps appear:
 
 ```bash

@@ -2594,7 +2594,7 @@
             }
           ],
           "time": "09:30",
-          "status": "planned",
+          "status": "eaten",
           "gcal": "6pd7stvvp3volagr267sbn1usg"
         },
         {
@@ -2623,7 +2623,7 @@
             }
           ],
           "time": "12:30",
-          "status": "planned",
+          "status": "eaten",
           "gcal": "na5kqp8bn56qqo5sta6vfvfebk"
         },
         {
@@ -2644,7 +2644,7 @@
             }
           ],
           "time": "14:45",
-          "status": "planned",
+          "status": "skipped",
           "gcal": "lfmsb4emleijhhpcg7jfm59k2c"
         },
         {
@@ -2673,7 +2673,7 @@
             }
           ],
           "time": "17:45",
-          "status": "planned",
+          "status": "skipped",
           "gcal": "a6f07c7h0f61pnvr4sedb22gf0"
         },
         {
@@ -2698,7 +2698,7 @@
             }
           ],
           "time": "19:30",
-          "status": "planned",
+          "status": "skipped",
           "gcal": "c9au12s3d78p6d1e81po19caos"
         }
       ]
@@ -2729,7 +2729,8 @@
             }
           ],
           "time": "09:30",
-          "status": "planned"
+          "status": "eaten",
+          "gcal": "93m2rr03k1rcv9mpujjd784dt8"
         },
         {
           "slot": "lunch",
@@ -2765,7 +2766,7 @@
             }
           ],
           "time": "12:30",
-          "status": "planned"
+          "status": "skipped"
         },
         {
           "slot": "pre-lift",
@@ -2785,7 +2786,7 @@
             }
           ],
           "time": "14:45",
-          "status": "planned"
+          "status": "skipped"
         },
         {
           "slot": "post-lift",
@@ -2813,7 +2814,8 @@
             }
           ],
           "time": "17:45",
-          "status": "planned"
+          "status": "eaten",
+          "gcal": "ugeeg3hvnrotff92a8i79rohao"
         },
         {
           "slot": "dinner",
@@ -2833,7 +2835,7 @@
             }
           ],
           "time": "19:30",
-          "status": "planned"
+          "status": "skipped"
         }
       ]
     },
@@ -2883,7 +2885,7 @@
             }
           ],
           "time": "12:30",
-          "status": "planned"
+          "status": "skipped"
         },
         {
           "slot": "afternoon",
@@ -2907,23 +2909,27 @@
         },
         {
           "slot": "dinner",
-          "meal": "chicken-chunk-rice-bowl",
+          "meal": "beef-rice-bowl",
           "items": [
             {
-              "food": "just-bare-chunks",
-              "g": 250
+              "food": "ground-beef-85",
+              "g": 300
             },
             {
               "food": "white-rice-dry",
-              "g": 150
+              "g": 100
+            },
+            {
+              "food": "cucumber",
+              "g": 100
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 30
             },
             {
               "food": "sriracha",
               "g": 10
-            },
-            {
-              "food": "spinach",
-              "g": 60
             }
           ],
           "time": "19:00",
@@ -2997,7 +3003,7 @@
             }
           ],
           "time": "12:30",
-          "status": "planned"
+          "status": "skipped"
         },
         {
           "slot": "pre-lift",
@@ -3017,7 +3023,7 @@
             }
           ],
           "time": "14:45",
-          "status": "planned"
+          "status": "skipped"
         },
         {
           "slot": "post-lift",
@@ -3044,8 +3050,9 @@
               "g": 30
             }
           ],
-          "time": "17:45",
-          "status": "planned"
+          "time": "19:15",
+          "status": "planned",
+          "gcal": "mni1c179o5ffkjdtbimosi713c"
         },
         {
           "slot": "dinner",
@@ -3058,6 +3065,10 @@
             {
               "food": "white-rice-dry",
               "g": 150
+            },
+            {
+              "food": "cucumber",
+              "g": 100
             },
             {
               "food": "butter",
@@ -3076,8 +3087,9 @@
               "g": 10
             }
           ],
-          "time": "19:30",
-          "status": "planned"
+          "time": "20:15",
+          "status": "planned",
+          "gcal": "dl5m48l6c84fm67qbmbshciabk"
         }
       ]
     },

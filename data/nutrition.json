@@ -5816,5 +5816,404 @@
       }
     ],
     "notes": ""
+  },
+  {
+    "date": "2026-11-02",
+    "kcal": 3121,
+    "protein": 138,
+    "carbs": 347,
+    "fat": 127,
+    "meals": [],
+    "method": "reported-as-eaten. DAY CLOSED. Feeling a little sick; lift skipped. Yogurt bowl without berries (+7g cheesecake mix); bolognese late lunch; planned pre-lift, smoothie, and chicken dinner replaced by Elephant Sushi (inari + surf and turf) and a TJ's pumpkin pie pack.",
+    "deviations": [
+      {
+        "desc": "23:42 Beef bolognese pasta per the plan: 230g Ground beef 85/15, raw + 120g Pasta, wheat, dry (penne/spaghetti) + 200g Rao's Homemade Marinara + 5g Olive oil, extra virgin + 40g Mozzarella, low-moisture part-skim, shredded.",
+        "at": "2026-11-02T23:42",
+        "items": [
+          {
+            "food": "ground-beef-85",
+            "g": 230,
+            "at": "2026-11-02T23:42"
+          },
+          {
+            "food": "pasta-dry",
+            "g": 120,
+            "at": "2026-11-02T23:42"
+          },
+          {
+            "food": "marinara-raos",
+            "g": 200,
+            "at": "2026-11-02T23:42"
+          },
+          {
+            "food": "olive-oil",
+            "g": 5,
+            "at": "2026-11-02T23:42"
+          },
+          {
+            "food": "mozzarella-shredded",
+            "g": 40,
+            "at": "2026-11-02T23:42"
+          }
+        ],
+        "kcal": 1256,
+        "protein": 71,
+        "carbs": 103,
+        "fat": 59
+      },
+      {
+        "desc": "Elephant Sushi (evening): inari + surf and turf roll. Elephant publishes no nutrition and its online menu doesn't list the surf and turf roll; estimate assumes 2 pc inari + an 8-pc roll with shrimp tempura and seared beef. Plausible range 650-1,000 kcal.",
+        "kcal": 800,
+        "protein": 32,
+        "carbs": 115,
+        "fat": 22,
+        "fiber": 3,
+        "sodium": 1800
+      },
+      {
+        "desc": "Trader Joe's pumpkin pie, small pack, late evening. Adam reported ~760 kcal; macros estimated from that kcal figure.",
+        "kcal": 760,
+        "protein": 10,
+        "carbs": 98,
+        "fat": 37,
+        "fiber": 3,
+        "sodium": 550
+      },
+      {
+        "desc": "23:43 Morning yogurt bowl + berries per the plan: 200g Greek yogurt, plain, whole milk + 20g Honey + 7g Jell-O Sugar Free Cheesecake instant pudding mix (dry).",
+        "at": "2026-11-02T23:43",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-11-02T23:43"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-11-02T23:43"
+          },
+          {
+            "food": "jello-cheesecake-sf",
+            "g": 7,
+            "at": "2026-11-02T23:43"
+          }
+        ],
+        "kcal": 275,
+        "protein": 18,
+        "carbs": 31,
+        "fat": 9
+      },
+      {
+        "desc": "23:44 Ad-hoc: 30g Shrimp Cocktail tray shrimp, cooked, tail-on (Kirkland, refrigerated). last two cocktail shrimp before bed, extra protein",
+        "at": "2026-11-02T23:44",
+        "items": [
+          {
+            "food": "kirkland-shrimp-cocktail",
+            "g": 30,
+            "at": "2026-11-02T23:44"
+          }
+        ],
+        "kcal": 30,
+        "protein": 7,
+        "carbs": 0,
+        "fat": 0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-11-03",
+    "kcal": 3178,
+    "protein": 201,
+    "carbs": 285,
+    "fat": 136,
+    "meals": [],
+    "method": "reported-as-eaten. DAY CLOSED. Yogurt bowl at home; lunch Bandit grilled chicken sandwich and early dinner Wooly Pig curry udon (both photo estimates, no published nutrition). Push lifted ~19:00 (220 single spotter-assisted, not counted). Just Bare chunks + ketchup post-lift; evening yogurt-oat-raspberry smoothie.",
+    "deviations": [
+      {
+        "desc": "11:08 Morning yogurt bowl + berries per the plan: 200g Greek yogurt, plain, whole milk + 20g Honey + 7g Jell-O Sugar Free Cheesecake instant pudding mix (dry).",
+        "at": "2026-11-03T11:08",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-11-03T11:08"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-11-03T11:08"
+          },
+          {
+            "food": "jello-cheesecake-sf",
+            "g": 7,
+            "at": "2026-11-03T11:08"
+          }
+        ],
+        "kcal": 275,
+        "protein": 18,
+        "carbs": 31,
+        "fat": 9
+      },
+      {
+        "desc": "12:57 Bandit (632 20th St, Dogpatch — next to Wooly Pig) Grilled Chicken Sandwich: grilled chicken breast, muenster, baby arugula, aioli on a brioche-style bun, side cup of hot sauce. No published nutrition; photo estimate (~150g chicken, 1 slice muenster, ~15g aioli). Plausible range 650-900 kcal.",
+        "at": "2026-11-03T12:57",
+        "kcal": 760,
+        "protein": 62,
+        "carbs": 48,
+        "fat": 34,
+        "fiber": 2,
+        "sodium": 1500
+      },
+      {
+        "desc": "16:49 Wooly Pig Fried Chicken Curry Udon: curry-spiced fried chicken, Thai red coconut-lime curry broth, udon, seasonal choy, fried shallots, lime. No published nutrition; photo estimate assumes ~170g fried chicken, ~300g cooked udon, and ~60% of the coconut broth drunk (finish photo shows ~40% left). Plausible range 900-1,300 kcal. Broth may contain fish sauce.",
+        "at": "2026-11-03T16:49",
+        "kcal": 1100,
+        "protein": 48,
+        "carbs": 95,
+        "fat": 56,
+        "fiber": 3,
+        "sodium": 3000
+      },
+      {
+        "desc": "21:45 Ad-hoc: 250g Lightly Breaded Chicken Breast Chunks (Just Bare, frozen, fully cooked). post-lift protein, air-fried",
+        "at": "2026-11-03T21:45",
+        "items": [
+          {
+            "food": "just-bare-chunks",
+            "g": 250,
+            "at": "2026-11-03T21:45"
+          }
+        ],
+        "kcal": 476,
+        "protein": 48,
+        "carbs": 27,
+        "fat": 21
+      },
+      {
+        "desc": "Ketchup with the nuggets, about one nugget's worth (~17g, 1 tbsp). Generic ketchup estimate.",
+        "kcal": 17,
+        "protein": 0,
+        "carbs": 4,
+        "fat": 0,
+        "sodium": 150
+      },
+      {
+        "desc": "22:39 Post-lift yogurt-oat-mango smoothie per the plan: 200g Greek yogurt, plain, whole milk + 200g Trader Joe's Non-Dairy Oat Beverage with Vitamins A, D & B12 + 35g Oats, dry + 30g Honey + 120g Raspberries. evening smoothie, raspberries instead of mango",
+        "at": "2026-11-03T22:39",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-11-03T22:39"
+          },
+          {
+            "food": "oat-milk",
+            "g": 200,
+            "at": "2026-11-03T22:39"
+          },
+          {
+            "food": "oats-dry",
+            "g": 35,
+            "at": "2026-11-03T22:39"
+          },
+          {
+            "food": "honey",
+            "g": 30,
+            "at": "2026-11-03T22:39"
+          },
+          {
+            "food": "raspberries",
+            "g": 120,
+            "at": "2026-11-03T22:39"
+          }
+        ],
+        "kcal": 550,
+        "protein": 25,
+        "carbs": 80,
+        "fat": 16
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-11-04",
+    "kcal": 1120,
+    "protein": 85,
+    "carbs": 118,
+    "fat": 40,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "13:05 Chipotle burrito (DoorDash reorder of 8/22, order 8bd98cd6) REPLACES the planned beef-rice-bowl lunch (lunch skipped; beef bowl moved to dinner so chicken only once today). Chicken + extra chicken, white rice, NO beans, queso blanco, fresh tomato salsa, roasted chili-corn salsa, romaine. No guac/fajita veggies (allergies). Menu-derived estimate, same as 8/22. $37.23 all-in incl $4 tip.",
+        "at": "2026-11-04T13:05",
+        "kcal": 1120,
+        "protein": 85,
+        "carbs": 118,
+        "fat": 40,
+        "fiber": 6
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-11-05",
+    "kcal": 2750,
+    "protein": 97,
+    "carbs": 300,
+    "fat": 124,
+    "meals": [],
+    "method": "reported-as-eaten 11/7 from memory: Peacock Pansy brunch + biryani dinner. Off plan.",
+    "deviations": [
+      {
+        "desc": "Brunch at Peacock Pansy (no published nutrition), ESTIMATE: shrimp eggs benedict with hollandaise (2 halves English muffin, 2 poached eggs, shrimp) ~750/38P/45C/45F; ~1/5 of a shared ube french toast ~250/5P/35C/10F; sweet potato fries ~400/4P/52C/20F (portion assumed ~3/4 of an order).",
+        "kcal": 1400,
+        "protein": 47,
+        "carbs": 132,
+        "fat": 75
+      },
+      {
+        "desc": "Dinner: Chaat Corner lamb biryani (~2/3 of the order; the rest eaten 11/6) + 1 naan. No published nutrition; ESTIMATE: order ~1,500/60P/170C/60F, 2/3 = ~1,000/40P/113C/40F; naan ~350/10P/55C/9F. ALLERGY: restaurant biryani often has cashews/almonds (tree nut), not confirmed.",
+        "kcal": 1350,
+        "protein": 50,
+        "carbs": 168,
+        "fat": 49
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-11-06",
+    "kcal": 2599,
+    "protein": 69,
+    "carbs": 312,
+    "fat": 63,
+    "meals": [],
+    "method": "reported-as-eaten 11/7 from memory. DAY CLOSED. Off plan; drinks included (alcohol kcal counted in kcal, not in macros).",
+    "deviations": [
+      {
+        "desc": "Morning: Starbucks Everything Bagel with cream cheese spread. Bagel ~290/11P/57C/2F + cream cheese ~100/2P/2C/9F.",
+        "kcal": 390,
+        "protein": 13,
+        "carbs": 59,
+        "fat": 11
+      },
+      {
+        "desc": "Half a Saigon Sandwich pork banh mi. ESTIMATE (half of ~600) ~300/14P/40C/9F.",
+        "kcal": 300,
+        "protein": 14,
+        "carbs": 40,
+        "fat": 9
+      },
+      {
+        "desc": "Leftover Chaat Corner lamb biryani (last ~1/3) + ~80g cooked white rice. ESTIMATE ~500/20P/57C/20F + ~104/2P/23C/0F.",
+        "kcal": 604,
+        "protein": 22,
+        "carbs": 80,
+        "fat": 20
+      },
+      {
+        "desc": "Elephant Sushi dinner (no published nutrition): 2 pc inari ~250/6P/42C/6F; 2 pc A5 wagyu nigiri ~220/7P/16C/14F; 2 pc gunkan with fish roe (tasted miso-y) ~140/7P/20C/3F. ESTIMATE. ALLERGY: fish roe (tobiko/masago/ikura) is finned fish.",
+        "kcal": 610,
+        "protein": 20,
+        "carbs": 78,
+        "fat": 23
+      },
+      {
+        "desc": "2 shots tequila (~1.5 oz each). ESTIMATE ~195 kcal, all alcohol.",
+        "kcal": 195,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      {
+        "desc": "Long Island iced tea at Balboa Cafe. ESTIMATE ~280 kcal (~2 oz mixed spirits + sour mix + cola), ~30C.",
+        "kcal": 280,
+        "protein": 0,
+        "carbs": 30,
+        "fat": 0
+      },
+      {
+        "desc": "Mojito at Elephant Sushi. ESTIMATE ~220 kcal, ~25C.",
+        "kcal": 220,
+        "protein": 0,
+        "carbs": 25,
+        "fat": 0
+      }
+    ],
+    "notes": "Drank (2 tequila shots, Long Island, mojito) + one joint. No lift."
+  },
+  {
+    "date": "2026-11-07",
+    "kcal": 695,
+    "protein": 47,
+    "carbs": 55,
+    "fat": 32,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN. No plan drafted for today yet.",
+    "deviations": [
+      {
+        "desc": "Morning: Liquid I.V. Hydration Multiplier, 1 stick (posted ~45 kcal, 11C).",
+        "kcal": 45,
+        "protein": 0,
+        "carbs": 11,
+        "fat": 0
+      },
+      {
+        "desc": "~1/4 of a McDonald's Quarter Pounder with Cheese (posted whole 520/30P/42C/26F, assumed QPC).",
+        "kcal": 130,
+        "protein": 8,
+        "carbs": 11,
+        "fat": 7
+      },
+      {
+        "desc": "10:51 Yogurt bowl: 200g Greek yogurt, plain, whole milk + 20g Honey + 7g Jell-O Sugar Free Cheesecake instant pudding mix (dry). No plan drafted for today.",
+        "at": "2026-11-07T10:51",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-11-07T10:51"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-11-07T10:51"
+          },
+          {
+            "food": "jello-cheesecake-sf",
+            "g": 7,
+            "at": "2026-11-07T10:51"
+          }
+        ],
+        "kcal": 275,
+        "protein": 18,
+        "carbs": 31,
+        "fat": 9
+      },
+      {
+        "desc": "11:22 3 large eggs scrambled (150g) + a pinch of shredded mozzarella (~10g). Cooking fat not reported, not counted.",
+        "at": "2026-11-07T11:22",
+        "items": [
+          {
+            "food": "egg",
+            "g": 150,
+            "at": "2026-11-07T11:22"
+          },
+          {
+            "food": "mozzarella-shredded",
+            "g": 10,
+            "at": "2026-11-07T11:22"
+          }
+        ],
+        "kcal": 245,
+        "protein": 21,
+        "carbs": 2,
+        "fat": 16
+      }
+    ],
+    "notes": "Hungover after 11/6 drinking."
   }
 ]

@@ -33,6 +33,8 @@ enum SyncedTypes {
         (.appleStandTime, .minute()),
         (.vo2Max, HKUnit(from: "ml/kg*min")),
         (.respiratoryRate, HKUnit.count().unitDivided(by: .minute())),
+        (.appleSleepingWristTemperature, .degreeCelsius()),
+        (.appleSleepingBreathingDisturbances, .count()),
         (.oxygenSaturation, .percent()),
         (.bloodGlucose, HKUnit(from: "mg/dL")),
         (.bodyTemperature, .degreeCelsius()),

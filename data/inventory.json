@@ -1244,6 +1244,15 @@
       "g": 30,
       "where": "fridge",
       "source": "chat"
+    },
+    {
+      "id": "k131",
+      "at": "2026-11-03T11:12",
+      "type": "count",
+      "food": "blackberries",
+      "g": 0,
+      "where": "fridge",
+      "source": "chat"
     }
   ],
   "legacy": [

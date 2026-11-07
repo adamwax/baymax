@@ -13391,6 +13391,75 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "type": "push",
+      "notes": "Evening, ~19:00. Day after being sick.",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 175,
+              "reps": [
+                8,
+                6
+              ]
+            }
+          ],
+          "notes": "220 single attempted, NOT counted: the spotter touched the bar when he shouldn't have, so it's unknown whether it would have gone up. Left out of sets so it doesn't inflate e1RM."
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 37,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 35,
+              "reps": [
+                10,
+                10,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "lb": 66,
+              "reps": [
+                10,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Skull Crusher",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                10,
+                9
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
