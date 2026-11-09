@@ -3208,6 +3208,140 @@
       ]
     },
     {
+      "date": "2026-11-08",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 50
+            },
+            {
+              "food": "blackberries",
+              "g": 50
+            }
+          ],
+          "time": "09:30",
+          "status": "skipped"
+        },
+        {
+          "slot": "lunch",
+          "meal": "chicken-chunk-rice-bowl",
+          "items": [
+            {
+              "food": "just-bare-chunks",
+              "g": 250
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 140
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            }
+          ],
+          "time": "12:30",
+          "status": "skipped",
+          "gcal": "sh9j4879lofdjhogrr4d0gf5g0"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 140
+            },
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            }
+          ],
+          "time": "18:15",
+          "status": "skipped",
+          "gcal": "g92je63kkdpa80v8cdv4lnf2hs"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "honey",
+              "g": 30
+            },
+            {
+              "food": "chia",
+              "g": 15
+            }
+          ],
+          "time": "20:00",
+          "status": "skipped",
+          "gcal": "8vgmgov5jkbu8uem61efm8sv70"
+        },
+        {
+          "slot": "dinner",
+          "meal": "soy-honey-shrimp-bowl",
+          "items": [
+            {
+              "food": "shrimp-raw",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 210
+            },
+            {
+              "food": "butter",
+              "g": 10
+            },
+            {
+              "food": "soy-sauce",
+              "g": 15
+            },
+            {
+              "food": "honey",
+              "g": 10
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            }
+          ],
+          "time": "21:15",
+          "status": "skipped",
+          "gcal": "9mir0896sflv9idrvhrftnj38g"
+        }
+      ]
+    },
+    {
       "date": "2026-11-15 2026-11-16 2026-11-17 2026-11-18 2026-11-19 2026-11-20 2026-11-21 2026-11-22 2026-11-23 2026-11-24 2026-11-25 2026-11-26 2026-11-27 2026-11-28 2026-11-29 2026-11-30 2026-12-01 2026-12-02 2026-12-03 2026-12-04 2026-12-05 2026-12-06 2026-12-07 2026-12-08 2026-12-09 2026-12-10 2026-12-11 2026-12-12 2026-12-13 2026-12-14 2026-12-15 2026-12-16 2026-12-17 2026-12-18 2026-12-19 2026-12-20 2026-12-21 2026-12-22 2026-12-23 2026-12-24 2026-12-25 2026-12-26 2026-12-27 2026-12-28 2026-12-29 2026-12-30 2026-12-31 2027-01-01 2027-01-02 2027-01-03 2027-01-04 2027-01-05 2027-01-06 2027-01-07 2027-01-08 2027-01-09 2027-01-10 2027-01-11 2027-01-12 2027-01-13 2027-01-14 2027-01-15",
       "lift": false,
       "slots": [],

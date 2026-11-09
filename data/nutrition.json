@@ -6147,10 +6147,10 @@
   },
   {
     "date": "2026-11-07",
-    "kcal": 695,
-    "protein": 47,
-    "carbs": 55,
-    "fat": 32,
+    "kcal": 1482,
+    "protein": 82,
+    "carbs": 114,
+    "fat": 78,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN. No plan drafted for today yet.",
     "deviations": [
@@ -6194,26 +6194,110 @@
         "fat": 9
       },
       {
-        "desc": "11:22 3 large eggs scrambled (150g) + a pinch of shredded mozzarella (~10g). Cooking fat not reported, not counted.",
+        "desc": "11:22 3 large eggs scrambled with a pinch of shredded mozzarella; only HALF eaten (75g egg + ~5g mozzarella), couldn't stomach the rest (hungover). Cooking fat not reported, not counted.",
         "at": "2026-11-07T11:22",
         "items": [
           {
             "food": "egg",
-            "g": 150,
+            "g": 75,
             "at": "2026-11-07T11:22"
           },
           {
             "food": "mozzarella-shredded",
-            "g": 10,
+            "g": 5,
             "at": "2026-11-07T11:22"
           }
         ],
-        "kcal": 245,
-        "protein": 21,
-        "carbs": 2,
-        "fat": 16
+        "kcal": 122,
+        "protein": 11,
+        "carbs": 1,
+        "fat": 8
+      },
+      {
+        "desc": "19:08 Lunch at Tony's Pizza Napoletana (shared; NO published nutrition, ESTIMATE from the menu ingredients, portions not weighed): 1 slice Napoletana Margherita (12in, ~1/6 pie) ~150/6P/20C/5F; 1 slice Vodka Pie (vodka sauce, mozzarella, bacon, pepperoni, sausage, ricotta, hot honey; ~1/6 of a 12-13in pie) ~260/12P/22C/14F; some Calamari Fritti (~1/4 order) ~250/12P/16C/15F; some of the Salumi & Cheese Board (prosciutto, Toscano salami, soppressata, Italian cheeses, nduja; ~60g) ~250/15P/2C/20F. ALLERGY: the board comes with peperonata (bell pepper).",
+        "at": "2026-11-07T19:08",
+        "kcal": 910,
+        "protein": 45,
+        "carbs": 60,
+        "fat": 54
       }
     ],
     "notes": "Hungover after 11/6 drinking."
+  },
+  {
+    "date": "2026-11-08",
+    "kcal": 2776,
+    "protein": 171,
+    "carbs": 232,
+    "fat": 127,
+    "meals": [],
+    "method": "reported-as-eaten. DAY CLOSED ~22:45 (post-lift smoothie + shrimp dinner skipped for KBBQ). Plan drafted 11:30 (mealplan.json + gcal); breakfast eaten off-plan, lunch replaced by Proposition Chicken. Rhythm blood test done fasted this morning.",
+    "deviations": [
+      {
+        "desc": "11:20 Starbucks double espresso (doppio, black; posted 10 kcal/1P/2C/0F).",
+        "at": "2026-11-08T11:20",
+        "kcal": 10,
+        "protein": 1,
+        "carbs": 2,
+        "fat": 0
+      },
+      {
+        "desc": "11:20 Yogurt bowl: 200g Greek yogurt, whole milk + 20g honey + ~5g cocoa powder (grams not reported; usual 10:1 bowl, cocoa estimated).",
+        "at": "2026-11-08T11:20",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-11-08T11:20"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-11-08T11:20"
+          },
+          {
+            "food": "cocoa-powder",
+            "g": 5,
+            "at": "2026-11-08T11:20"
+          }
+        ],
+        "kcal": 261,
+        "protein": 19,
+        "carbs": 29,
+        "fat": 10
+      },
+      {
+        "desc": "~12:15 Proposition Chicken Flipped Chicken Sandwich + chips side (DoorDash order 2faf5036, 3 ordered, 1 eaten by Adam, 2 for friends; $72.58 total incl. $10 tip). Menu: rotisserie chicken, hearth-baked roll, mayo, spicy slaw, sage potato chips. NO published nutrition, ESTIMATE: sandwich ~630/40P/50C/28F + chips ~150/2P/16C/9F. Replaces the planned 12:30 chicken chunk rice bowl. Slaw ingredients unpublished (bell pepper unverified).",
+        "at": "2026-11-08T12:15",
+        "kcal": 780,
+        "protein": 42,
+        "carbs": 66,
+        "fat": 37
+      },
+      {
+        "desc": "~18:20 1 slice leftover Tony's Pizza Napoletana prosciutto + truffle (tartufo) pie, reheated (NO published nutrition, ESTIMATE, ~1/6 of a 12-13in Neapolitan pie): ~220/10P/24C/9F. Replaces the planned pre-lift toast.",
+        "at": "2026-11-08T18:20",
+        "kcal": 220,
+        "protein": 10,
+        "carbs": 24,
+        "fat": 9
+      },
+      {
+        "desc": "~18:20 half scoop Bucked Up Woke AF pre-workout (~165mg caffeine, ~0 kcal).",
+        "at": "2026-11-08T18:20",
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      {
+        "desc": "~20:35-22:00 YakiniQ Korean BBQ (Japantown) dinner, everything pictured was Adam's (from the Codex chat photo log; NO published nutrition, PHOTO ESTIMATE, revised down per Adam): beef brisket ~3-4oz cooked ~300; white rice ~3/4 cup ~155; 1 fried dumpling ~60; 1 small piece sauced fried chicken ~90; macaroni/potato salad banchan ~1/4 cup ~100; broccoli + sauce, a few florets ~30; bulgogi ~3-4oz cooked ~280; steak ~2-3oz ~180; 2nd rice bowl ~1 cup ~210; a little more steak ~1-1.5oz ~100; Coke Zero 0. Replaces the planned post-lift smoothie and shrimp dinner.",
+        "at": "2026-11-08T20:35",
+        "kcal": 1505,
+        "protein": 99,
+        "carbs": 111,
+        "fat": 71
+      }
+    ]
   }
 ]

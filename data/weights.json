@@ -13460,6 +13460,75 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-11-07",
+      "type": "pull",
+      "notes": "Hungover day after drinking; walk first. Light, as planned.",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 160,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Spider Curl",
+          "sets": [
+            {
+              "lb": 30,
+              "perSide": true,
+              "reps": [
+                10,
+                10
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "type": "push",
+      "notes": "Evening ~18:45, swapped in for legs (squat test faded to prioritize the 11/13 bench test). Ate only 1 pizza slice + half scoop Woke AF pre-lift, ~6h after lunch.",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 175,
+              "reps": [
+                6,
+                4
+              ]
+            }
+          ],
+          "notes": "225 single attempted and FAILED (warm-up jumped 205 -> 225, skipping the planned 215/220). Not counted in sets so it doesn't distort e1RM. Backoff 175 x 6,4 is well below 11/3's 8,6 (fatigue after the max attempt)."
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 37,
+              "reps": [
+                10,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [],
+          "notes": "35s done per Adam's notes but reps not recorded."
+        }
+      ]
     }
   ]
 }
