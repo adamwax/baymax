@@ -6299,5 +6299,49 @@
         "fat": 71
       }
     ]
+  },
+  {
+    "date": "2026-11-09",
+    "kcal": 1800,
+    "protein": 67,
+    "carbs": 179,
+    "fat": 93,
+    "meals": [],
+    "method": "reported-as-eaten (logged ~20:15, day not closed). Off-plan day during the Mac restore; no plan drafted for 11/9.",
+    "deviations": [
+      {
+        "desc": "Morning (time not reported) everything bagel with cream cheese (shop not reported; NO published nutrition, ESTIMATE: ~4oz bakery everything bagel ~300/11P/59C/2F + ~2 Tbsp regular cream cheese ~100/2P/1C/10F).",
+        "at": "2026-11-09T10:00",
+        "kcal": 400,
+        "protein": 13,
+        "carbs": 60,
+        "fat": 12
+      },
+      {
+        "desc": "Morning double espresso (doppio, black; ~10 kcal/1P/2C/0F).",
+        "at": "2026-11-09T10:00",
+        "kcal": 10,
+        "protein": 1,
+        "carbs": 2,
+        "fat": 0
+      },
+      {
+        "desc": "Later (time not reported) In-N-Out Double-Double Animal Style. Published Double-Double 670/37P/39C/41F; animal style (extra spread, grilled onions, mustard-cooked patties, pickles) not published, ESTIMATED +130/0P/6C/11F.",
+        "at": "2026-11-09T15:00",
+        "kcal": 800,
+        "protein": 37,
+        "carbs": 45,
+        "fat": 52
+      },
+      {
+        "desc": "In-N-Out chocolate shake (15 oz), In-N-Out published nutrition ~590 kcal / 16P / 72C / 29F.",
+        "at": "2026-11-09T15:00",
+        "kcal": 590,
+        "protein": 16,
+        "carbs": 72,
+        "fat": 29
+      }
+    ],
+    "notes": ""
   }
 ]
