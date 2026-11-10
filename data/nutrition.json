@@ -6302,10 +6302,10 @@
   },
   {
     "date": "2026-11-09",
-    "kcal": 1800,
-    "protein": 67,
-    "carbs": 179,
-    "fat": 93,
+    "kcal": 3010,
+    "protein": 148,
+    "carbs": 299,
+    "fat": 137,
     "meals": [],
     "method": "reported-as-eaten (logged ~20:15, day not closed). Off-plan day during the Mac restore; no plan drafted for 11/9.",
     "deviations": [
@@ -6340,6 +6340,14 @@
         "protein": 16,
         "carbs": 72,
         "fat": 29
+      },
+      {
+        "desc": "~21:51 dinner, ATE THE WHOLE BOWL; THRIVE Protein Bowls (60 Morris St, SoMa; ordered by Adam on his phone, Nanda's idea): double BBQ steak, white rice, pickled onions, broccoli, roasted sweet potatoes, tzatziki. NO published nutrition, ESTIMATE (steak portion assumed ~ THRIVE's 37g-protein chicken scoop): double steak ~680/70P/20C/36F, rice ~250/4P/55C/0F, broccoli ~40/3P/7C/0F, sweet potato ~150/2P/30C/3F, pickled onions ~20/0P/5C/0F, tzatziki ~70/2P/3C/5F. Avocado-free build; BBQ sauce ingredients unverified for bell pepper.",
+        "at": "2026-11-09T21:51",
+        "kcal": 1210,
+        "protein": 81,
+        "carbs": 120,
+        "fat": 44
       }
     ],
     "notes": ""
