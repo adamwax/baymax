@@ -1406,6 +1406,26 @@
       "est": true,
       "source": "photos-2026-11-14",
       "note": "boxes in the basement"
+    },
+    {
+      "id": "k147",
+      "at": "2026-11-14T15:27",
+      "type": "toss",
+      "food": "beef-chuck-steak",
+      "g": 440,
+      "lot": "k133",
+      "source": "chat",
+      "note": "old 0.97 lb pack thrown out"
+    },
+    {
+      "id": "k148",
+      "at": "2026-11-14T15:27",
+      "type": "count",
+      "food": "beef-chuck-steak",
+      "g": 694,
+      "where": "fridge",
+      "source": "photos-2026-11-14",
+      "note": "ShopRite label 1.530 lb, sell by 11/15"
     }
   ],
   "legacy": [

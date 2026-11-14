@@ -6354,10 +6354,10 @@
   },
   {
     "date": "2026-11-14",
-    "kcal": 471,
-    "protein": 30,
-    "carbs": 25,
-    "fat": 28,
+    "kcal": 842,
+    "protein": 39,
+    "carbs": 104,
+    "fat": 32,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -6385,6 +6385,31 @@
         "protein": 30,
         "carbs": 25,
         "fat": 28
+      },
+      {
+        "desc": "15:33 Pre-lift oatmeal (honey + grapes) per the plan: 60g Oats, dry + 20g Honey + 120g Grapes, red or black seedless, raw.",
+        "at": "2026-11-14T15:33",
+        "items": [
+          {
+            "food": "oats-dry",
+            "g": 60,
+            "at": "2026-11-14T15:33"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-11-14T15:33"
+          },
+          {
+            "food": "grapes",
+            "g": 120,
+            "at": "2026-11-14T15:33"
+          }
+        ],
+        "kcal": 371,
+        "protein": 9,
+        "carbs": 79,
+        "fat": 4
       }
     ],
     "notes": ""
