@@ -6351,5 +6351,42 @@
       }
     ],
     "notes": ""
+  },
+  {
+    "date": "2026-11-14",
+    "kcal": 471,
+    "protein": 30,
+    "carbs": 25,
+    "fat": 28,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "14:15 Ad-hoc: 135g Homemade breaded chicken cutlet, cooked (leftover) + 28g Chick-fil-A sauce (packet) + 30g Grapes, red or black seedless, raw. Leftover homemade breaded chicken (3 pieces, est from photo) + CFA sauce + 6 grapes from Mom.",
+        "at": "2026-11-14T14:15",
+        "items": [
+          {
+            "food": "breaded-chicken-homemade",
+            "g": 135,
+            "at": "2026-11-14T14:15"
+          },
+          {
+            "food": "chick-fil-a-sauce",
+            "g": 28,
+            "at": "2026-11-14T14:15"
+          },
+          {
+            "food": "grapes",
+            "g": 30,
+            "at": "2026-11-14T14:15"
+          }
+        ],
+        "kcal": 471,
+        "protein": 30,
+        "carbs": 25,
+        "fat": 28
+      }
+    ],
+    "notes": ""
   }
 ]

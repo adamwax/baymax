@@ -41,3 +41,18 @@ test("events are validated", () => {
   expect(() => eventZ.parse({ id: "k1", at: "10/11", type: "toss", food: "honey", g: 5, source: "t" })).toThrow();
   expect(() => eventZ.parse({ id: "k1", at: "2026-10-11", type: "undo", source: "t" })).toThrow();
 });
+
+test("arrive switches kitchens: counts, buys and eating stay at the current site", () => {
+  const events = [
+    ev({ id: "k1", at: "2026-11-01T10:00", type: "buy", food: "ground-beef-85", g: 1000, where: "freezer" }),
+    ev({ id: "k2", at: "2026-11-14T13:00", type: "arrive", site: "nj" }),
+    ev({ id: "k3", at: "2026-11-14T13:05", type: "count", food: "ground-beef-85", g: 600, where: "freezer" }),
+  ];
+  const nutrition = [{ date: "2026-11-15", deviations: [{ at: "2026-11-15T19:00", items: [{ food: "ground-beef-85", g: 250 }] }] }];
+  const { lots, elsewhere, site, drift } = compute(events, nutrition, foods);
+  expect(site).toBe("nj");
+  expect(lots.map((l) => [l.site, l.g])).toEqual([["nj", 350]]); // eaten from the NJ pack, not SF's
+  expect(elsewhere.map((l) => [l.site, l.g])).toEqual([["sf", 1000]]);
+  expect(drift[0]!.computed).toBe(0); // the NJ count doesn't zero out SF stock
+  expect(() => eventZ.parse({ id: "k9", at: "2026-11-14", type: "arrive", source: "t" })).toThrow();
+});

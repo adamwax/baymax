@@ -1777,5 +1777,420 @@
       "name": "Kirkland Signature Crispy Wings with Classic Buffalo Sauce, 64 oz",
       "g": 1814
     }
+  },
+  {
+    "id": "beef-chuck-steak",
+    "name": "Beef top chuck steak, boneless, raw (ShopRite)",
+    "store": "shoprite",
+    "fdcType": "SR Legacy (chuck, top blade, lean+fat)",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 180,
+      "protein": 19.5,
+      "fat": 11,
+      "carbs": 0
+    },
+    "allergyChecked": "2026-11-14",
+    "shelfLife": {
+      "fridgeDays": 4,
+      "freezerDays": 180,
+      "thawedDays": 2
+    },
+    "notes": "NJ house, bought ~11/13 (label 0.97 lb = 440g)."
+  },
+  {
+    "id": "chicken-breast-raw",
+    "name": "Chicken breast, boneless skinless, raw",
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 120,
+      "protein": 22.5,
+      "fat": 2.6,
+      "carbs": 0
+    },
+    "allergyChecked": "2026-11-14",
+    "shelfLife": {
+      "fridgeDays": 2,
+      "freezerDays": 270,
+      "thawedDays": 2
+    },
+    "notes": "NJ house freezer packs (kosher). Cut assumed breast from the photo; confirm on the label."
+  },
+  {
+    "id": "breaded-chicken-homemade",
+    "name": "Homemade breaded chicken cutlet, cooked (leftover)",
+    "weighed": "cooked",
+    "per100g": {
+      "kcal": 230,
+      "protein": 22,
+      "fat": 11,
+      "carbs": 10
+    },
+    "allergyChecked": "2026-11-14",
+    "shelfLife": {
+      "fridgeDays": 4
+    },
+    "notes": "Mom's panko-crumbed, pan-fried cutlet; macros est (breast + crumb + oil). Check the crumb tin for nuts if it's a store breading."
+  },
+  {
+    "id": "fage-0",
+    "name": "Fage Total 0% Greek yogurt",
+    "brand": "Fage",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 53,
+      "protein": 10.6,
+      "fat": 0,
+      "carbs": 3.5
+    },
+    "packageG": 907,
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "fridgeDays": 21
+    },
+    "notes": "label: 170g = 90 kcal / 18P / 0F / 6C"
+  },
+  {
+    "id": "granola-cascadian-blueberry",
+    "name": "Cascadian Farm No Added Sugar Blueberry Vanilla Granola",
+    "brand": "Cascadian Farm",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "dry",
+    "per100g": {
+      "kcal": 420,
+      "protein": 8,
+      "fat": 16,
+      "carbs": 66
+    },
+    "packageG": 312,
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "pantryDays": 120
+    },
+    "notes": "macros est from the category; confirm the panel on the bag. Ingredients have no nuts but include coconut oil (OK). The 'may contain' line isn't online: read it on the bag."
+  },
+  {
+    "id": "oikos-pro-cup",
+    "name": "Oikos Pro yogurt cup",
+    "brand": "Dannon",
+    "fdcType": "label",
+    "weighed": "each",
+    "unitG": 150,
+    "per100g": {
+      "kcal": 93,
+      "protein": 13.3,
+      "fat": 2,
+      "carbs": 4.7
+    },
+    "allergyChecked": "2026-11-14",
+    "shelfLife": {
+      "fridgeDays": 14
+    },
+    "notes": "est from the 150g cup (~140 kcal / 20P); confirm flavor + panel on the cup."
+  },
+  {
+    "id": "broccoli-frozen",
+    "name": "Broccoli florets, frozen (Bowl & Basket)",
+    "store": "shoprite",
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 28,
+      "protein": 2.8,
+      "fat": 0.3,
+      "carbs": 5.4
+    },
+    "packageG": 907,
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "freezerDays": 240,
+      "fromFrozen": true
+    }
+  },
+  {
+    "id": "teriyaki-kikkoman",
+    "name": "Kikkoman Teriyaki Marinade & Sauce",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 83,
+      "protein": 5.6,
+      "fat": 0,
+      "carbs": 16.7
+    },
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "fridgeDays": 180
+    },
+    "notes": "label: 1 Tbsp (18g) = 15 kcal. Soy + wheat (whole soy is safe)."
+  },
+  {
+    "id": "taco-seasoning",
+    "name": "Old El Paso Original Taco Seasoning (packet)",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "dry",
+    "per100g": {
+      "kcal": 250,
+      "protein": 3,
+      "fat": 3,
+      "carbs": 50
+    },
+    "packageG": 28,
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "pantryDays": 365
+    },
+    "notes": "chili/paprika/red pepper only; no bell pepper."
+  },
+  {
+    "id": "tortilla-street-taco",
+    "name": "Mission Street Tacos flour tortilla",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "each",
+    "unitG": 26,
+    "per100g": {
+      "kcal": 300,
+      "protein": 7.7,
+      "fat": 7.7,
+      "carbs": 50
+    },
+    "packageG": 312,
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "pantryDays": 14,
+      "fridgeDays": 30,
+      "freezerDays": 180
+    }
+  },
+  {
+    "id": "tortilla-burrito",
+    "name": "Mission Burrito flour tortilla",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "each",
+    "unitG": 71,
+    "per100g": {
+      "kcal": 296,
+      "protein": 7,
+      "fat": 7,
+      "carbs": 49
+    },
+    "packageG": 567,
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "pantryDays": 14,
+      "fridgeDays": 30,
+      "freezerDays": 180
+    },
+    "notes": "label: 1 tortilla (71g) = 210 kcal / 5P / 5F / 35C"
+  },
+  {
+    "id": "cheddar-shredded",
+    "name": "Shredded sharp cheddar (Bowl & Basket)",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 393,
+      "protein": 25,
+      "fat": 32,
+      "carbs": 3.6
+    },
+    "packageG": 454,
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "fridgeDays": 21
+    }
+  },
+  {
+    "id": "salsa-tostitos-mild",
+    "name": "Tostitos Chunky Salsa, mild",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 32,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 6.5
+    },
+    "packageG": 439,
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "fridgeDays": 30
+    }
+  },
+  {
+    "id": "franks-redhot",
+    "name": "Frank's RedHot Original",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "fridgeDays": 365
+    },
+    "notes": "cayenne (safe). 0 kcal; very high sodium."
+  },
+  {
+    "id": "ranch-hidden-valley",
+    "name": "Hidden Valley Original Ranch",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 433,
+      "protein": 1.7,
+      "fat": 46.7,
+      "carbs": 6.7
+    },
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "fridgeDays": 60
+    },
+    "notes": "label: 2 Tbsp (30g) = 130 kcal / 14F. Egg + milk (fine)."
+  },
+  {
+    "id": "potato-roll",
+    "name": "Martin's Sandwich Potato Roll",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "each",
+    "unitG": 53,
+    "per100g": {
+      "kcal": 283,
+      "protein": 9.4,
+      "fat": 3.8,
+      "carbs": 51
+    },
+    "packageG": 425,
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "pantryDays": 7,
+      "freezerDays": 90
+    }
+  },
+  {
+    "id": "kraft-single",
+    "name": "Kraft Singles American slice",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "each",
+    "unitG": 19,
+    "per100g": {
+      "kcal": 316,
+      "protein": 15.8,
+      "fat": 23.7,
+      "carbs": 5.3
+    },
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "fridgeDays": 60
+    },
+    "notes": "paprika color (safe)."
+  },
+  {
+    "id": "pickle-chips",
+    "name": "Grillo's Classic Dill Pickle Chips",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 10,
+      "protein": 0.5,
+      "fat": 0,
+      "carbs": 1.5
+    },
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "fridgeDays": 30
+    }
+  },
+  {
+    "id": "fries-ore-ida",
+    "name": "Ore-Ida Straight-Cut fries, frozen (as sold)",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "as sold",
+    "per100g": {
+      "kcal": 143,
+      "protein": 2.4,
+      "fat": 4.8,
+      "carbs": 22.6
+    },
+    "packageG": 907,
+    "allergyChecked": "2026-11-12",
+    "shelfLife": {
+      "freezerDays": 365,
+      "fromFrozen": true
+    },
+    "notes": "air fryer, no added oil."
+  },
+  {
+    "id": "lettuce",
+    "name": "Lettuce (romaine/iceberg), raw",
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 16,
+      "protein": 1.1,
+      "fat": 0.2,
+      "carbs": 3.1
+    },
+    "allergyChecked": "2026-11-14",
+    "shelfLife": {
+      "fridgeDays": 7
+    }
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato, raw",
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 18,
+      "protein": 0.9,
+      "fat": 0.2,
+      "carbs": 3.9
+    },
+    "allergyChecked": "2026-11-14",
+    "shelfLife": {
+      "fridgeDays": 7,
+      "pantryDays": 5
+    }
+  },
+  {
+    "id": "cheddar-sliced-sargento",
+    "name": "Sargento Sliced Sharp Natural Cheddar",
+    "brand": "Sargento",
+    "store": "shoprite",
+    "fdcType": "label",
+    "weighed": "each",
+    "unitG": 21,
+    "per100g": {
+      "kcal": 381,
+      "protein": 23.8,
+      "fat": 28.6,
+      "carbs": 0
+    },
+    "packageG": 227,
+    "allergyChecked": "2026-11-14",
+    "shelfLife": {
+      "fridgeDays": 21
+    },
+    "notes": "label: 1 slice (21g) = 80 kcal / 5P / 6F. Ingredients: milk, culture, salt, enzymes, annatto. Replaced Kraft Singles 11/14 (Adam: real cheese)."
   }
 ]

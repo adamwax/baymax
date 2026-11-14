@@ -50,6 +50,13 @@
       "frequency": "daily",
       "startDate": "2026-09-20",
       "note": "Ordered 9/20/2026 in response to the 9/15 Rythm panel: vitamin D 34.5 ng/mL (ref 30-80), essentially flat from 35.0 on 8/07 across an entire summer. Target band 40-60. Adam takes it alongside the daily creatine. TABLET form and LANOLIN-sourced, deliberately: D3 is commonly derived from cod liver oil and softgels often use fish gelatin, both of which his finned-fish/fish-oil allergy rules out. USP Verified. FAT-SOLUBLE - absorption is meaningfully better with a fat-containing meal, so anchor the creatine+D3 pair to dinner rather than an empty stomach. EXPECT the next panel to show D rising ~10-15 ng/mL; that is the supplement working, not a lab anomaly. UPDATE 10/10: the 10/8 panel read 26.8 (DOWN from 34.5) only ~2.5 weeks in, with Adam taking it ~80% of days. Too early to judge (D3 takes ~2-3 months to plateau) and the season is working against it; the fix is consistency (keep it with the creatine at dinner), not a dose change. Judge the December panel: still <30 means ask a doctor about a higher dose. UPDATE 11/11: the 11/8 panel read 33.6 (up from 26.8), so it is moving the right way. Keep the dose and the dinner habit, and judge it on the December panel."
+    },
+    {
+      "name": "Magnesium glycinate (bisglycinate)",
+      "doseMgElemental": 200,
+      "frequency": "nightly",
+      "startDate": "2026-11-14",
+      "note": "Started 11/14/2026 at Adam's request, for sleep. Dose is ELEMENTAL magnesium (labels also print total glycinate weight, which is much larger); keep supplemental Mg under the 350 mg/day UL. Take 30-60 min before bed, separate from the dinner creatine+D3 pair (no interaction, just different anchors). Expect at most a modest effect: the evidence is strongest in people who are low, magnesium has not been measured on any panel, and the real sleep problem as of Nov 2026 is late lights-out (several nights after 2am), which a supplement does not fix. Plain bisglycinate only; no sleep blends with melatonin/ashwagandha/herbs. Allergy-check the label like any packaged product."
     }
   ]
 }

@@ -9,6 +9,7 @@
 //        bun run kitchen move <food> [amount] --to fridge|freezer [--from ..]
 //        bun run kitchen share|toss <food> <amount> [--lot id] [--note ..]
 //        bun run kitchen undo <eventId> | log [--food id] | reconcile
+//        bun run kitchen arrive <site>      (switch kitchens, e.g. nj; stock elsewhere stays put)
 // amount: grams ("907"), packages ("2pk", needs packageG), or units ("3ea", needs unitG). Add --dry-run to any write.
 
 import { dirname, join } from "node:path";
@@ -23,16 +24,19 @@ export type Food = {
   id: string; name: string; weighed: string; unitG?: number; packageG?: number;
   per100g: Record<string, number>; allergyChecked?: string; shelfLife?: ShelfLife;
 };
-export type Lot = { id: string; food: string; where: Where; g: number; since: string; thawedOn?: string; est?: boolean; useBy?: string };
+export type Lot = { id: string; food: string; site: string; where: Where; g: number; since: string; thawedOn?: string; est?: boolean; useBy?: string };
 
 export const WHERE = ["fridge", "freezer", "pantry"] as const;
+// Each kitchen is a site. Events before the first `arrive` happened at HOME_SITE.
+export const HOME_SITE = "sf";
 type Where = (typeof WHERE)[number];
 const at = z.string().regex(/^\d{4}-\d{2}-\d{2}(T\d{2}:\d{2})?$/, "YYYY-MM-DD or YYYY-MM-DDTHH:MM");
 export const eventZ = z
   .object({
     id: z.string(),
     at,
-    type: z.enum(["count", "buy", "move", "share", "toss", "undo"]),
+    type: z.enum(["count", "buy", "move", "share", "toss", "undo", "arrive"]),
+    site: z.string().regex(/^[a-z0-9-]+$/).optional(),
     food: z.string().optional(),
     g: z.number().nonnegative().optional(), // 0 only for a count ("we're out")
     where: z.enum(WHERE).optional(),
@@ -48,6 +52,7 @@ export const eventZ = z
   .superRefine((e, ctx) => {
     const need = (k: keyof typeof e) => e[k] === undefined && ctx.addIssue({ code: "custom", message: `${e.type} needs ${k}` });
     if (e.type === "undo") need("ref");
+    else if (e.type === "arrive") need("site");
     else need("food");
     if (e.type === "count" || e.type === "buy") (need("g"), need("where"));
     if (e.type === "share" || e.type === "toss") need("g");
@@ -93,7 +98,10 @@ export function useBy(lot: Lot, food: Food | undefined): string | undefined {
   return days === undefined ? undefined : addDays(lot.thawedOn && lot.where === "fridge" ? lot.thawedOn : lot.since, days);
 }
 
-/** Replay events + intake items into lots. Intake before the first kitchen event is history, not stock. */
+/**
+ * Replay events + intake items into lots. Intake before the first kitchen event is history, not stock.
+ * Everything happens at the site Adam is at (the last `arrive`); `lots` is that kitchen, `elsewhere` the rest.
+ */
 export function compute(events: KitchenEvent[], nutrition: any[], foods: Map<string, Food>) {
   const undone = new Set(events.filter((e) => e.type === "undo").map((e) => e.ref));
   const live = events.filter((e) => e.type !== "undo" && !undone.has(e.id));
@@ -111,9 +119,10 @@ export function compute(events: KitchenEvent[], nutrition: any[], foods: Map<str
   const drift: { at: string; food: string; where: string; computed: number; counted: number }[] = [];
   const warnings: string[] = [];
   const rank = { fridge: 0, pantry: 1, freezer: 2 };
+  let site = HOME_SITE;
   const take = (food: string, g: number, lot?: string, where?: Where) => {
     const pool = lots
-      .filter((l) => l.food === food && l.g > 0 && (!lot || l.id === lot) && (!where || l.where === where))
+      .filter((l) => l.food === food && l.g > 0 && (lot ? l.id === lot : l.site === site) && (!where || l.where === where))
       .sort((a, b) => rank[a.where] - rank[b.where] || (useBy(a, foods.get(food)) ?? "9").localeCompare(useBy(b, foods.get(food)) ?? "9"));
     const taken: Lot[] = [];
     let left = g;
@@ -128,14 +137,18 @@ export function compute(events: KitchenEvent[], nutrition: any[], foods: Map<str
   };
 
   for (const e of timeline) {
+    if (e.type === "arrive") {
+      site = e.site!;
+      continue;
+    }
     const food = e.food!;
     if (e.type === "count") {
-      const at = lots.filter((l) => l.food === food && l.where === e.where && l.g > 0);
+      const at = lots.filter((l) => l.food === food && l.site === site && l.where === e.where && l.g > 0);
       drift.push({ at: e.at, food, where: e.where!, computed: Math.round(at.reduce((s, l) => s + l.g, 0)), counted: e.g! });
       for (const l of at) l.g = 0;
-      lots.push({ id: e.id, food, where: e.where!, g: e.g!, since: e.at.slice(0, 10), thawedOn: e.thawedOn, est: e.est });
+      lots.push({ id: e.id, food, site, where: e.where!, g: e.g!, since: e.at.slice(0, 10), thawedOn: e.thawedOn, est: e.est });
     } else if (e.type === "buy") {
-      lots.push({ id: e.id, food, where: e.where!, g: e.g!, since: e.at.slice(0, 10), thawedOn: e.thawedOn, est: e.est });
+      lots.push({ id: e.id, food, site, where: e.where!, g: e.g!, since: e.at.slice(0, 10), thawedOn: e.thawedOn, est: e.est });
     } else if (e.type === "move") {
       const { taken, short } = take(food, e.g ?? Infinity, e.lot, e.where);
       if (e.g && short > 0) warnings.push(`${e.id} move: ${Math.round(short)}g ${food} wasn't on hand`);
@@ -143,7 +156,7 @@ export function compute(events: KitchenEvent[], nutrition: any[], foods: Map<str
       if (!g) continue;
       const from = taken[0]!;
       lots.push({
-        id: e.id, food, where: e.to!, g, est: taken.some((l) => l.est),
+        id: e.id, food, site: from.site, where: e.to!, g, est: taken.some((l) => l.est),
         since: e.to === "freezer" ? e.at.slice(0, 10) : from.since,
         thawedOn: from.where === "freezer" && e.to === "fridge" ? e.at.slice(0, 10) : from.thawedOn,
       });
@@ -153,7 +166,7 @@ export function compute(events: KitchenEvent[], nutrition: any[], foods: Map<str
     }
   }
   const onHand = lots.filter((l) => l.g > 0.5).map((l) => ({ ...l, g: Math.round(l.g), useBy: useBy(l, foods.get(l.food)) }));
-  return { lots: onHand, drift, warnings };
+  return { lots: onHand.filter((l) => l.site === site), elsewhere: onHand.filter((l) => l.site !== site), site, drift, warnings };
 }
 
 export function totals(lots: Lot[]) {
@@ -211,7 +224,7 @@ if (import.meta.main) {
     return f;
   };
   const report = async (ev: KitchenEvent) => {
-    console.log(`${dry ? "(dry run) " : ""}${ev.id} ${ev.type} ${ev.food ?? ev.ref} ${ev.g ? `${ev.g}g` : ""}`.trim());
+    console.log(`${dry ? "(dry run) " : ""}${ev.id} ${ev.type} ${ev.food ?? ev.site ?? ev.ref} ${ev.g ? `${ev.g}g` : ""}`.trim());
     if (dry || !ev.food) return;
     const s = await load();
     const { lots } = compute(s.events, s.nutrition, s.foods);
@@ -221,13 +234,15 @@ if (import.meta.main) {
   if (!cmd || cmd === "show") {
     const days = flag("--expiring");
     const only = flag("--food");
-    const { lots, warnings } = compute(state.events, state.nutrition, state.foods);
+    const { lots, elsewhere, site, warnings } = compute(state.events, state.nutrition, state.foods);
     const horizon = days ? addDays(today(), Number(days)) : undefined;
     const shown = lots
       .filter((l) => (!only || l.food === only) && (!horizon || (l.useBy && l.useBy <= horizon)))
       .sort((a, b) => WHERE.indexOf(a.where) - WHERE.indexOf(b.where) || (a.useBy ?? "9").localeCompare(b.useBy ?? "9"));
-    if (json) console.log(JSON.stringify({ lots: shown, warnings }, null, 2));
+    const away = [...new Set(elsewhere.map((l) => l.site))];
+    if (json) console.log(JSON.stringify({ site, lots: shown, warnings }, null, 2));
     else {
+      console.log(`kitchen: ${site}${away.length ? ` (stock also at ${away.join(", ")}; not counted here)` : ""}`);
       for (const l of shown) console.log(fmtLot(l, state.foods));
       for (const w of warnings) console.log(`! ${w}`);
     }
@@ -243,6 +258,8 @@ if (import.meta.main) {
   } else if (cmd === "share" || cmd === "toss") {
     const f = food(rest[0]);
     await report(await append({ type: cmd, food: f.id, lot: flag("--lot"), ...parseAmount(rest[1], f), ...common() }, dry));
+  } else if (cmd === "arrive") {
+    await report(await append({ type: "arrive", site: rest[0], ...common() }, dry));
   } else if (cmd === "undo") {
     await report(await append({ type: "undo", ref: rest[0], ...common() }, dry));
   } else if (cmd === "log") {

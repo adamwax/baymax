@@ -184,7 +184,9 @@ export function calendar(days: PlanDay[], date: string, meals: Map<string, Meal>
       ...(dinner ? ["💊 TAKE WITH THIS MEAL: creatine 5g + vitamin D3 2,000 IU."] : []),
       ...items.map((it) => `• ${foods.get(it.food)!.name} — ${it.g ? `${it.g}g` : `${it.count}`}`),
       ...(meal.notes ? ["", meal.notes] : []),
-      ...(i === live.length - 1 ? ["", `⚠️ BEFORE BED: ${thaw.length ? thaw.join("; ") : "nothing to thaw tonight"}.`] : []),
+      ...(i === live.length - 1
+        ? ["", `⚠️ BEFORE BED: ${thaw.length ? thaw.join("; ") : "nothing to thaw tonight"}.`, "💊 30-60 MIN BEFORE BED: magnesium glycinate, 200 mg elemental (profile.json)."]
+        : []),
     ];
     const [h, m] = s.time.split(":").map(Number);
     const end = new Date(2000, 0, 1, h!, m! + 30).toTimeString().slice(0, 5);
@@ -317,6 +319,8 @@ if (import.meta.main) {
   } else if (cmd === "away") {
     // Trip/eating-out days: no slots, so draft skips them and groceries ignore them.
     const note = flag("--note") ?? "away";
+    // One date per argument: a quoted "d1 d2 ..." once became a single bogus day.
+    for (const date of rest) if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) throw new Error(`bad date "${date}" (YYYY-MM-DD, one per argument)`);
     for (const date of rest) plan.days = [...plan.days.filter((d) => d.date !== date), { date, lift: false, slots: [], away: note }];
     await save();
     console.log(`away: ${rest.join(", ")} (${note})`);

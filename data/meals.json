@@ -963,5 +963,288 @@
       }
     ],
     "method": "Kirkland crispy wings straight from frozen: air fry 400F ~12-14 min (flip halfway), toss in 1-2 of the included Classic Buffalo sauce packets. Rice on the side, spinach wilted into the hot rice. ~340g is about 16 wings, bone-in weight."
+  },
+  {
+    "id": "oats-honey-grapes",
+    "name": "Pre-lift oatmeal (honey + grapes)",
+    "items": [
+      {
+        "food": "oats-dry",
+        "g": 60
+      },
+      {
+        "food": "honey",
+        "g": 20
+      },
+      {
+        "food": "grapes",
+        "g": 120
+      }
+    ],
+    "notes": "Quick oats + water, 1-2 min microwave; honey and grapes on top. 45-90 min before lifting."
+  },
+  {
+    "id": "chuck-steak-rice",
+    "name": "Chuck steak, rice + side salad",
+    "meat": "beef",
+    "slot": "main",
+    "items": [
+      {
+        "food": "beef-chuck-steak",
+        "g": 440
+      },
+      {
+        "food": "white-rice-dry",
+        "g": 100
+      },
+      {
+        "food": "lettuce",
+        "g": 60
+      },
+      {
+        "food": "tomato",
+        "g": 100
+      },
+      {
+        "food": "ranch-hidden-valley",
+        "g": 15
+      }
+    ],
+    "notes": "Pat dry, salt, hot pan or grill ~4 min/side to medium, rest 5. Slice against the grain. Jasmine rice weighed dry."
+  },
+  {
+    "id": "oikos-grapes-nightcap",
+    "name": "Oikos Pro cup + grapes",
+    "items": [
+      {
+        "food": "oikos-pro-cup",
+        "count": 1
+      },
+      {
+        "food": "grapes",
+        "g": 80
+      }
+    ]
+  },
+  {
+    "id": "fage-granola-bowl",
+    "name": "Yogurt bowl (Fage, granola, blueberries, honey)",
+    "items": [
+      {
+        "food": "fage-0",
+        "g": 250
+      },
+      {
+        "food": "granola-cascadian-blueberry",
+        "g": 40
+      },
+      {
+        "food": "blueberries",
+        "g": 75
+      },
+      {
+        "food": "honey",
+        "g": 15
+      }
+    ]
+  },
+  {
+    "id": "fage-honey-nightcap",
+    "name": "Fage + honey + fruit nightcap",
+    "items": [
+      {
+        "food": "fage-0",
+        "g": 150
+      },
+      {
+        "food": "honey",
+        "g": 15
+      },
+      {
+        "food": "grapes",
+        "g": 80
+      }
+    ]
+  },
+  {
+    "id": "teriyaki-chicken-rice",
+    "name": "Teriyaki chicken, rice + broccoli",
+    "meat": "chicken",
+    "slot": "main",
+    "items": [
+      {
+        "food": "chicken-breast-raw",
+        "g": 250
+      },
+      {
+        "food": "white-rice-dry",
+        "g": 100
+      },
+      {
+        "food": "broccoli-frozen",
+        "g": 200
+      },
+      {
+        "food": "teriyaki-kikkoman",
+        "g": 40
+      }
+    ],
+    "notes": "Cube the chicken, sear 6-8 min, toss in teriyaki for the last minute. Broccoli steamed/microwaved from frozen. Rice weighed dry."
+  },
+  {
+    "id": "beef-street-tacos",
+    "name": "Beef street tacos",
+    "meat": "beef",
+    "slot": "main",
+    "items": [
+      {
+        "food": "ground-beef-85",
+        "g": 300
+      },
+      {
+        "food": "taco-seasoning",
+        "g": 14
+      },
+      {
+        "food": "tortilla-street-taco",
+        "count": 4
+      },
+      {
+        "food": "cheddar-shredded",
+        "g": 30
+      },
+      {
+        "food": "lettuce",
+        "g": 40
+      },
+      {
+        "food": "tomato",
+        "g": 60
+      },
+      {
+        "food": "salsa-tostitos-mild",
+        "g": 60
+      },
+      {
+        "food": "fage-0",
+        "g": 40
+      },
+      {
+        "food": "broccoli-frozen",
+        "g": 150
+      }
+    ],
+    "notes": "Brown the beef, half a seasoning packet + a splash of water. Fage instead of sour cream. Warm tortillas in a dry pan. Broccoli: microwave 150g from frozen, on the side (or chopped into the filling)."
+  },
+  {
+    "id": "buffalo-chicken-wraps-nj",
+    "name": "Buffalo chicken wraps",
+    "meat": "chicken",
+    "slot": "main",
+    "items": [
+      {
+        "food": "chicken-breast-raw",
+        "g": 200
+      },
+      {
+        "food": "tortilla-burrito",
+        "count": 2
+      },
+      {
+        "food": "franks-redhot",
+        "g": 30
+      },
+      {
+        "food": "ranch-hidden-valley",
+        "g": 20
+      },
+      {
+        "food": "cheddar-shredded",
+        "g": 20
+      },
+      {
+        "food": "lettuce",
+        "g": 50
+      },
+      {
+        "food": "tomato",
+        "g": 50
+      },
+      {
+        "food": "broccoli-frozen",
+        "g": 150
+      }
+    ],
+    "notes": "Cook + chop the chicken, toss in Frank's. Ranch drizzled, not poured (20g is ~1.5 Tbsp). Broccoli: microwave 150g from frozen, on the side (or chopped into the filling)."
+  },
+  {
+    "id": "smash-burgers",
+    "name": "Smash burgers + fries",
+    "meat": "beef",
+    "slot": "main",
+    "items": [
+      {
+        "food": "ground-beef-85",
+        "g": 230
+      },
+      {
+        "food": "potato-roll",
+        "count": 2
+      },
+      {
+        "food": "cheddar-sliced-sargento",
+        "count": 2
+      },
+      {
+        "food": "pickle-chips",
+        "g": 30
+      },
+      {
+        "food": "lettuce",
+        "g": 20
+      },
+      {
+        "food": "tomato",
+        "g": 40
+      },
+      {
+        "food": "fries-ore-ida",
+        "g": 150
+      }
+    ],
+    "notes": "Fun dinner. Two 115g balls, smash hard on a ripping-hot pan, salt, flip at ~2 min, sharp cheddar slice on (lid on for 30s to melt). Fries in the air fryer, 400F ~15 min, no oil."
+  },
+  {
+    "id": "chicken-quesadilla-nj",
+    "name": "Chicken quesadilla",
+    "meat": "chicken",
+    "slot": "main",
+    "items": [
+      {
+        "food": "chicken-breast-raw",
+        "g": 200
+      },
+      {
+        "food": "tortilla-burrito",
+        "count": 2
+      },
+      {
+        "food": "cheddar-shredded",
+        "g": 50
+      },
+      {
+        "food": "salsa-tostitos-mild",
+        "g": 60
+      },
+      {
+        "food": "fage-0",
+        "g": 30
+      },
+      {
+        "food": "broccoli-frozen",
+        "g": 150
+      }
+    ],
+    "notes": "Season + cook the chicken (leftover taco seasoning works), chop, build in a dry pan. Salsa + Fage to dip. Broccoli: microwave 150g from frozen, on the side (or chopped into the filling)."
   }
 ]

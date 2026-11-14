@@ -33,6 +33,8 @@ Kitchen event types:
 - `share` is someone else eating it. `toss` is spoiled or thrown out.
 - `undo` reverses one event by id.
 
+- `arrive` switches kitchens (`bun run kitchen arrive nj`). Every lot belongs to the site it was counted or bought at (`sf` before the first `arrive`). From then on counts, buys, moves and eating all happen at the current site, while the other kitchen's stock waits untouched. `show`, `plan` and `costco` only see the current site.
+
 Eating isn't an event. It's derived from intake items, so it's never entered twice.
 Intake dated before the first kitchen event is history and doesn't subtract.
 
@@ -53,6 +55,7 @@ bun run kitchen count chipotle-chicken-kirkland 457 --where fridge --thawed 2026
 bun run kitchen move chipotle-chicken-kirkland 300 --to fridge     # thaw
 bun run kitchen share gnocchi 250 --note Nanda
 bun run kitchen toss spinach 60
+bun run kitchen arrive nj                                          # now cooking at the NJ house
 bun run kitchen undo k11 | log [--food id] | reconcile             # all writes take --dry-run
 
 bun run plan draft --from 2026-10-12 --days 3 [--rest 2026-10-14] [--seed N] --write

@@ -1253,6 +1253,159 @@
       "g": 0,
       "where": "fridge",
       "source": "chat"
+    },
+    {
+      "id": "k132",
+      "at": "2026-11-14T13:00",
+      "type": "arrive",
+      "site": "nj",
+      "source": "photos-2026-11-14"
+    },
+    {
+      "id": "k133",
+      "at": "2026-11-14T13:30",
+      "type": "count",
+      "food": "beef-chuck-steak",
+      "g": 440,
+      "where": "fridge",
+      "source": "photos-2026-11-14",
+      "note": "label 0.97 lb, bought ~11/13"
+    },
+    {
+      "id": "k134",
+      "at": "2026-11-14T13:30",
+      "type": "count",
+      "food": "breaded-chicken-homemade",
+      "g": 135,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-14",
+      "note": "3 pieces on the plate"
+    },
+    {
+      "id": "k135",
+      "at": "2026-11-14T13:30",
+      "type": "count",
+      "food": "chick-fil-a-sauce",
+      "g": 28,
+      "where": "pantry",
+      "source": "photos-2026-11-14"
+    },
+    {
+      "id": "k136",
+      "at": "2026-11-14T13:30",
+      "type": "count",
+      "food": "grapes",
+      "g": 700,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-14"
+    },
+    {
+      "id": "k137",
+      "at": "2026-11-14T13:30",
+      "type": "count",
+      "food": "lettuce",
+      "g": 300,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-14"
+    },
+    {
+      "id": "k138",
+      "at": "2026-11-14T13:30",
+      "type": "count",
+      "food": "tomato",
+      "g": 400,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-14",
+      "note": "~4 tomatoes"
+    },
+    {
+      "id": "k139",
+      "at": "2026-11-14T13:30",
+      "type": "count",
+      "food": "oikos-pro-cup",
+      "g": 150,
+      "where": "fridge",
+      "source": "photos-2026-11-14"
+    },
+    {
+      "id": "k140",
+      "at": "2026-11-14T13:30",
+      "type": "count",
+      "food": "egg",
+      "g": 600,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-14",
+      "note": "carton, ~12"
+    },
+    {
+      "id": "k141",
+      "at": "2026-11-14T13:30",
+      "type": "count",
+      "food": "ground-beef-85",
+      "g": 1180,
+      "where": "freezer",
+      "est": true,
+      "source": "photos-2026-11-14",
+      "note": "2 ShopRite 85/15 packs; weigh/read labels"
+    },
+    {
+      "id": "k142",
+      "at": "2026-11-14T13:30",
+      "type": "count",
+      "food": "chicken-breast-raw",
+      "g": 2700,
+      "where": "freezer",
+      "est": true,
+      "source": "photos-2026-11-14",
+      "note": "2 big kosher packs; cut + weight unconfirmed"
+    },
+    {
+      "id": "k143",
+      "at": "2026-11-14T13:30",
+      "type": "count",
+      "food": "oats-dry",
+      "g": 500,
+      "where": "pantry",
+      "est": true,
+      "source": "photos-2026-11-14",
+      "note": "Quaker 1-minute canister"
+    },
+    {
+      "id": "k144",
+      "at": "2026-11-14T13:30",
+      "type": "count",
+      "food": "honey",
+      "g": 300,
+      "where": "pantry",
+      "est": true,
+      "source": "photos-2026-11-14"
+    },
+    {
+      "id": "k145",
+      "at": "2026-11-14T13:30",
+      "type": "count",
+      "food": "white-rice-dry",
+      "g": 900,
+      "where": "pantry",
+      "est": true,
+      "source": "photos-2026-11-14",
+      "note": "Bowl & Basket jasmine"
+    },
+    {
+      "id": "k146",
+      "at": "2026-11-14T13:30",
+      "type": "count",
+      "food": "pasta-dry",
+      "g": 900,
+      "where": "pantry",
+      "est": true,
+      "source": "photos-2026-11-14",
+      "note": "boxes in the basement"
     }
   ],
   "legacy": [
