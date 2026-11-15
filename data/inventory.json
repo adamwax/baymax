@@ -1435,6 +1435,13 @@
       "g": 250,
       "to": "fridge",
       "source": "chat"
+    },
+    {
+      "id": "k150",
+      "at": "2026-11-15T14:00",
+      "type": "undo",
+      "ref": "k149",
+      "source": "chat"
     }
   ],
   "legacy": [

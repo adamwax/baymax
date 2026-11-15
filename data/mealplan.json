@@ -3450,7 +3450,7 @@
         {
           "slot": "lunch",
           "meal": "teriyaki-chicken-rice",
-          "time": "13:45",
+          "time": "15:00",
           "status": "planned",
           "items": [
             {
@@ -3489,7 +3489,7 @@
               "g": 120
             }
           ],
-          "time": "15:00",
+          "time": "18:15",
           "status": "planned",
           "gcal": "e1gj1hd5i5r8juirab1tqt1obc"
         },
