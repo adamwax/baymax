@@ -3349,7 +3349,7 @@
           "slot": "pre-lift",
           "meal": "oats-honey-grapes",
           "time": "15:15",
-          "status": "planned",
+          "status": "eaten",
           "items": [
             {
               "food": "oats-dry",
@@ -3374,7 +3374,7 @@
           "items": [
             {
               "food": "beef-chuck-steak",
-              "g": 440
+              "g": 347
             },
             {
               "food": "white-rice-dry",
@@ -3394,7 +3394,7 @@
             },
             {
               "food": "egg",
-              "g": 100
+              "g": 150
             }
           ],
           "gcal": "2uklrlrkrucbo8c3354rr8qtks"
