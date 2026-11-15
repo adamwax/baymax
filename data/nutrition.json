@@ -6441,37 +6441,37 @@
   },
   {
     "date": "2026-11-15",
-    "kcal": 850,
-    "protein": 36,
-    "carbs": 117,
-    "fat": 25,
+    "kcal": 507,
+    "protein": 24,
+    "carbs": 64,
+    "fat": 17,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
       {
-        "desc": "10:45 Ad-hoc: 240g Challah (egg bread) + 100g Egg, whole, large + 30g Whole milk 3.25%. challah French toast, 4 thick slices (~60g each, est from photo), ~2 eggs + splash of milk",
+        "desc": "10:45 Ad-hoc: 130g Challah (egg bread) + 85g Egg, whole, large + 20g Whole milk 3.25%. challah French toast, 4 slices, 223g cooked total (weighed); raw split est ~130g challah + ~1.7 eggs + splash milk (~5% cook loss)",
         "at": "2026-11-15T10:45",
         "items": [
           {
             "food": "challah",
-            "g": 240,
+            "g": 130,
             "at": "2026-11-15T10:45"
           },
           {
             "food": "egg",
-            "g": 100,
+            "g": 85,
             "at": "2026-11-15T10:45"
           },
           {
             "food": "whole-milk",
-            "g": 30,
+            "g": 20,
             "at": "2026-11-15T10:45"
           }
         ],
-        "kcal": 850,
-        "protein": 36,
-        "carbs": 117,
-        "fat": 25
+        "kcal": 507,
+        "protein": 24,
+        "carbs": 64,
+        "fat": 17
       }
     ],
     "notes": ""
