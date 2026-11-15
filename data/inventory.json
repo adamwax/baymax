@@ -1426,6 +1426,15 @@
       "where": "fridge",
       "source": "photos-2026-11-14",
       "note": "ShopRite label 1.530 lb, sell by 11/15"
+    },
+    {
+      "id": "k149",
+      "at": "2026-11-15T13:39",
+      "type": "move",
+      "food": "chicken-breast-raw",
+      "g": 250,
+      "to": "fridge",
+      "source": "chat"
     }
   ],
   "legacy": [
