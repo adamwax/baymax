@@ -13529,6 +13529,83 @@
           "notes": "35s done per Adam's notes but reps not recorded."
         }
       ]
+    },
+    {
+      "date": "2026-11-14",
+      "type": "legs",
+      "notes": "Lower A (moved to Sat). Pre-lift oatmeal 15:33.",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "lb": 265,
+              "reps": [
+                2
+              ]
+            },
+            {
+              "lb": 235,
+              "reps": [
+                5,
+                3
+              ]
+            }
+          ],
+          "notes": "265 double was hard."
+        },
+        {
+          "name": "Barbell RDL",
+          "sets": [
+            {
+              "lb": 185,
+              "reps": [
+                8,
+                8,
+                6
+              ]
+            }
+          ],
+          "notes": "Logged as RDL in Adam's notes; barbell assumed from the load."
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "lb": 540,
+              "reps": [
+                8,
+                8,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "lb": 145,
+              "reps": [
+                8,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Leg Extension",
+          "sets": [
+            {
+              "lb": 140,
+              "reps": [
+                8,
+                4
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
