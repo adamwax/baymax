@@ -3420,7 +3420,7 @@
     },
     {
       "date": "2026-11-15",
-      "lift": false,
+      "lift": true,
       "slots": [
         {
           "slot": "breakfast",
@@ -3473,7 +3473,7 @@
           "gcal": "dpmr7nv36f6hdg85s2hjc9kjds"
         },
         {
-          "slot": "afternoon",
+          "slot": "pre-lift",
           "meal": "oats-honey-grapes",
           "items": [
             {
@@ -3489,7 +3489,7 @@
               "g": 120
             }
           ],
-          "time": "16:00",
+          "time": "15:15",
           "status": "planned",
           "gcal": "e1gj1hd5i5r8juirab1tqt1obc"
         },
@@ -3563,7 +3563,7 @@
     },
     {
       "date": "2026-11-16",
-      "lift": true,
+      "lift": false,
       "slots": [
         {
           "slot": "breakfast",
@@ -3632,7 +3632,7 @@
           "gcal": "t960pmeprc21r1r8s57970i44g"
         },
         {
-          "slot": "pre-lift",
+          "slot": "afternoon",
           "meal": "oats-honey-grapes",
           "time": "15:00",
           "status": "planned",
