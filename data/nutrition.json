@@ -6354,10 +6354,10 @@
   },
   {
     "date": "2026-11-14",
-    "kcal": 842,
-    "protein": 39,
-    "carbs": 104,
-    "fat": 32,
+    "kcal": 2420,
+    "protein": 140,
+    "carbs": 266,
+    "fat": 86,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -6410,6 +6410,68 @@
         "protein": 9,
         "carbs": 79,
         "fat": 4
+      },
+      {
+        "desc": "19:30 Chuck steak, rice + side salad per the plan: 347g Beef top chuck steak, boneless, raw (ShopRite) + 200g White rice, long grain, dry + 150g Egg, whole, large. steak, rice, eggs as planned; salad not eaten (2 servings saved in the fridge)",
+        "at": "2026-11-14T19:30",
+        "items": [
+          {
+            "food": "beef-chuck-steak",
+            "g": 347,
+            "at": "2026-11-14T19:30"
+          },
+          {
+            "food": "white-rice-dry",
+            "g": 200,
+            "at": "2026-11-14T19:30"
+          },
+          {
+            "food": "egg",
+            "g": 150,
+            "at": "2026-11-14T19:30"
+          }
+        ],
+        "kcal": 1578,
+        "protein": 101,
+        "carbs": 162,
+        "fat": 54
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-11-15",
+    "kcal": 850,
+    "protein": 36,
+    "carbs": 117,
+    "fat": 25,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "10:45 Ad-hoc: 240g Challah (egg bread) + 100g Egg, whole, large + 30g Whole milk 3.25%. challah French toast, 4 thick slices (~60g each, est from photo), ~2 eggs + splash of milk",
+        "at": "2026-11-15T10:45",
+        "items": [
+          {
+            "food": "challah",
+            "g": 240,
+            "at": "2026-11-15T10:45"
+          },
+          {
+            "food": "egg",
+            "g": 100,
+            "at": "2026-11-15T10:45"
+          },
+          {
+            "food": "whole-milk",
+            "g": 30,
+            "at": "2026-11-15T10:45"
+          }
+        ],
+        "kcal": 850,
+        "protein": 36,
+        "carbs": 117,
+        "fat": 25
       }
     ],
     "notes": ""

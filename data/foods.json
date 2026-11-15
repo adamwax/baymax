@@ -1834,6 +1834,26 @@
     "notes": "Mom's panko-crumbed, pan-fried cutlet; macros est (breast + crumb + oil). Check the crumb tin for nuts if it's a store breading."
   },
   {
+    "id": "challah",
+    "name": "Challah (egg bread)",
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "store": "any",
+    "per100g": {
+      "kcal": 287,
+      "protein": 9.5,
+      "fat": 6,
+      "carbs": 47.8,
+      "fiber": 2.3
+    },
+    "allergyChecked": "2026-11-15",
+    "shelfLife": {
+      "pantryDays": 4,
+      "freezerDays": 90
+    },
+    "notes": "SR Legacy 'Bread, egg' (NDB 18064). Plain challah is flour/egg/sugar/oil; bakery loaves can share a line with nut/almond-topped breads — check the bag for 'may contain tree nuts'."
+  },
+  {
     "id": "fage-0",
     "name": "Fage Total 0% Greek yogurt",
     "brand": "Fage",
