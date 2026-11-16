@@ -13606,6 +13606,79 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-11-15",
+      "type": "upper",
+      "notes": "Upper A (heavy), ~17:00-18:10 trimmed for a 7pm dinner. Felt sick/off at noon; lunch (teriyaki thighs + rice) only ~1h pre-lift; ~1,500 kcal on the day before lifting.",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 205,
+              "reps": [
+                1
+              ]
+            },
+            {
+              "lb": 175,
+              "reps": [
+                7,
+                3
+              ]
+            }
+          ],
+          "notes": "225 single attempted and FAILED; not counted in sets (same convention as 11/8)."
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "lb": 180,
+              "reps": [
+                8,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 175,
+              "reps": [
+                7,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 30,
+              "perSide": true,
+              "reps": [
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "lb": 62.5,
+              "reps": [
+                6
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
