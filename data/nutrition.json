@@ -6441,10 +6441,10 @@
   },
   {
     "date": "2026-11-15",
-    "kcal": 2705,
-    "protein": 126,
-    "carbs": 385,
-    "fat": 72,
+    "kcal": 3113,
+    "protein": 150,
+    "carbs": 445,
+    "fat": 82,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -6510,6 +6510,36 @@
         "protein": 52,
         "carbs": 205,
         "fat": 38
+      },
+      {
+        "desc": "21:39 Fage + honey + fruit nightcap per the plan: 15g Honey + 80g Grapes, red or black seedless, raw + 40g Cascadian Farm No Added Sugar Blueberry Vanilla Granola + 150g Oikos Pro yogurt cup. no Fage in the house; swapped one Oikos cup (Adam called it Triple Zero ~15P; registry has Oikos Pro 150g, confirm label)",
+        "at": "2026-11-15T21:39",
+        "items": [
+          {
+            "food": "honey",
+            "g": 15,
+            "at": "2026-11-15T21:39"
+          },
+          {
+            "food": "grapes",
+            "g": 80,
+            "at": "2026-11-15T21:39"
+          },
+          {
+            "food": "granola-cascadian-blueberry",
+            "g": 40,
+            "at": "2026-11-15T21:39"
+          },
+          {
+            "food": "oikos-pro-cup",
+            "g": 150,
+            "at": "2026-11-15T21:39"
+          }
+        ],
+        "kcal": 408,
+        "protein": 24,
+        "carbs": 60,
+        "fat": 10
       }
     ],
     "notes": ""

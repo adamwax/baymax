@@ -3542,7 +3542,7 @@
           "slot": "nightcap",
           "meal": "fage-honey-nightcap",
           "time": "21:30",
-          "status": "planned",
+          "status": "eaten",
           "items": [
             {
               "food": "fage-0",
