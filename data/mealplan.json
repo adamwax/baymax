@@ -3546,7 +3546,7 @@
           "items": [
             {
               "food": "fage-0",
-              "g": 150
+              "g": 250
             },
             {
               "food": "honey",
@@ -3555,6 +3555,10 @@
             {
               "food": "grapes",
               "g": 80
+            },
+            {
+              "food": "granola-cascadian-blueberry",
+              "g": 40
             }
           ],
           "gcal": "nplncvqdlt6ir52trpqbaonqvo"

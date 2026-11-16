@@ -6441,10 +6441,10 @@
   },
   {
     "date": "2026-11-15",
-    "kcal": 2978,
-    "protein": 142,
-    "carbs": 423,
-    "fat": 77,
+    "kcal": 2705,
+    "protein": 126,
+    "carbs": 385,
+    "fat": 72,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -6474,34 +6474,34 @@
         "fat": 17
       },
       {
-        "desc": "16:00 Teriyaki chicken, rice + broccoli per the plan: 170g White rice, long grain, dry + 200g Broccoli florets, frozen (Bowl & Basket) + 40g Kikkoman Teriyaki Marinade & Sauce + 250g Chicken thigh, boneless skinless, raw. bone-in skin-on thighs pan-seared, ~185g cooked meat ≈ 250g raw boneless; rice was 480g cooked leftover from 11/14 (= 170g dry)",
+        "desc": "16:00 Teriyaki chicken, rice + broccoli per the plan: 170g White rice, long grain, dry + 200g Broccoli florets, frozen (Bowl & Basket) + 40g Kikkoman Teriyaki Marinade & Sauce + 250g Chicken thigh, boneless skinless, raw. bone-in skin-on thighs pan-seared, ~185g cooked meat ≈ 250g raw boneless; rice was 480g cooked leftover from 11/14 (= 170g dry) ATE ~3/4 (all items scaled 0.75).",
         "at": "2026-11-15T16:00",
         "items": [
           {
             "food": "white-rice-dry",
-            "g": 170,
+            "g": 128,
             "at": "2026-11-15T16:00"
           },
           {
             "food": "broccoli-frozen",
-            "g": 200,
+            "g": 150,
             "at": "2026-11-15T16:00"
           },
           {
             "food": "teriyaki-kikkoman",
-            "g": 40,
+            "g": 30,
             "at": "2026-11-15T16:00"
           },
           {
             "food": "chicken-thigh",
-            "g": 250,
+            "g": 188,
             "at": "2026-11-15T16:00"
           }
         ],
-        "kcal": 1091,
-        "protein": 66,
-        "carbs": 154,
-        "fat": 22
+        "kcal": 818,
+        "protein": 50,
+        "carbs": 116,
+        "fat": 17
       },
       {
         "desc": "19:00 Restaurant (Lamberti's Tutti Toscani, Cherry Hill, w/ Mom-Mom + Jared), estimated from photos: 2 small bread pieces (one tomato-topped focaccia, one roll, ~100g) ~250 kcal / 8P; rigatoni bolognese, whole plate eaten (~350g cooked pasta + meat sauce) ~850 kcal / 35P; angel hair side from the veal parm, pasta only, no veal (~160g cooked, light oil + sauce) ~280 kcal / 9P. Portion sizes are estimates.",
