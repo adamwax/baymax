@@ -922,6 +922,20 @@
     }
   },
   {
+    "id": "soy-milk",
+    "name": "Soy milk, original (sweetened)",
+    "fdcType": "SR Legacy (soymilk, original and vanilla, with added calcium, vitamins A and D)",
+    "weighed": "as sold",
+    "per100g": {
+      "kcal": 54,
+      "protein": 3.27,
+      "fat": 1.75,
+      "carbs": 6.28
+    },
+    "allergyChecked": "2026-11-17",
+    "notes": "Whole soy is safe (profile.json). Brand unknown (Dad's carton at the NJ house); confirm no pea protein / soy isolate on the label. Unsweetened is ~33 kcal/100g."
+  },
+  {
     "id": "rotisserie-chicken",
     "name": "Shredded rotisserie chicken (refrigerated)",
     "store": "traderjoes",

@@ -3724,7 +3724,7 @@
           "slot": "breakfast",
           "meal": "oats-honey-grapes",
           "time": "09:30",
-          "status": "planned",
+          "status": "eaten",
           "items": [
             {
               "food": "oats-dry",

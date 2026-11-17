@@ -6640,5 +6640,57 @@
       }
     ],
     "notes": "Off-plan day: none of the planned slots eaten; all intake estimated from Adam's description."
+  },
+  {
+    "date": "2026-11-17",
+    "kcal": 726,
+    "protein": 36,
+    "carbs": 115,
+    "fat": 15,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "08:55 Pre-lift oatmeal (honey + grapes) per the plan: 60g Oats, dry + 25g Honey + 80g Grapes, red or black seedless, raw + 150g Oikos Pro yogurt cup + 35g Cascadian Farm No Added Sugar Blueberry Vanilla Granola + 150g Soy milk, original (sweetened). Dad's oatmeal: Quaker oats + soy milk, 204g cooked (weighed, photo); ~60g dry oats + ~150g soy milk est. Honey split oatmeal/yogurt; Oikos bowl w/ grapes + granola",
+        "at": "2026-11-17T08:55",
+        "items": [
+          {
+            "food": "oats-dry",
+            "g": 60,
+            "at": "2026-11-17T08:55"
+          },
+          {
+            "food": "honey",
+            "g": 25,
+            "at": "2026-11-17T08:55"
+          },
+          {
+            "food": "grapes",
+            "g": 80,
+            "at": "2026-11-17T08:55"
+          },
+          {
+            "food": "oikos-pro-cup",
+            "g": 150,
+            "at": "2026-11-17T08:55"
+          },
+          {
+            "food": "granola-cascadian-blueberry",
+            "g": 35,
+            "at": "2026-11-17T08:55"
+          },
+          {
+            "food": "soy-milk",
+            "g": 150,
+            "at": "2026-11-17T08:55"
+          }
+        ],
+        "kcal": 726,
+        "protein": 36,
+        "carbs": 115,
+        "fat": 15
+      }
+    ],
+    "notes": ""
   }
 ]
