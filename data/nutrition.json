@@ -6643,10 +6643,10 @@
   },
   {
     "date": "2026-11-17",
-    "kcal": 726,
-    "protein": 36,
-    "carbs": 115,
-    "fat": 15,
+    "kcal": 1744,
+    "protein": 85,
+    "carbs": 188,
+    "fat": 71,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -6689,6 +6689,36 @@
         "protein": 36,
         "carbs": 115,
         "fat": 15
+      },
+      {
+        "desc": "13:15 Beef bolognese pasta per the plan: 85g Pasta, wheat, dry (penne/spaghetti) + 200g Rao's Homemade Marinara + 5g Olive oil, extra virgin + 200g Ground beef 80/20, raw.",
+        "at": "2026-11-17T13:15",
+        "items": [
+          {
+            "food": "pasta-dry",
+            "g": 85,
+            "at": "2026-11-17T13:15"
+          },
+          {
+            "food": "marinara-raos",
+            "g": 200,
+            "at": "2026-11-17T13:15"
+          },
+          {
+            "food": "olive-oil",
+            "g": 5,
+            "at": "2026-11-17T13:15"
+          },
+          {
+            "food": "ground-beef-80",
+            "g": 200,
+            "at": "2026-11-17T13:15"
+          }
+        ],
+        "kcal": 1018,
+        "protein": 49,
+        "carbs": 73,
+        "fat": 56
       }
     ],
     "notes": ""

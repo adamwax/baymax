@@ -3749,7 +3749,7 @@
           "slot": "lunch",
           "meal": "beef-bolognese-pasta",
           "time": "12:15",
-          "status": "planned",
+          "status": "eaten",
           "items": [
             {
               "food": "pasta-dry",
