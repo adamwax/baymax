@@ -13679,6 +13679,75 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-11-17",
+      "type": "pull",
+      "gym": "la fitness glassboro",
+      "notes": "Pull + arms, 11:00-11:45 hard stop before travel. Legs had DOMS from Saturday: no squat/RDL. Superset was one round only; triceps skipped.",
+      "exercises": [
+        {
+          "name": "Leg Press",
+          "sets": [
+            {
+              "lb": 180,
+              "reps": [
+                15,
+                15
+              ]
+            }
+          ],
+          "notes": "Flush after 5 min easy bike, not training."
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "lb": 170,
+              "reps": [
+                10,
+                10,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 160,
+              "reps": [
+                10,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 25,
+              "perSide": true,
+              "reps": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "lb": 52.5,
+              "reps": [
+                9
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
