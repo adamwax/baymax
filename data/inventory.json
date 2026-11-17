@@ -1442,6 +1442,56 @@
       "type": "undo",
       "ref": "k149",
       "source": "chat"
+    },
+    {
+      "id": "k151",
+      "at": "2026-11-16T20:33",
+      "type": "share",
+      "food": "beef-chuck-steak",
+      "g": 347,
+      "lot": "k148",
+      "source": "chat",
+      "note": "rest of the pack already eaten (not in Adam's log)"
+    },
+    {
+      "id": "k152",
+      "at": "2026-11-16T20:33",
+      "type": "move",
+      "food": "ground-beef-85",
+      "to": "fridge",
+      "source": "chat"
+    },
+    {
+      "id": "k153",
+      "at": "2026-11-16T20:37",
+      "type": "buy",
+      "food": "oikos-pro-cup",
+      "g": 300,
+      "where": "fridge",
+      "source": "chat",
+      "note": "20g protein cups"
+    },
+    {
+      "id": "k154",
+      "at": "2026-11-16T20:39",
+      "type": "count",
+      "food": "ground-beef-85",
+      "g": 0,
+      "where": "fridge",
+      "source": "chat",
+      "note": "mislabeled: the ShopRite packs are 80/20"
+    },
+    {
+      "id": "k155",
+      "at": "2026-11-16T20:39",
+      "type": "count",
+      "food": "ground-beef-80",
+      "g": 1180,
+      "where": "fridge",
+      "thawedOn": "2026-11-16",
+      "est": true,
+      "source": "chat",
+      "note": "2 ShopRite 80/20 packs (was logged as 85/15 on 11/14)"
     }
   ],
   "legacy": [

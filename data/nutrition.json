@@ -6543,5 +6543,102 @@
       }
     ],
     "notes": ""
+  },
+  {
+    "date": "2026-11-16",
+    "kcal": 3142,
+    "protein": 147,
+    "carbs": 306,
+    "fat": 140,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "09:30 Nutri-Grain bar (1 bar, 37g), estimated from label",
+        "at": "2026-11-16T09:30",
+        "kcal": 130,
+        "protein": 2,
+        "carbs": 24,
+        "fat": 3
+      },
+      {
+        "desc": "11:30 Clio zero-sugar Greek yogurt bar (1 bar), estimated; confirm label",
+        "at": "2026-11-16T11:30",
+        "kcal": 120,
+        "protein": 7,
+        "carbs": 9,
+        "fat": 7
+      },
+      {
+        "desc": "14:00 Wawa breaded chicken Shorti w/ sweet/honey-hot sauce + pickles, estimated (crispy chicken, roll, sauce)",
+        "at": "2026-11-16T14:00",
+        "kcal": 780,
+        "protein": 34,
+        "carbs": 84,
+        "fat": 32
+      },
+      {
+        "desc": "18:30 Mom's spaghetti & meatballs (likely Impossible-style plant meatballs), estimated ~2 cups pasta + 3-4 meatballs + red sauce",
+        "at": "2026-11-16T18:30",
+        "kcal": 780,
+        "protein": 34,
+        "carbs": 95,
+        "fat": 27
+      },
+      {
+        "desc": "20:15 Fairlife 2% milk, ~1/2 cup (120ml)",
+        "at": "2026-11-16T20:15",
+        "kcal": 60,
+        "protein": 6,
+        "carbs": 3,
+        "fat": 2
+      },
+      {
+        "desc": "21:26 Smash burgers + fries per the plan: 106g Martin's Sandwich Potato Roll + 42g Sargento Sliced Sharp Natural Cheddar + 30g Grillo's Classic Dill Pickle Chips + 20g Lettuce (romaine/iceberg), raw + 40g Tomato, raw + 150g Ore-Ida Straight-Cut fries, frozen (as sold) + 230g Ground beef 80/20, raw.",
+        "at": "2026-11-16T21:26",
+        "items": [
+          {
+            "food": "potato-roll",
+            "g": 106,
+            "at": "2026-11-16T21:26"
+          },
+          {
+            "food": "cheddar-sliced-sargento",
+            "g": 42,
+            "at": "2026-11-16T21:26"
+          },
+          {
+            "food": "pickle-chips",
+            "g": 30,
+            "at": "2026-11-16T21:26"
+          },
+          {
+            "food": "lettuce",
+            "g": 20,
+            "at": "2026-11-16T21:26"
+          },
+          {
+            "food": "tomato",
+            "g": 40,
+            "at": "2026-11-16T21:26"
+          },
+          {
+            "food": "fries-ore-ida",
+            "g": 150,
+            "at": "2026-11-16T21:26"
+          },
+          {
+            "food": "ground-beef-80",
+            "g": 230,
+            "at": "2026-11-16T21:26"
+          }
+        ],
+        "kcal": 1272,
+        "protein": 64,
+        "carbs": 91,
+        "fat": 69
+      }
+    ],
+    "notes": "Off-plan day: none of the planned slots eaten; all intake estimated from Adam's description."
   }
 ]

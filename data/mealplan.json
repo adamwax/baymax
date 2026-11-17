@@ -3573,7 +3573,7 @@
           "slot": "breakfast",
           "meal": "fage-granola-bowl",
           "time": "09:30",
-          "status": "planned",
+          "status": "skipped",
           "items": [
             {
               "food": "fage-0",
@@ -3598,7 +3598,7 @@
           "slot": "lunch",
           "meal": "buffalo-chicken-wraps-nj",
           "time": "12:30",
-          "status": "planned",
+          "status": "skipped",
           "items": [
             {
               "food": "chicken-breast-raw",
@@ -3639,7 +3639,7 @@
           "slot": "afternoon",
           "meal": "oats-honey-grapes",
           "time": "15:00",
-          "status": "planned",
+          "status": "skipped",
           "items": [
             {
               "food": "oats-dry",
@@ -3659,13 +3659,9 @@
         {
           "slot": "dinner",
           "meal": "smash-burgers",
-          "time": "19:30",
-          "status": "planned",
+          "time": "21:00",
+          "status": "eaten",
           "items": [
-            {
-              "food": "ground-beef-85",
-              "g": 230
-            },
             {
               "food": "potato-roll",
               "count": 2
@@ -3689,30 +3685,34 @@
             {
               "food": "fries-ore-ida",
               "g": 150
+            },
+            {
+              "food": "ground-beef-80",
+              "g": 230
             }
           ],
           "gcal": "eitrob8jfbfqtdtn148qfl4lu8"
         },
         {
           "slot": "nightcap",
-          "meal": "fage-honey-nightcap",
-          "time": "22:00",
+          "meal": "yogurt-nightcap",
+          "time": "21:45",
           "status": "planned",
           "items": [
             {
-              "food": "fage-0",
-              "g": 150
-            },
-            {
               "food": "honey",
               "g": 15
+            },
+            {
+              "food": "oikos-pro-cup",
+              "g": 150
             },
             {
               "food": "grapes",
               "g": 80
             }
           ],
-          "gcal": "871tm24i77ft0guorc7trt8bgc"
+          "gcal": "2rq6jg22m49o1cepl02ntg6dq0"
         }
       ]
     },
@@ -3722,58 +3722,50 @@
       "slots": [
         {
           "slot": "breakfast",
-          "meal": "fage-granola-bowl",
+          "meal": "oats-honey-grapes",
           "time": "09:30",
           "status": "planned",
           "items": [
             {
-              "food": "fage-0",
-              "g": 250
-            },
-            {
-              "food": "granola-cascadian-blueberry",
-              "g": 40
-            },
-            {
-              "food": "blueberries",
-              "g": 75
+              "food": "oats-dry",
+              "g": 60
             },
             {
               "food": "honey",
-              "g": 15
+              "g": 20
+            },
+            {
+              "food": "grapes",
+              "g": 120
+            },
+            {
+              "food": "oikos-pro-cup",
+              "g": 150
             }
           ],
           "gcal": "g9gm12aokr9u9ijna2c07bhjug"
         },
         {
           "slot": "lunch",
-          "meal": "chicken-quesadilla-nj",
+          "meal": "beef-bolognese-pasta",
           "time": "12:00",
           "status": "planned",
           "items": [
             {
-              "food": "chicken-breast-raw",
+              "food": "pasta-dry",
+              "g": 90
+            },
+            {
+              "food": "marinara-raos",
               "g": 200
             },
             {
-              "food": "tortilla-burrito",
-              "count": 2
+              "food": "olive-oil",
+              "g": 5
             },
             {
-              "food": "cheddar-shredded",
-              "g": 50
-            },
-            {
-              "food": "salsa-tostitos-mild",
-              "g": 60
-            },
-            {
-              "food": "fage-0",
-              "g": 30
-            },
-            {
-              "food": "broccoli-frozen",
-              "g": 150
+              "food": "ground-beef-80",
+              "g": 200
             }
           ],
           "gcal": "9akv9smilasrshlfbg19mcgch4"

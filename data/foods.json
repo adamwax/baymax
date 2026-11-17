@@ -104,6 +104,37 @@
     }
   },
   {
+    "id": "ground-beef-80",
+    "name": "Ground beef 80/20, raw",
+    "fdcId": 174036,
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "store": "shoprite",
+    "per100g": {
+      "protein": 17.17,
+      "fat": 20,
+      "carbs": 0,
+      "kcal": 254,
+      "fiber": 0,
+      "calcium": 18,
+      "iron": 1.94,
+      "magnesium": 17,
+      "potassium": 270,
+      "sodium": 66,
+      "zinc": 4.18,
+      "vitD": 0.1,
+      "vitC": 0,
+      "ala": 0.05
+    },
+    "allergyChecked": "2026-11-16",
+    "shelfLife": {
+      "fridgeDays": 2,
+      "thawedDays": 2,
+      "freezerDays": 120
+    },
+    "notes": "NJ house ShopRite packs (the 11/14 photo count logged them as 85/15 by mistake; Adam says 80/20)."
+  },
+  {
     "id": "egg",
     "name": "Egg, whole, large",
     "fdcId": 171287,
