@@ -3748,7 +3748,7 @@
         {
           "slot": "lunch",
           "meal": "beef-bolognese-pasta",
-          "time": "12:00",
+          "time": "12:15",
           "status": "planned",
           "items": [
             {
@@ -3769,6 +3769,48 @@
             }
           ],
           "gcal": "9akv9smilasrshlfbg19mcgch4"
+        },
+        {
+          "slot": "pre-travel",
+          "meal": "oats-honey-grapes",
+          "items": [
+            {
+              "food": "white-rice-dry",
+              "g": 80
+            },
+            {
+              "food": "egg",
+              "g": 100
+            },
+            {
+              "food": "tomato",
+              "g": 60
+            },
+            {
+              "food": "lettuce",
+              "g": 30
+            }
+          ],
+          "time": "15:15",
+          "status": "planned",
+          "gcal": "rfvf61bsfffhfb80iq76pdfpi4"
+        },
+        {
+          "slot": "road",
+          "meal": "oats-honey-grapes",
+          "items": [
+            {
+              "food": "grapes",
+              "g": 150
+            },
+            {
+              "food": "egg",
+              "g": 100
+            }
+          ],
+          "time": "18:00",
+          "status": "planned",
+          "gcal": "92086m70ln1b8s9sg6fjacm670"
         }
       ]
     },
