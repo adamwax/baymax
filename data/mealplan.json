@@ -3768,7 +3768,8 @@
               "g": 200
             }
           ],
-          "gcal": "9akv9smilasrshlfbg19mcgch4"
+          "gcal": "9akv9smilasrshlfbg19mcgch4",
+          "fraction": 0.75
         },
         {
           "slot": "pre-travel",
@@ -3792,7 +3793,7 @@
             }
           ],
           "time": "14:15",
-          "status": "planned",
+          "status": "skipped",
           "gcal": "rfvf61bsfffhfb80iq76pdfpi4"
         },
         {
@@ -3809,7 +3810,7 @@
             }
           ],
           "time": "17:45",
-          "status": "planned",
+          "status": "skipped",
           "gcal": "92086m70ln1b8s9sg6fjacm670"
         }
       ]

@@ -6643,10 +6643,10 @@
   },
   {
     "date": "2026-11-17",
-    "kcal": 1744,
-    "protein": 85,
-    "carbs": 188,
-    "fat": 71,
+    "kcal": 2490,
+    "protein": 73,
+    "carbs": 260,
+    "fat": 57,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -6691,34 +6691,42 @@
         "fat": 15
       },
       {
-        "desc": "13:15 Beef bolognese pasta per the plan: 85g Pasta, wheat, dry (penne/spaghetti) + 200g Rao's Homemade Marinara + 5g Olive oil, extra virgin + 200g Ground beef 80/20, raw.",
+        "desc": "13:15 Beef bolognese pasta per the plan, 0.75 of it: 85g Pasta, wheat, dry (penne/spaghetti) + 200g Rao's Homemade Marinara + 5g Olive oil, extra virgin + 200g Ground beef 80/20, raw.",
         "at": "2026-11-17T13:15",
         "items": [
           {
             "food": "pasta-dry",
-            "g": 85,
+            "g": 63.8,
             "at": "2026-11-17T13:15"
           },
           {
             "food": "marinara-raos",
-            "g": 200,
+            "g": 150.0,
             "at": "2026-11-17T13:15"
           },
           {
             "food": "olive-oil",
-            "g": 5,
+            "g": 3.8,
             "at": "2026-11-17T13:15"
           },
           {
             "food": "ground-beef-80",
-            "g": 200,
+            "g": 150.0,
             "at": "2026-11-17T13:15"
           }
         ],
-        "kcal": 1018,
-        "protein": 49,
-        "carbs": 73,
-        "fat": 56
+        "kcal": 764,
+        "protein": 37,
+        "carbs": 55,
+        "fat": 42
+      },
+      {
+        "desc": "22:00 Alcohol at Lehigh: Jäger bombs + other drinks, 'a good amount', count not reported. ESTIMATE ~6 Jäger-bomb equivalents (~160 kcal each, mostly alcohol + Red Bull sugar). No food after lunch (egg-rice bowl, train snack, dinner all skipped).",
+        "at": "2026-11-17T22:00",
+        "kcal": 1000,
+        "protein": 0,
+        "carbs": 90,
+        "fat": 0
       }
     ],
     "notes": ""
