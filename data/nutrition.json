@@ -6733,9 +6733,9 @@
   },
   {
     "date": "2026-11-23",
-    "kcal": 479,
+    "kcal": 570,
     "protein": 32,
-    "carbs": 48,
+    "carbs": 73,
     "fat": 16,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
@@ -6769,6 +6769,21 @@
         "protein": 17,
         "carbs": 39,
         "fat": 14
+      },
+      {
+        "desc": "14:40 Ad-hoc: 30g Honey. Pre-lift honey off the spoon (no grapes/oats; out the door for the gym).",
+        "at": "2026-11-23T14:40",
+        "items": [
+          {
+            "food": "honey",
+            "g": 30,
+            "at": "2026-11-23T14:40"
+          }
+        ],
+        "kcal": 91,
+        "protein": 0,
+        "carbs": 25,
+        "fat": 0
       }
     ],
     "notes": ""
