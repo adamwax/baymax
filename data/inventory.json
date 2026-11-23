@@ -1739,6 +1739,81 @@
       "where": "pantry",
       "source": "chat",
       "note": "none in the house; on the ShopRite order"
+    },
+    {
+      "id": "k179",
+      "at": "2026-11-23T13:49",
+      "type": "count",
+      "food": "ground-beef-80",
+      "g": 0,
+      "where": "fridge",
+      "source": "chat",
+      "note": "the trays are 85/15 ground chuck (label photo 11/23), not 80/20"
+    },
+    {
+      "id": "k180",
+      "at": "2026-11-23T13:49",
+      "type": "count",
+      "food": "ground-beef-80",
+      "g": 0,
+      "where": "freezer",
+      "source": "chat",
+      "note": "relabeled: 85/15, see ground-beef-85"
+    },
+    {
+      "id": "k181",
+      "at": "2026-11-23T13:49",
+      "type": "count",
+      "food": "ground-beef-85",
+      "g": 1038,
+      "where": "freezer",
+      "est": true,
+      "source": "photo-label",
+      "note": "2 trays left frozen; label: 85/15 ground chuck glatt kosher, 1.145 lb ground 11/12 (other trays unread, assumed same)"
+    },
+    {
+      "id": "k182",
+      "at": "2026-11-23T13:49",
+      "type": "count",
+      "food": "ground-beef-85",
+      "g": 519,
+      "where": "fridge",
+      "thawedOn": "2026-11-23",
+      "est": true,
+      "source": "photo-label",
+      "note": "the tray in cold water since ~1 PM for tonight + Tue/Wed lunch"
+    },
+    {
+      "id": "k183",
+      "at": "2026-11-23T13:49",
+      "type": "count",
+      "food": "beef-chuck-steak",
+      "g": 0,
+      "where": "freezer",
+      "source": "chat",
+      "note": "the dark trays are lamb shoulder chops (label photo), not beef"
+    },
+    {
+      "id": "k184",
+      "at": "2026-11-23T13:49",
+      "type": "count",
+      "food": "lamb-shoulder-chop",
+      "g": 1089,
+      "where": "freezer",
+      "est": true,
+      "source": "photo-label",
+      "note": "3 trays x 0.800 lb (one label read; others assumed same), bone-in"
+    },
+    {
+      "id": "k185",
+      "at": "2026-11-23T13:40",
+      "type": "count",
+      "food": "stouffers-vegetable-lasagna",
+      "g": 297,
+      "where": "freezer",
+      "est": true,
+      "source": "chat",
+      "note": "1 box, kitchen freezer door"
     }
   ],
   "legacy": [

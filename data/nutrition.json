@@ -6733,10 +6733,10 @@
   },
   {
     "date": "2026-11-23",
-    "kcal": 120,
-    "protein": 15,
-    "carbs": 9,
-    "fat": 2,
+    "kcal": 479,
+    "protein": 32,
+    "carbs": 48,
+    "fat": 16,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -6754,6 +6754,21 @@
         "protein": 15,
         "carbs": 9,
         "fat": 2
+      },
+      {
+        "desc": "13:49 Egg scramble + rice + salsa per the plan: 297g Stouffer's Vegetable Lasagna (single-serve, frozen). Swapped the egg scramble for a Stouffer's vegetable lasagna.",
+        "at": "2026-11-23T13:49",
+        "items": [
+          {
+            "food": "stouffers-vegetable-lasagna",
+            "g": 297,
+            "at": "2026-11-23T13:49"
+          }
+        ],
+        "kcal": 359,
+        "protein": 17,
+        "carbs": 39,
+        "fat": 14
       }
     ],
     "notes": ""

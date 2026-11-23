@@ -2331,5 +2331,48 @@
       "name": "Ben's Original Ready Rice Jasmine, 8.5 oz"
     },
     "notes": "Label est: 220 kcal / 4P per 1 cup (140g); pouch ~378 kcal / 7P. Ingredients: precooked jasmine rice + sunflower/canola oil. Plain jasmine only: the flavored Ready Rice (garden vegetable, fried rice) has peas. 90 s in the microwave. Planned as WHOLE pouches so nothing is left open."
+  },
+  {
+    "id": "lamb-shoulder-chop",
+    "name": "Lamb shoulder blade chops, bone-in, raw (ShopRite glatt kosher tray)",
+    "brand": "ShopRite / Rubashkin-style kosher",
+    "fdcType": "label+usda",
+    "weighed": "raw, as purchased (bone-in)",
+    "unitG": 363,
+    "packageG": 363,
+    "per100g": {
+      "kcal": 188,
+      "protein": 13.8,
+      "fat": 14.6,
+      "carbs": 0
+    },
+    "allergyChecked": "2026-11-23",
+    "shelfLife": {
+      "fridgeDays": 3,
+      "freezerDays": 270,
+      "thawedDays": 2
+    },
+    "notes": "Tray label 11/23 photo: 0.800 lb ($16.99/lb, $13.59), sell by 11/15/26 then frozen. Macros are USDA lamb shoulder blade raw lean+fat (~235 kcal / 17P per 100g edible) x 0.8 for ~20% bone, so grams are the WHOLE tray as bought. Cook a tray at a time: grill/broil/pan 4-5 min a side."
+  },
+  {
+    "id": "stouffers-vegetable-lasagna",
+    "name": "Stouffer's Vegetable Lasagna (single-serve, frozen)",
+    "brand": "Stouffer's",
+    "fdcType": "label",
+    "weighed": "each",
+    "unitG": 297,
+    "packageG": 297,
+    "per100g": {
+      "kcal": 121,
+      "protein": 5.7,
+      "fat": 4.7,
+      "carbs": 13.1
+    },
+    "allergyChecked": "2026-11-23",
+    "shelfLife": {
+      "freezerDays": 365,
+      "fromFrozen": true
+    },
+    "notes": "Est ~360 kcal / 17P per box (box front: 17g protein). From the family freezer. Contains milk, wheat, egg; Adam to confirm the Contains line has no tree nuts/legumes."
   }
 ]

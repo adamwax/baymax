@@ -1295,12 +1295,12 @@
   },
   {
     "id": "nj-bolognese-80",
-    "name": "Beef bolognese (80/20)",
+    "name": "Beef bolognese (85/15)",
     "slot": "main",
     "meat": "beef",
     "items": [
       {
-        "food": "ground-beef-80",
+        "food": "ground-beef-85",
         "g": 200
       },
       {
@@ -1325,7 +1325,7 @@
     "meat": "beef",
     "items": [
       {
-        "food": "ground-beef-80",
+        "food": "ground-beef-85",
         "g": 195
       },
       {
@@ -1394,56 +1394,6 @@
     "notes": "Chicken grams are RAW weight from the Tue batch. Reheat, slice over rice + lettuce, salsa on top."
   },
   {
-    "id": "nj-steak-rice",
-    "name": "Steak, rice + broccoli",
-    "slot": "main",
-    "meat": "beef",
-    "items": [
-      {
-        "food": "beef-chuck-steak",
-        "g": 225
-      },
-      {
-        "food": "ready-rice-jasmine",
-        "g": 241
-      },
-      {
-        "food": "broccoli-frozen",
-        "g": 100
-      },
-      {
-        "food": "lettuce",
-        "g": 60
-      }
-    ],
-    "notes": "Half a steak tray. Pat dry, salt, hot pan 3-4 min a side, rest 5 min, slice against the grain."
-  },
-  {
-    "id": "nj-steak-pasta",
-    "name": "Steak + Rao's pasta",
-    "slot": "main",
-    "meat": "beef",
-    "items": [
-      {
-        "food": "beef-chuck-steak",
-        "g": 225
-      },
-      {
-        "food": "pasta-dry",
-        "g": 70
-      },
-      {
-        "food": "marinara-raos",
-        "g": 120
-      },
-      {
-        "food": "broccoli-frozen",
-        "g": 100
-      }
-    ],
-    "notes": "The other half of Friday's steak tray. Sear, slice, over pasta (DRY weight) in Rao's."
-  },
-  {
     "id": "nj-fage-bowl",
     "name": "Fage bowl (honey, granola, grapes)",
     "items": [
@@ -1493,5 +1443,55 @@
     "name": "Thanksgiving dinner",
     "items": [],
     "notes": "Family dinner, not tracked to the gram. Lead with turkey (aim ~200g+), then sides. Tell me roughly what you had after."
+  },
+  {
+    "id": "nj-lamb-chops-rice",
+    "name": "Lamb chops, rice + broccoli",
+    "slot": "main",
+    "meat": "lamb",
+    "items": [
+      {
+        "food": "lamb-shoulder-chop",
+        "g": 363
+      },
+      {
+        "food": "ready-rice-jasmine",
+        "g": 241
+      },
+      {
+        "food": "broccoli-frozen",
+        "g": 100
+      },
+      {
+        "food": "lettuce",
+        "g": 60
+      }
+    ],
+    "notes": "One WHOLE tray (~0.8 lb, bone-in). Pat dry, salt + pepper, hot pan or broiler 4-5 min a side, rest 5 min. Rice: 1 microwave pouch, 90 s."
+  },
+  {
+    "id": "nj-lamb-chops-pasta",
+    "name": "Lamb chops + Rao's pasta",
+    "slot": "main",
+    "meat": "lamb",
+    "items": [
+      {
+        "food": "lamb-shoulder-chop",
+        "g": 363
+      },
+      {
+        "food": "pasta-dry",
+        "g": 70
+      },
+      {
+        "food": "marinara-raos",
+        "g": 120
+      },
+      {
+        "food": "broccoli-frozen",
+        "g": 100
+      }
+    ],
+    "notes": "One WHOLE tray (~0.8 lb, bone-in). Sear 4-5 min a side, slice off the bone over pasta (DRY weight) in Rao's."
   }
 ]
