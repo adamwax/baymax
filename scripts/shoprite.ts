@@ -30,7 +30,7 @@ const MODE={pickup:'11111111-1111-1111-1111-111111111111',delivery:'22222222-222
 const H=(x={})=>({Authorization:'Bearer '+U.access_token,'X-Site-Host':'${SITE}','x-customer-session-id':C.CUSTOMER_SESSION_ID_COOKIE,'X-Shopping-Mode':MODE,...x});
 const G='https://storefrontgateway.shoprite.com/api/';
 const get=async(p,h)=>{const r=await fetch(G+p,{headers:H(h)});return r.ok?r.json():{status:r.status}};
-const post=async(model,body)=>{const r=await fetch(G+'stores/'+RSID+'/cart',{method:'POST',headers:H({'Content-Type':'application/vnd.cart.v1+json;domain-model='+model,'X-Site-Location':'baymax'}),body:JSON.stringify(body)});if(!r.ok)throw new Error(model+' '+r.status+' '+(await r.text()).slice(0,300));};
+const post=async(model,body)=>{const r=await fetch(G+'stores/'+RSID+'/cart',{method:'POST',headers:H({'Content-Type':'application/vnd.cart.v1+json;domain-model='+model,'X-Site-Location':'baymax'}),body:JSON.stringify(body)});const t=await r.text();if(!r.ok)throw new Error(model+' '+r.status+' '+t.slice(0,300));try{return JSON.parse(t)}catch{return {}}};
 // No cart yet is a 404, not an error: it's empty until the first add creates it.
 const lines=async()=>((await get('stores/'+RSID+'/cart',{'X-Site-Location':'client/getCart'})).lineItems??[]).map(l=>({sku:l.sku,name:l.name,quantity:l.quantityValue,price:l.totalPrice}));`;
 
@@ -77,14 +77,25 @@ export const search = (q: string) =>
 export function setCart(want: { sku: string; quantity: number }[], exact = false) {
   return inChrome<CartLine[]>(`
 const have=Object.fromEntries((await lines()).map(l=>[l.sku,l.quantity]));
+const sent={};
 for(const w of ${JSON.stringify(want)}){
   const h=have[w.sku]??0;
   if(${exact}?h===w.quantity:h>=w.quantity)continue;
-  if(!h)await post('AddProductLineItemToCart',{quantity:w.quantity,sku:w.sku,source:{type:'catalog'},shoppingModeId:MODE});
+  let r;
+  if(!h)r=await post('AddProductLineItemToCart',{quantity:w.quantity,sku:w.sku,source:{type:'catalog'},shoppingModeId:MODE});
   else if(w.quantity===0)await post('RemoveLineItemFromCart',{LineItemId:'sku:'+w.sku});
   else await post('SetLineItemQuantity',{lineItemId:'sku:'+w.sku,quantity:w.quantity});
+  if(r?.unavailableSkus?.length||r?.unlistedSkus?.length)return {error:w.sku+' is unavailable at this store'};
+  sent[w.sku]=w.quantity;
 }
-return await lines();`);
+// Writes are accepted (202) and applied in the background: wait until the cart shows them,
+// or a rerun reads the old cart and adds the same packs again.
+for(let i=0;i<30;i++){
+  const now=await lines();const q=Object.fromEntries(now.map(l=>[l.sku,l.quantity]));
+  if(Object.entries(sent).every(([s,n])=>(q[s]??0)===n))return now;
+  await new Promise(r=>setTimeout(r,1000));
+}
+return {error:'cart writes still not visible after 30 s: check the cart before rerunning ('+JSON.stringify(sent)+')'};`);
 }
 
 /** Packs to buy for each Buy-list row: whole packs of the mapped product, or why it was skipped. */
