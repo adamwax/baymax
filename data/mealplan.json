@@ -3832,6 +3832,700 @@
       "lift": false,
       "slots": [],
       "away": "traveling (left NJ Tue midday, back Sat)"
+    },
+    {
+      "date": "2026-11-23",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "lunch",
+          "meal": "nj-egg-scramble-rice",
+          "time": "12:45",
+          "status": "planned",
+          "items": [
+            {
+              "food": "egg",
+              "g": 250
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 70
+            },
+            {
+              "food": "lettuce",
+              "g": 50
+            },
+            {
+              "food": "salsa-tostitos-mild",
+              "g": 40
+            }
+          ],
+          "gcal": "bkcr76j7fft5ivvu68erqsl6cc"
+        },
+        {
+          "slot": "afternoon",
+          "meal": "nj-oats-soy-grapes",
+          "time": "15:30",
+          "status": "planned",
+          "items": [
+            {
+              "food": "oats-dry",
+              "g": 60
+            },
+            {
+              "food": "soy-milk",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 15
+            },
+            {
+              "food": "grapes",
+              "g": 120
+            }
+          ],
+          "gcal": "p2mia6b6bauaqrvuiefeddtvoo"
+        },
+        {
+          "slot": "dinner",
+          "meal": "nj-bolognese-80",
+          "time": "17:15",
+          "status": "planned",
+          "items": [
+            {
+              "food": "ground-beef-80",
+              "g": 200
+            },
+            {
+              "food": "pasta-dry",
+              "g": 60
+            },
+            {
+              "food": "marinara-raos",
+              "g": 150
+            },
+            {
+              "food": "broccoli-frozen",
+              "g": 100
+            }
+          ],
+          "gcal": "1adjvd8dd04p9dnh7rg85ec1og"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "nj-egg-scramble-rice",
+          "time": "21:15",
+          "status": "planned",
+          "items": [
+            {
+              "food": "egg",
+              "g": 200
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 60
+            },
+            {
+              "food": "salsa-tostitos-mild",
+              "g": 40
+            }
+          ],
+          "gcal": "7egg3d9bo37teo68bmcrl4m898"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "nj-oats-soy-grapes",
+          "time": "09:00",
+          "status": "planned",
+          "items": [
+            {
+              "food": "oats-dry",
+              "g": 60
+            },
+            {
+              "food": "soy-milk",
+              "g": 250
+            },
+            {
+              "food": "honey",
+              "g": 15
+            },
+            {
+              "food": "grapes",
+              "g": 100
+            },
+            {
+              "food": "egg",
+              "g": 150
+            }
+          ],
+          "gcal": "9fbp5bj4h8cta7kdup80arkqjg"
+        },
+        {
+          "slot": "lunch",
+          "meal": "nj-beef-rice-bowl",
+          "time": "12:45",
+          "status": "planned",
+          "items": [
+            {
+              "food": "ground-beef-80",
+              "g": 195
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 75
+            },
+            {
+              "food": "broccoli-frozen",
+              "g": 100
+            },
+            {
+              "food": "salsa-tostitos-mild",
+              "g": 40
+            }
+          ],
+          "gcal": "n4e3e7cvdttl8far88bnldaqqo"
+        },
+        {
+          "slot": "afternoon",
+          "meal": "nj-fage-bowl",
+          "time": "15:30",
+          "status": "planned",
+          "items": [
+            {
+              "food": "fage-0",
+              "g": 250
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "granola-cascadian-blueberry",
+              "g": 30
+            },
+            {
+              "food": "grapes",
+              "g": 80
+            }
+          ],
+          "gcal": "h3obg1jm1unnkpgbucecm3pbug"
+        },
+        {
+          "slot": "dinner",
+          "meal": "nj-buffalo-chicken-rice",
+          "time": "17:15",
+          "status": "planned",
+          "items": [
+            {
+              "food": "chicken-breast-raw",
+              "g": 270
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 75
+            },
+            {
+              "food": "broccoli-frozen",
+              "g": 100
+            },
+            {
+              "food": "franks-redhot",
+              "g": 15
+            }
+          ],
+          "gcal": "0j5dquiehskj50smv37p1tanb8"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "nj-post-lift-fage-oats",
+          "time": "21:15",
+          "status": "planned",
+          "items": [
+            {
+              "food": "fage-0",
+              "g": 200
+            },
+            {
+              "food": "oats-dry",
+              "g": 40
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "grapes",
+              "g": 80
+            }
+          ],
+          "gcal": "6fo0r0l1iqdpb2f1e28slut4ek"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "lift": false,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "nj-fage-bowl",
+          "time": "09:00",
+          "status": "planned",
+          "items": [
+            {
+              "food": "fage-0",
+              "g": 250
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "granola-cascadian-blueberry",
+              "g": 30
+            },
+            {
+              "food": "grapes",
+              "g": 80
+            }
+          ],
+          "gcal": "sr5bur56ta2q3vd8enk25h1r0s"
+        },
+        {
+          "slot": "lunch",
+          "meal": "nj-bolognese-80",
+          "time": "12:45",
+          "status": "planned",
+          "items": [
+            {
+              "food": "ground-beef-80",
+              "g": 195
+            },
+            {
+              "food": "pasta-dry",
+              "g": 60
+            },
+            {
+              "food": "marinara-raos",
+              "g": 150
+            },
+            {
+              "food": "broccoli-frozen",
+              "g": 100
+            }
+          ],
+          "gcal": "gqlb40kn064u0os2p5vanqlak4"
+        },
+        {
+          "slot": "afternoon",
+          "meal": "nj-oats-soy-grapes",
+          "time": "15:30",
+          "status": "planned",
+          "items": [
+            {
+              "food": "oats-dry",
+              "g": 60
+            },
+            {
+              "food": "soy-milk",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 15
+            },
+            {
+              "food": "grapes",
+              "g": 120
+            }
+          ],
+          "gcal": "rnrn9pgdp14ntntaac1i1d19gs"
+        },
+        {
+          "slot": "dinner",
+          "meal": "nj-salsa-chicken-bowl",
+          "time": "18:45",
+          "status": "planned",
+          "items": [
+            {
+              "food": "chicken-breast-raw",
+              "g": 270
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 70
+            },
+            {
+              "food": "lettuce",
+              "g": 60
+            },
+            {
+              "food": "salsa-tostitos-mild",
+              "g": 40
+            }
+          ],
+          "gcal": "91pch3e0cvugals8kq36bk9pf4"
+        },
+        {
+          "slot": "nightcap",
+          "meal": "nj-post-lift-fage-oats",
+          "time": "21:30",
+          "status": "planned",
+          "items": [
+            {
+              "food": "fage-0",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "grapes",
+              "g": 80
+            }
+          ],
+          "gcal": "atuslu4ra4r4g0n8ac2tud1jn4"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "lift": false,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "nj-fage-bowl",
+          "time": "09:30",
+          "status": "planned",
+          "items": [
+            {
+              "food": "fage-0",
+              "g": 250
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "granola-cascadian-blueberry",
+              "g": 30
+            },
+            {
+              "food": "grapes",
+              "g": 80
+            }
+          ],
+          "gcal": "63p01ifhgot1rvkk4196nved14"
+        },
+        {
+          "slot": "lunch",
+          "meal": "nj-buffalo-chicken-rice",
+          "time": "13:00",
+          "status": "planned",
+          "items": [
+            {
+              "food": "chicken-breast-raw",
+              "g": 270
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 75
+            },
+            {
+              "food": "broccoli-frozen",
+              "g": 100
+            },
+            {
+              "food": "franks-redhot",
+              "g": 15
+            }
+          ],
+          "gcal": "n1hbfs564jskbksc2tbcfsnqac"
+        },
+        {
+          "slot": "dinner",
+          "meal": "thanksgiving-dinner",
+          "time": "17:00",
+          "status": "planned",
+          "items": [],
+          "gcal": "06i1h2dqhio9sj2f0j4fij4on0"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "nj-fage-bowl",
+          "time": "09:00",
+          "status": "planned",
+          "items": [
+            {
+              "food": "fage-0",
+              "g": 250
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "granola-cascadian-blueberry",
+              "g": 30
+            },
+            {
+              "food": "grapes",
+              "g": 80
+            }
+          ],
+          "gcal": "rn1tnsmkodqh02m0bpjj0efrak"
+        },
+        {
+          "slot": "lunch",
+          "meal": "nj-salsa-chicken-bowl",
+          "time": "12:45",
+          "status": "planned",
+          "items": [
+            {
+              "food": "chicken-breast-raw",
+              "g": 270
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 70
+            },
+            {
+              "food": "lettuce",
+              "g": 60
+            },
+            {
+              "food": "salsa-tostitos-mild",
+              "g": 40
+            },
+            {
+              "food": "egg",
+              "g": 100
+            }
+          ],
+          "gcal": "k0pi4tru47chrit0htnepbsgrc"
+        },
+        {
+          "slot": "afternoon",
+          "meal": "nj-oats-soy-grapes",
+          "time": "15:30",
+          "status": "planned",
+          "items": [
+            {
+              "food": "oats-dry",
+              "g": 60
+            },
+            {
+              "food": "soy-milk",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 15
+            },
+            {
+              "food": "grapes",
+              "g": 120
+            }
+          ],
+          "gcal": "66aeas5mle8bmdts3t1jeh4kcc"
+        },
+        {
+          "slot": "dinner",
+          "meal": "nj-steak-rice",
+          "time": "17:30",
+          "status": "planned",
+          "items": [
+            {
+              "food": "beef-chuck-steak",
+              "g": 225
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 75
+            },
+            {
+              "food": "broccoli-frozen",
+              "g": 100
+            },
+            {
+              "food": "lettuce",
+              "g": 60
+            }
+          ],
+          "gcal": "on0h6jm2sa7fd3cnaqrdgd59v8"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "nj-post-lift-fage-oats",
+          "time": "21:15",
+          "status": "planned",
+          "items": [
+            {
+              "food": "fage-0",
+              "g": 200
+            },
+            {
+              "food": "oats-dry",
+              "g": 40
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "grapes",
+              "g": 80
+            }
+          ],
+          "gcal": "h0j622i99gsf9kpf972ne88e5g"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "nj-fage-bowl",
+          "time": "09:30",
+          "status": "planned",
+          "items": [
+            {
+              "food": "fage-0",
+              "g": 250
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "granola-cascadian-blueberry",
+              "g": 30
+            },
+            {
+              "food": "grapes",
+              "g": 80
+            }
+          ],
+          "gcal": "6s9rp30ccu1shidbksmd36scbc"
+        },
+        {
+          "slot": "lunch",
+          "meal": "nj-buffalo-chicken-rice",
+          "time": "12:45",
+          "status": "planned",
+          "items": [
+            {
+              "food": "chicken-breast-raw",
+              "g": 270
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 75
+            },
+            {
+              "food": "broccoli-frozen",
+              "g": 100
+            },
+            {
+              "food": "franks-redhot",
+              "g": 15
+            }
+          ],
+          "gcal": "n8p10hulor8bmsmn4s704hq2uk"
+        },
+        {
+          "slot": "afternoon",
+          "meal": "nj-oats-soy-grapes",
+          "time": "15:30",
+          "status": "planned",
+          "items": [
+            {
+              "food": "oats-dry",
+              "g": 60
+            },
+            {
+              "food": "soy-milk",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 15
+            },
+            {
+              "food": "grapes",
+              "g": 120
+            }
+          ],
+          "gcal": "9nrmtdovonqb5dbsca7aa6i5a4"
+        },
+        {
+          "slot": "dinner",
+          "meal": "nj-steak-pasta",
+          "time": "17:30",
+          "status": "planned",
+          "items": [
+            {
+              "food": "beef-chuck-steak",
+              "g": 225
+            },
+            {
+              "food": "pasta-dry",
+              "g": 70
+            },
+            {
+              "food": "marinara-raos",
+              "g": 120
+            },
+            {
+              "food": "broccoli-frozen",
+              "g": 100
+            }
+          ],
+          "gcal": "2r0v5pveajo9redgkfs8qd0n9c"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "nj-post-lift-fage-oats",
+          "time": "21:15",
+          "status": "planned",
+          "items": [
+            {
+              "food": "fage-0",
+              "g": 200
+            },
+            {
+              "food": "oats-dry",
+              "g": 40
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "grapes",
+              "g": 80
+            }
+          ],
+          "gcal": "rr2oro2qb9ot99ueh96uiavmhs"
+        }
+      ]
     }
   ]
 }

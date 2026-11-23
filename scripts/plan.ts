@@ -98,11 +98,64 @@ export function planDays(meals: Meal[], foods: Map<string, Food>, opts: Opts): P
   return days;
 }
 
-const dayItems = (d: PlanDay) => d.slots.filter((s) => s.status !== "skipped").flatMap((s) => scaleItems(s.items, s.fraction ?? 1));
+export type Draw = { lot: string; where: Lot["where"]; g: number; thawedOn?: string; useBy?: string };
+export type ItemState = { food: string; need: number; draws: Draw[]; short: number; left: number; leftFrozen: number };
+
+/** Walk every planned slot from `from` on, in time order, eating the real lots (fridge/pantry first,
+ *  soonest use-by, then the freezer). Says where each item comes from (thawed or frozen), what's
+ *  short, and how much of that food is left after it. Keyed `${date} ${slot}`, one state per item. */
+export function ledger(days: PlanDay[], foods: Map<string, Food>, lots: Lot[], from = today()) {
+  const pool = lots.map((l) => ({ ...l }));
+  const rank = (l: Lot) => (l.where === "freezer" ? 1 : 0);
+  const slots = days
+    .filter((d) => d.date >= from && !d.away)
+    .flatMap((d) => d.slots.filter((s) => s.status === "planned").map((s) => ({ d, s })))
+    .sort((a, b) => `${a.d.date} ${a.s.time}`.localeCompare(`${b.d.date} ${b.s.time}`));
+  const out = new Map<string, ItemState[]>();
+  for (const { d, s } of slots) {
+    const states = scaleItems(s.items, s.fraction ?? 1).map((it) => {
+      const need = grams(it, foods);
+      let rest = need;
+      const draws: Draw[] = [];
+      for (const l of pool.filter((l) => l.food === it.food && l.g > 0).sort((a, b) => rank(a) - rank(b) || (a.useBy ?? "9").localeCompare(b.useBy ?? "9"))) {
+        if (rest <= 0) break;
+        const take = Math.min(l.g, rest);
+        l.g -= take;
+        rest -= take;
+        draws.push({ lot: l.id, where: l.where, g: Math.round(take), thawedOn: l.thawedOn, useBy: l.useBy });
+      }
+      const left = pool.filter((l) => l.food === it.food).reduce((sum, l) => sum + l.g, 0);
+      const leftFrozen = pool.filter((l) => l.food === it.food && l.where === "freezer").reduce((sum, l) => sum + l.g, 0);
+      return { food: it.food, need: Math.round(need), draws, short: Math.round(rest), left: Math.round(left), leftFrozen: Math.round(leftFrozen) };
+    });
+    out.set(`${d.date} ${s.slot}`, states);
+  }
+  return out;
+}
+
+/** One item's kitchen state for the calendar: where it comes from, frozen or thawed, what's left. */
+function stateText(st: ItemState, date: string, foods: Map<string, Food>, tracked?: Set<string>) {
+  const md = (iso?: string) => (iso ? `${Number(iso.slice(5, 7))}/${Number(iso.slice(8, 10))}${iso.slice(0, 4) !== date.slice(0, 4) ? `/${iso.slice(0, 4)}` : ""}` : "");
+  const parts = st.draws.map((dr) => {
+    const g = st.draws.length > 1 ? `${dr.g}g ` : "";
+    if (dr.where === "pantry") return `${g}pantry`;
+    if (dr.where === "fridge") return `${g}fridge${dr.thawedOn ? `, THAWED ${md(dr.thawedOn)}` : ""}${dr.useBy ? `, use by ${md(dr.useBy)}` : ""}`;
+    if (foods.get(st.food)?.shelfLife?.fromFrozen) return `${g}freezer, cook from frozen`;
+    return date <= today() ? `${g}STILL FROZEN: cold-water thaw now (sealed bag, ~1h per lb)` : `${g}FROZEN: thaw the night before (BEFORE BED line)`;
+  });
+  if (st.short > 0) parts.push(tracked && !tracked.has(st.food) ? `${st.short}g not in the kitchen records` : `⚠️ ${st.short}g NOT ON HAND: buy it`);
+  // Thawed and frozen stock are different things to cook with, so say which is left.
+  const out = st.left - st.leftFrozen;
+  const left = !st.leftFrozen || foods.get(st.food)?.shelfLife?.fromFrozen ? `${st.left}g left after this` : out ? `${out}g in the fridge + ${st.leftFrozen}g FROZEN left after this` : `${st.leftFrozen}g left after this, all FROZEN`;
+  if (st.draws.length) parts.push(st.left > 0 ? left : "uses the last of it");
+  return parts.join(" · ");
+}
+
+const dayItems = (d: PlanDay) =>d.slots.filter((s) => s.status !== "skipped").flatMap((s) => scaleItems(s.items, s.fraction ?? 1));
 const scaleItems = (items: Item[], f: number) => (f === 1 ? items : items.map((it) => (it.g ? { ...it, g: Math.round(it.g * f) } : { ...it, count: (it.count ?? 0) * f })));
 
 /** Rule check. Errors break AGENTS.md rules; warnings are macro/stock drift worth a look. */
-export function check(days: PlanDay[], meals: Map<string, Meal>, foods: Map<string, Food>, opts: { kcal: number; protein: number; lots?: Lot[] }) {
+export function check(days: PlanDay[], meals: Map<string, Meal>, foods: Map<string, Food>, opts: { kcal: number; protein: number; lots?: Lot[]; tracked?: Set<string> }) {
   const errors: string[] = [];
   const warnings: string[] = [];
   let prev: string[] = [];
@@ -136,6 +189,13 @@ export function check(days: PlanDay[], meals: Map<string, Meal>, foods: Map<stri
       const eaten = sorted.filter((d) => d.date <= l.useBy!).flatMap(dayItems).filter((it) => it.food === l.food).reduce((s, it) => s + grams(it, foods), 0);
       if (eaten < l.g) warnings.push(`${l.food} (${l.g}g, ${l.where}) expires ${l.useBy} but the plan only uses ${Math.round(eaten)}g by then`);
     }
+    // Never assume food that isn't there, and never plan today's meal around meat that is still frozen.
+    for (const [key, states] of ledger(sorted, foods, opts.lots))
+      for (const st of states) {
+        if (st.short > 0 && (!opts.tracked || opts.tracked.has(st.food))) warnings.push(`SHORT ${key}: ${st.food} needs ${st.need}g, ${st.short}g not on hand (buy or swap)`);
+        const frozen = st.draws.filter((dr) => dr.where === "freezer").reduce((s, dr) => s + dr.g, 0);
+        if (frozen && key.slice(0, 10) <= today() && !foods.get(st.food)?.shelfLife?.fromFrozen) warnings.push(`FROZEN ${key}: ${frozen}g ${st.food} is still in the freezer (cold-water thaw or swap)`);
+      }
   }
   return { errors, warnings };
 }
@@ -155,9 +215,10 @@ export function groceries(days: PlanDay[], foods: Map<string, Food>, onHand: Map
 }
 
 /** Calendar events for one day, rendered from the plan (recipe, grams, 💊 on dinner, tonight's thaw line). */
-export function calendar(days: PlanDay[], date: string, meals: Map<string, Meal>, foods: Map<string, Food>, lots: Lot[]) {
+export function calendar(days: PlanDay[], date: string, meals: Map<string, Meal>, foods: Map<string, Food>, lots: Lot[], tracked?: Set<string>) {
   const d = days.find((d) => d.date === date);
   if (!d) throw new Error(`no plan for ${date}`);
+  const book = ledger(days, foods, lots, date < today() ? date : today());
   const next = days.find((x) => x.date > date);
   const live = d.slots.filter((s) => s.status !== "skipped");
   const thaw: string[] = [];
@@ -182,7 +243,10 @@ export function calendar(days: PlanDay[], date: string, meals: Map<string, Meal>
     const lines = [
       `[baymax] ~${Math.round(macro(items, foods, "kcal"))} kcal / ${Math.round(macro(items, foods, "protein"))}P`,
       ...(dinner ? ["💊 TAKE WITH THIS MEAL: creatine 5g + vitamin D3 2,000 IU."] : []),
-      ...items.map((it) => `• ${foods.get(it.food)!.name} — ${it.g ? `${it.g}g` : `${it.count}`}`),
+      ...items.map((it, j) => {
+        const st = s.status === "planned" ? book.get(`${date} ${s.slot}`)?.[j] : undefined;
+        return `• ${foods.get(it.food)!.name} — ${it.g ? `${it.g}g` : `${it.count}`}${st ? `  [${stateText(st, date, foods, tracked)}]` : ""}`;
+      }),
       ...(meal.notes ? ["", meal.notes] : []),
       ...(i === live.length - 1
         ? ["", `⚠️ BEFORE BED: ${thaw.length ? thaw.join("; ") : "nothing to thaw tonight"}.`, "💊 30-60 MIN BEFORE BED: magnesium glycinate, 200 mg elemental (profile.json)."]
@@ -215,6 +279,7 @@ if (import.meta.main) {
   const save = () => Bun.write(planPath, JSON.stringify({ days: plan.days.sort((a, b) => a.date.localeCompare(b.date)) }, null, 2) + "\n");
   const { lots } = compute(events, nutrition, foods);
   const onHand = totals(lots);
+  const tracked = new Set(events.map((e) => e.food!).filter(Boolean));
   const day = (date: string | undefined) => {
     const d = plan.days.find((d) => d.date === date);
     if (!d) throw new Error(`no plan for ${date}`);
@@ -241,7 +306,7 @@ if (import.meta.main) {
     }
   };
   const report = () => {
-    const { errors, warnings } = check(plan.days.filter((d) => d.date >= today()), meals, foods, { kcal, protein, lots });
+    const { errors, warnings } = check(plan.days.filter((d) => d.date >= today()), meals, foods, { kcal, protein, lots, tracked });
     for (const e of errors) console.log(`ERROR ${e}`);
     for (const w of warnings) console.log(`warn  ${w}`);
     return errors.length;
@@ -273,7 +338,7 @@ if (import.meta.main) {
     }
     drafted.forEach(printDay);
     const window = [...plan.days.filter((d) => d.date >= today() && !dates.includes(d.date)), ...drafted];
-    const { errors, warnings } = check(window, meals, foods, { kcal, protein, lots });
+    const { errors, warnings } = check(window, meals, foods, { kcal, protein, lots, tracked });
     for (const e of [...errors.map((e) => `ERROR ${e}`), ...warnings.map((w) => `warn  ${w}`)]) console.log(e);
     console.log(`\nseed ${seed}${write ? " — written to mealplan.json" : " — add --write to keep it"}`);
   } else if (cmd === "show" || cmd === "check") {
@@ -367,14 +432,14 @@ if (import.meta.main) {
     console.log(`logged ${date}: ${desc} → ${(dev as any).kcal} kcal / ${(dev as any).protein}P (day ${entry.kcal} kcal / ${entry.protein}P)`);
   } else if (cmd === "groceries") {
     const from = flag("--from") ?? today();
-    const rows = groceries(plan.days.filter((d) => d.date >= from), foods, onHand, new Set(events.map((e) => e.food!).filter(Boolean)));
+    const rows = groceries(plan.days.filter((d) => d.date >= from), foods, onHand, tracked);
     const line = (r: (typeof rows)[number]) => `  ${String(r.buy).padStart(5)}g ${r.name}${r.packs ? ` (${r.packs} pk)` : ""}  need ${r.need}, have ${r.have}`;
     console.log("Buy:");
     rows.filter((r) => r.tracked).forEach((r) => console.log(line(r)));
     console.log("Never counted (check the kitchen, then `kitchen count` or buy):");
     rows.filter((r) => !r.tracked).forEach((r) => console.log(`  ${String(r.need).padStart(5)}g ${r.name}`));
   } else if (cmd === "calendar") {
-    const events = calendar(plan.days, rest[0]!, meals, foods, lots);
+    const events = calendar(plan.days, rest[0]!, meals, foods, lots, tracked);
     if (rest.includes("--json")) console.log(JSON.stringify(events, null, 2));
     else for (const e of events) console.log(`\n${e.start.slice(11, 16)} ${e.summary}\n${e.description}`);
   } else {

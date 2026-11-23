@@ -1246,5 +1246,252 @@
       }
     ],
     "notes": "Season + cook the chicken (leftover taco seasoning works), chop, build in a dry pan. Salsa + Fage to dip. Broccoli: microwave 150g from frozen, on the side (or chopped into the filling)."
+  },
+  {
+    "id": "nj-egg-scramble-rice",
+    "name": "Egg scramble + rice + salsa",
+    "items": [
+      {
+        "food": "egg",
+        "g": 250
+      },
+      {
+        "food": "white-rice-dry",
+        "g": 70
+      },
+      {
+        "food": "lettuce",
+        "g": 50
+      },
+      {
+        "food": "salsa-tostitos-mild",
+        "g": 40
+      }
+    ],
+    "notes": "5 eggs scrambled, rice cooked from dry, salsa on top, lettuce on the side."
+  },
+  {
+    "id": "nj-oats-soy-grapes",
+    "name": "Oats + soy milk + grapes",
+    "items": [
+      {
+        "food": "oats-dry",
+        "g": 60
+      },
+      {
+        "food": "soy-milk",
+        "g": 200
+      },
+      {
+        "food": "honey",
+        "g": 15
+      },
+      {
+        "food": "grapes",
+        "g": 120
+      }
+    ],
+    "notes": "Microwave the oats in the soy milk ~2 min, honey on top, grapes on the side."
+  },
+  {
+    "id": "nj-bolognese-80",
+    "name": "Beef bolognese (80/20)",
+    "slot": "main",
+    "meat": "beef",
+    "items": [
+      {
+        "food": "ground-beef-80",
+        "g": 200
+      },
+      {
+        "food": "pasta-dry",
+        "g": 60
+      },
+      {
+        "food": "marinara-raos",
+        "g": 150
+      },
+      {
+        "food": "broccoli-frozen",
+        "g": 100
+      }
+    ],
+    "notes": "Brown the beef, drain most of the fat, simmer in the Rao's. Pasta weighed DRY. Broccoli microwaved from frozen."
+  },
+  {
+    "id": "nj-beef-rice-bowl",
+    "name": "Beef rice bowl + salsa",
+    "slot": "main",
+    "meat": "beef",
+    "items": [
+      {
+        "food": "ground-beef-80",
+        "g": 195
+      },
+      {
+        "food": "white-rice-dry",
+        "g": 75
+      },
+      {
+        "food": "broccoli-frozen",
+        "g": 100
+      },
+      {
+        "food": "salsa-tostitos-mild",
+        "g": 40
+      }
+    ],
+    "notes": "Brown the beef with salt/garlic/chili, over rice, salsa on top."
+  },
+  {
+    "id": "nj-buffalo-chicken-rice",
+    "name": "Buffalo chicken, rice + broccoli",
+    "slot": "main",
+    "meat": "chicken",
+    "items": [
+      {
+        "food": "chicken-breast-raw",
+        "g": 270
+      },
+      {
+        "food": "white-rice-dry",
+        "g": 75
+      },
+      {
+        "food": "broccoli-frozen",
+        "g": 100
+      },
+      {
+        "food": "franks-redhot",
+        "g": 15
+      }
+    ],
+    "notes": "Chicken grams are RAW weight from the Tue batch. Toss the sliced chicken in Frank's."
+  },
+  {
+    "id": "nj-salsa-chicken-bowl",
+    "name": "Salsa chicken rice bowl",
+    "slot": "main",
+    "meat": "chicken",
+    "items": [
+      {
+        "food": "chicken-breast-raw",
+        "g": 270
+      },
+      {
+        "food": "white-rice-dry",
+        "g": 70
+      },
+      {
+        "food": "lettuce",
+        "g": 60
+      },
+      {
+        "food": "salsa-tostitos-mild",
+        "g": 40
+      }
+    ],
+    "notes": "Chicken grams are RAW weight from the Tue batch. Reheat, slice over rice + lettuce, salsa on top."
+  },
+  {
+    "id": "nj-steak-rice",
+    "name": "Steak, rice + broccoli",
+    "slot": "main",
+    "meat": "beef",
+    "items": [
+      {
+        "food": "beef-chuck-steak",
+        "g": 225
+      },
+      {
+        "food": "white-rice-dry",
+        "g": 75
+      },
+      {
+        "food": "broccoli-frozen",
+        "g": 100
+      },
+      {
+        "food": "lettuce",
+        "g": 60
+      }
+    ],
+    "notes": "Half a steak tray. Pat dry, salt, hot pan 3-4 min a side, rest 5 min, slice against the grain."
+  },
+  {
+    "id": "nj-steak-pasta",
+    "name": "Steak + Rao's pasta",
+    "slot": "main",
+    "meat": "beef",
+    "items": [
+      {
+        "food": "beef-chuck-steak",
+        "g": 225
+      },
+      {
+        "food": "pasta-dry",
+        "g": 70
+      },
+      {
+        "food": "marinara-raos",
+        "g": 120
+      },
+      {
+        "food": "broccoli-frozen",
+        "g": 100
+      }
+    ],
+    "notes": "The other half of Friday's steak tray. Sear, slice, over pasta (DRY weight) in Rao's."
+  },
+  {
+    "id": "nj-fage-bowl",
+    "name": "Fage bowl (honey, granola, grapes)",
+    "items": [
+      {
+        "food": "fage-0",
+        "g": 250
+      },
+      {
+        "food": "honey",
+        "g": 20
+      },
+      {
+        "food": "granola-cascadian-blueberry",
+        "g": 30
+      },
+      {
+        "food": "grapes",
+        "g": 80
+      }
+    ]
+  },
+  {
+    "id": "nj-post-lift-fage-oats",
+    "name": "Post-lift Fage + oats + honey",
+    "items": [
+      {
+        "food": "fage-0",
+        "g": 200
+      },
+      {
+        "food": "oats-dry",
+        "g": 40
+      },
+      {
+        "food": "honey",
+        "g": 20
+      },
+      {
+        "food": "grapes",
+        "g": 80
+      }
+    ],
+    "notes": "Within an hour of the lift. Oats raw or microwaved with a splash of water."
+  },
+  {
+    "id": "thanksgiving-dinner",
+    "name": "Thanksgiving dinner",
+    "items": [],
+    "notes": "Family dinner, not tracked to the gram. Lead with turkey (aim ~200g+), then sides. Tell me roughly what you had after."
   }
 ]

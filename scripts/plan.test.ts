@@ -1,6 +1,6 @@
 import { expect, test } from "bun:test";
 import { join } from "node:path";
-import { calendar, check, mulberry32, planDays } from "./plan";
+import { calendar, check, ledger, mulberry32, planDays } from "./plan";
 
 const root = join(import.meta.dir, "..");
 const meals = await Bun.file(join(root, "data/meals.json")).json();
@@ -81,4 +81,26 @@ test("thaw line counts planned meals on the days before a future day", () => {
     { id: "k2", food: "ground-beef-85", site: "sf", where: "freezer" as const, g: 1215, since: "2098-12-31" },
   ];
   expect(calendar(days, "2099-01-02", byId, foods, lots).at(-1)!.description).toContain("move 152g Ground beef");
+});
+
+test("ledger says frozen vs thawed, what's left, and what's short", () => {
+  const beef = (g: number) => [{ food: "ground-beef-85", g }];
+  const slot = (s: string, time: string, items: any[]) => ({ slot: s, meal: "beef-potato-dinner", items, time, status: "planned" as const });
+  const days = [
+    { date: "2099-01-01", lift: true, slots: [slot("dinner", "19:00", beef(400)), slot("lunch", "12:00", beef(300))] },
+    { date: "2099-01-02", lift: true, slots: [slot("dinner", "19:00", beef(900))] },
+  ];
+  const lots = [
+    { id: "k1", food: "ground-beef-85", site: "nj", where: "freezer" as const, g: 1000, since: "2098-12-31" },
+    { id: "k2", food: "ground-beef-85", site: "nj", where: "fridge" as const, g: 500, since: "2098-12-31", thawedOn: "2098-12-31" },
+  ];
+  const book = ledger(days, foods, lots, "2099-01-01");
+  // Lunch (12:00) eats first, from the thawed fridge lot.
+  expect(book.get("2099-01-01 lunch")![0]).toMatchObject({ draws: [{ lot: "k2", where: "fridge", g: 300 }], short: 0, left: 1200 });
+  expect(book.get("2099-01-01 dinner")![0]!.draws.map((d) => [d.where, d.g])).toEqual([["fridge", 200], ["freezer", 200]]);
+  expect(book.get("2099-01-02 dinner")![0]).toMatchObject({ short: 100, left: 0 });
+  const desc = calendar(days, "2099-01-02", byId, foods, lots).at(-1)!.description;
+  expect(desc).toContain("FROZEN: thaw the night before");
+  expect(desc).toContain("100g NOT ON HAND");
+  expect(check(days, byId, foods, { kcal: 3200, protein: 150, lots }).warnings.some((w) => w.startsWith("SHORT 2099-01-02 dinner"))).toBe(true);
 });

@@ -85,8 +85,10 @@ It reports **warnings** for:
 - protein short of target
 - more than ~400g of yogurt in a day
 - a fridge or pantry lot expiring before the plan uses it
+- **SHORT**: a planned item needs more of a food than the kitchen will have at that point (meals are walked in time order against real lots), so buy it or swap the meal
+- **FROZEN**: today's meal draws meat that is still in the freezer
 
-The calendar render puts the 💊 line on dinner. The before-bed line lists freezer food the next day needs, skipping `fromFrozen` foods and counting the rest of today's planned meals.
+Every calendar item shows its kitchen state from the same walk: where it comes from (pantry, fridge, THAWED date, or FROZEN), its use-by, what's NOT ON HAND, and how much is left after it (fridge vs FROZEN). The calendar render puts the 💊 line on dinner. The before-bed line lists freezer food the next day needs, skipping `fromFrozen` foods and counting the rest of today's planned meals.
 
 ## Costco Same-Day (Instacart)
 Groceries default to Costco Same-Day. `bun run costco` runs Instacart's own persisted GraphQL

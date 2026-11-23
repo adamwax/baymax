@@ -1492,6 +1492,223 @@
       "est": true,
       "source": "chat",
       "note": "2 ShopRite 80/20 packs (was logged as 85/15 on 11/14)"
+    },
+    {
+      "id": "k156",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "ground-beef-80",
+      "g": 0,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "11/16 thawed packs not in fridge; Adam: the ShopRite trays in the freezer are his"
+    },
+    {
+      "id": "k157",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "ground-beef-80",
+      "g": 1770,
+      "where": "freezer",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "3 ShopRite 80/20 trays (~590g each like the 11/14 packs); labels unreadable in photo"
+    },
+    {
+      "id": "k158",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "beef-chuck-steak",
+      "g": 1350,
+      "where": "freezer",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "3 dark vacuum trays, 'steaks I think' (Adam); cut + weights unconfirmed, ~450g each"
+    },
+    {
+      "id": "k159",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "chicken-breast-raw",
+      "g": 2700,
+      "where": "freezer",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "green bag = the 2 big kosher packs (Adam confirmed)"
+    },
+    {
+      "id": "k160",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "oikos-pro-cup",
+      "g": 0,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "Adam: no yogurt left"
+    },
+    {
+      "id": "k161",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "chobani-protein-drink",
+      "g": 0,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "Adam: the 11/23 breakfast one was the last"
+    },
+    {
+      "id": "k162",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "egg",
+      "g": 1500,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "2 full Eggland's dozens (garage fridge) + ~6 in the kitchen carton"
+    },
+    {
+      "id": "k163",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "grapes",
+      "g": 900,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "3 bags (red + green) across both fridges"
+    },
+    {
+      "id": "k164",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "lettuce",
+      "g": 500,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "romaine hearts bag + heads, garage fridge"
+    },
+    {
+      "id": "k165",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "tomato",
+      "g": 0,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-23"
+    },
+    {
+      "id": "k166",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "marinara-raos",
+      "g": 680,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "1 jar Tomato Basil in the kitchen fridge, looks full"
+    },
+    {
+      "id": "k167",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "marinara-raos",
+      "g": 1360,
+      "where": "pantry",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "2 jars in the basement boxes"
+    },
+    {
+      "id": "k168",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "soy-milk",
+      "g": 1000,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "Silk VANILLA soy half-gallon, partly used (the garage Silk is almond: not Adam's)"
+    },
+    {
+      "id": "k169",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "broccoli-frozen",
+      "g": 450,
+      "where": "freezer",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "broccoli florets bag, kitchen freezer, partly used"
+    },
+    {
+      "id": "k170",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "white-rice-dry",
+      "g": 1400,
+      "where": "pantry",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "2 Bowl & Basket jasmine bags (one per pantry)"
+    },
+    {
+      "id": "k171",
+      "at": "2026-11-23T12:23",
+      "type": "count",
+      "food": "granola-cascadian-blueberry",
+      "g": 200,
+      "where": "pantry",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "bag on the kitchen pantry shelf"
+    },
+    {
+      "id": "k172",
+      "at": "2026-11-23T12:27",
+      "type": "count",
+      "food": "salsa-tostitos-mild",
+      "g": 250,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "Tostitos chunky jar, kitchen fridge, partly used"
+    },
+    {
+      "id": "k173",
+      "at": "2026-11-23T12:27",
+      "type": "count",
+      "food": "franks-redhot",
+      "g": 200,
+      "where": "fridge",
+      "est": true,
+      "source": "photos-2026-11-23",
+      "note": "kitchen fridge top shelf"
+    },
+    {
+      "id": "k174",
+      "at": "2026-11-23T12:27",
+      "type": "move",
+      "food": "ground-beef-80",
+      "g": 590,
+      "to": "fridge",
+      "source": "chat",
+      "note": "1 ShopRite tray, cold-water thaw started ~12:45 for Mon dinner + Tue/Wed lunch"
+    },
+    {
+      "id": "k175",
+      "at": "2026-11-23T12:27",
+      "type": "count",
+      "food": "fage-0",
+      "g": 0,
+      "where": "fridge",
+      "source": "photos-2026-11-23",
+      "note": "Adam: no yogurt left"
     }
   ],
   "legacy": [
