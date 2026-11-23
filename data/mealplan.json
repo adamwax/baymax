@@ -3840,7 +3840,7 @@
         {
           "slot": "lunch",
           "meal": "nj-egg-scramble-rice",
-          "time": "13:30",
+          "time": "13:45",
           "status": "planned",
           "items": [
             {
@@ -3865,7 +3865,7 @@
         {
           "slot": "afternoon",
           "meal": "nj-oats-soy-grapes",
-          "time": "15:30",
+          "time": "16:20",
           "status": "planned",
           "items": [
             {
@@ -3886,7 +3886,7 @@
         {
           "slot": "dinner",
           "meal": "nj-bolognese-80",
-          "time": "17:15",
+          "time": "17:05",
           "status": "planned",
           "items": [
             {
@@ -3911,7 +3911,7 @@
         {
           "slot": "post-lift",
           "meal": "nj-egg-scramble-rice",
-          "time": "21:15",
+          "time": "21:00",
           "status": "planned",
           "items": [
             {
