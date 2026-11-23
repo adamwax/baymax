@@ -3873,10 +3873,6 @@
               "g": 60
             },
             {
-              "food": "soy-milk",
-              "g": 200
-            },
-            {
               "food": "honey",
               "g": 15
             },
@@ -3950,7 +3946,7 @@
               "g": 60
             },
             {
-              "food": "soy-milk",
+              "food": "whole-milk",
               "g": 250
             },
             {
@@ -4135,7 +4131,7 @@
               "g": 60
             },
             {
-              "food": "soy-milk",
+              "food": "whole-milk",
               "g": 200
             },
             {
@@ -4330,7 +4326,7 @@
               "g": 60
             },
             {
-              "food": "soy-milk",
+              "food": "whole-milk",
               "g": 200
             },
             {
@@ -4461,7 +4457,7 @@
               "g": 60
             },
             {
-              "food": "soy-milk",
+              "food": "whole-milk",
               "g": 200
             },
             {

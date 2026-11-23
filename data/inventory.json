@@ -1709,6 +1709,26 @@
       "where": "fridge",
       "source": "photos-2026-11-23",
       "note": "Adam: no yogurt left"
+    },
+    {
+      "id": "k176",
+      "at": "2026-11-23T12:48",
+      "type": "count",
+      "food": "soy-milk",
+      "g": 0,
+      "where": "fridge",
+      "source": "chat",
+      "note": "Adam doesn't want soy milk; the Silk vanilla is the family's"
+    },
+    {
+      "id": "k177",
+      "at": "2026-11-23T12:48",
+      "type": "count",
+      "food": "whole-milk",
+      "g": 0,
+      "where": "fridge",
+      "source": "chat",
+      "note": "none of Adam's; on the grocery list"
     }
   ],
   "legacy": [

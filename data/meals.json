@@ -1272,14 +1272,14 @@
   },
   {
     "id": "nj-oats-soy-grapes",
-    "name": "Oats + soy milk + grapes",
+    "name": "Oats + milk + grapes",
     "items": [
       {
         "food": "oats-dry",
         "g": 60
       },
       {
-        "food": "soy-milk",
+        "food": "whole-milk",
         "g": 200
       },
       {
@@ -1291,7 +1291,7 @@
         "g": 120
       }
     ],
-    "notes": "Microwave the oats in the soy milk ~2 min, honey on top, grapes on the side."
+    "notes": "Microwave the oats in the milk ~2 min, honey on top, grapes on the side."
   },
   {
     "id": "nj-bolognese-80",
