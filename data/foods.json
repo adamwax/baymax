@@ -282,7 +282,12 @@
       "vitD": 1.3,
       "vitC": 0
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shoprite": {
+      "sku": "00041190467204",
+      "g": 1950,
+      "name": "Bowl & Basket Whole Milk, half gallon"
+    }
   },
   {
     "id": "white-rice-dry",
@@ -339,6 +344,11 @@
     "allergyChecked": "2026-07-16",
     "shelfLife": {
       "pantryDays": 365
+    },
+    "shoprite": {
+      "sku": "00030000011805",
+      "g": 510,
+      "name": "Quaker Quick 1-Minute Oats, 18 oz"
     }
   },
   {
@@ -485,6 +495,11 @@
       "id": "19682495",
       "g": 1361,
       "name": "Kirkland Signature 100% U.S. Raw Unfiltered Honey, 3 lbs"
+    },
+    "shoprite": {
+      "sku": "00073260000073",
+      "g": 454,
+      "name": "Golden Blossom Honey, 16 oz"
     }
   },
   {
@@ -1679,7 +1694,12 @@
       "g": 1361,
       "name": "Black Seedless Grapes, 3 lbs"
     },
-    "notes": "USDA-style raw fruit values. Not on profile.diet allergies (kiwi is explicitlyOk)."
+    "notes": "USDA-style raw fruit values. Not on profile.diet allergies (kiwi is explicitlyOk).",
+    "shoprite": {
+      "sku": "00041190097821",
+      "g": 907,
+      "name": "Bowl & Basket Seedless Red Grapes, 2 lbs"
+    }
   },
   {
     "id": "kiwi-gold",
@@ -1916,7 +1936,12 @@
     "shelfLife": {
       "fridgeDays": 21
     },
-    "notes": "label: 170g = 90 kcal / 18P / 0F / 6C"
+    "notes": "label: 170g = 90 kcal / 18P / 0F / 6C",
+    "shoprite": {
+      "sku": "00689544083016",
+      "g": 907,
+      "name": "Fage Total 0% Greek Yogurt, 32 oz"
+    }
   },
   {
     "id": "granola-cascadian-blueberry",
@@ -1974,6 +1999,11 @@
     "shelfLife": {
       "freezerDays": 240,
       "fromFrozen": true
+    },
+    "shoprite": {
+      "sku": "00041190413775",
+      "g": 907,
+      "name": "Bowl & Basket Broccoli Florets (frozen), 32 oz"
     }
   },
   {
