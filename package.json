@@ -16,6 +16,7 @@
     "tj": "bun scripts/tj.ts",
     "kitchen": "bun scripts/kitchen.ts",
     "costco": "bun scripts/costco.ts",
+    "shoprite": "bun scripts/shoprite.ts",
     "plan": "bun scripts/plan.ts",
     "health": "bun apps/cli/src/index.ts",
     "test": "bun test",

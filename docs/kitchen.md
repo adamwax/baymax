@@ -109,6 +109,21 @@ total ≤ cap**. It uses the saved address, card and tip, plus the preselected S
 real order: 10/11/2026, #21390832587477192, $118.23. Log each delivered line with
 `kitchen buy … --source costco-sameday`, and fix any substitutions with `undo` + `buy`.
 
+## ShopRite from Home (NJ)
+At the NJ house, groceries come from ShopRite of Mullica Hill (store 496). `bun run shoprite` calls the
+site's own storefront gateway (Wynshop) inside Adam's logged-in Chrome, using the session the site
+already holds: the bearer token in the `oidc.user` cookie, the store (`MI9_RSID`) and the shopping mode
+(pickup or delivery). Foods map to products with `foods.json → shoprite { sku, g, name }`.
+
+```bash
+bun run shoprite search fage 0 32 oz  # find a SKU to map
+bun run shoprite show                 # cart contents + subtotal
+bun run shoprite cart [--dry-run]     # plan groceries (Buy list) → whole packs → cart; never lowers, safe to rerun
+bun run shoprite add honey 1          # only raises a quantity
+bun run shoprite set fage-0 3         # exact quantity; 0 removes
+```
+Checkout (pickup slot, payment) stays in the ShopRite app. Log what came with `kitchen buy … --source shoprite`.
+
 ## Autopilot (runbook for a scheduled task)
 Run nightly (~21:00) as a Codex Scheduled task against this repo (AGENTS.md → Automations):
 1. `bun run plan show`. Mark known trips/eating-out days with `plan away` (check the calendar for travel).

@@ -57,6 +57,7 @@ bun run import                  # import weights.json (gym log) into the DB (doc
 bun run kitchen show           # what's on hand, per lot, with use-by dates (docs/kitchen.md)
 bun run plan show|eat|groceries|calendar  # the meal plan: draft, swap, eat, shop, render events (docs/kitchen.md)
 bun run costco show|cart       # Costco Same-Day cart via logged-in Chrome, filled from plan groceries (docs/kitchen.md)
+bun run shoprite show|cart|search  # ShopRite of Mullica Hill cart (NJ) via logged-in Chrome, same Buy list (docs/kitchen.md)
 bun run clinical:import [--check] # parse/validate local clinical records + general labs
 bun run tj <search terms>       # Trader Joe's product/price search at Adam's store (via Chrome; /tj skill)
 sqlite3 data/baymax.db          # raw SQL (CLI has no query subcommand on purpose)
@@ -83,7 +84,8 @@ Daily logging flows (what to touch, and whether an import is needed):
   "Write Nutrition → Health" remains as a manual retry
 - **Shopping** → Costco Same-Day (Instacart) by default: match `bun run plan
   groceries` to Kirkland/Costco SKUs in `data/costco-sameday.json`; Trader
-  Joe's (`bun run tj`) only for gaps
+  Joe's (`bun run tj`) only for gaps. At the NJ house (`kitchen arrive nj`): ShopRite of
+  Mullica Hill via `bun run shoprite cart`
 - **Groceries / kitchen changes** → `bun run kitchen buy|count|move|share|toss`
   (receipts, photo checks, thawing, Nanda eating something, spoilage). Never
   edit `inventory.json` by hand; `kitchen undo <id>` reverses a mistake
