@@ -3866,7 +3866,7 @@
           "slot": "afternoon",
           "meal": "nj-oats-soy-grapes",
           "time": "14:05",
-          "status": "planned",
+          "status": "skipped",
           "items": [
             {
               "food": "oats-dry",
