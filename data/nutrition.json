@@ -6701,7 +6701,7 @@
           },
           {
             "food": "marinara-raos",
-            "g": 150.0,
+            "g": 150,
             "at": "2026-11-17T13:15"
           },
           {
@@ -6711,7 +6711,7 @@
           },
           {
             "food": "ground-beef-80",
-            "g": 150.0,
+            "g": 150,
             "at": "2026-11-17T13:15"
           }
         ],
@@ -6727,6 +6727,33 @@
         "protein": 0,
         "carbs": 90,
         "fat": 0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-11-23",
+    "kcal": 120,
+    "protein": 15,
+    "carbs": 9,
+    "fat": 2,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "11:59 Ad-hoc: 207g Chobani 15g Protein Zero Sugar yogurt drink (7 fl oz).",
+        "at": "2026-11-23T11:59",
+        "items": [
+          {
+            "food": "chobani-protein-drink",
+            "g": 207,
+            "at": "2026-11-23T11:59"
+          }
+        ],
+        "kcal": 120,
+        "protein": 15,
+        "carbs": 9,
+        "fat": 2
       }
     ],
     "notes": ""

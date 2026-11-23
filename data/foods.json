@@ -2257,5 +2257,24 @@
       "fridgeDays": 21
     },
     "notes": "label: 1 slice (21g) = 80 kcal / 5P / 6F. Ingredients: milk, culture, salt, enzymes, annatto. Replaced Kraft Singles 11/14 (Adam: real cheese)."
+  },
+  {
+    "id": "chobani-protein-drink",
+    "name": "Chobani 15g Protein Zero Sugar yogurt drink (7 fl oz)",
+    "brand": "Chobani",
+    "fdcType": "label",
+    "weighed": "each",
+    "unitG": 207,
+    "per100g": {
+      "kcal": 58,
+      "protein": 7.2,
+      "fat": 1.2,
+      "carbs": 4.3
+    },
+    "allergyChecked": "2026-11-23",
+    "shelfLife": {
+      "fridgeDays": 14
+    },
+    "notes": "Retailer label: 120 kcal / 15P / ~2.5F / 9C per 7 fl oz bottle (~207g), 0g added sugar, lactose-free. Dairy-only base; confirm the flavor and the ingredient panel on the bottle (allergy check: no nut, legume, or fish-oil ingredients expected)."
   }
 ]
