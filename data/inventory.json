@@ -1729,6 +1729,16 @@
       "where": "fridge",
       "source": "chat",
       "note": "none of Adam's; on the grocery list"
+    },
+    {
+      "id": "k178",
+      "at": "2026-11-23T13:31",
+      "type": "count",
+      "food": "ready-rice-jasmine",
+      "g": 0,
+      "where": "pantry",
+      "source": "chat",
+      "note": "none in the house; on the ShopRite order"
     }
   ],
   "legacy": [

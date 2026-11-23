@@ -2306,5 +2306,30 @@
       "fridgeDays": 14
     },
     "notes": "Retailer label: 120 kcal / 15P / ~2.5F / 9C per 7 fl oz bottle (~207g), 0g added sugar, lactose-free. Dairy-only base; confirm the flavor and the ingredient panel on the bottle (allergy check: no nut, legume, or fish-oil ingredients expected)."
+  },
+  {
+    "id": "ready-rice-jasmine",
+    "name": "Ben's Original Ready Rice Jasmine (microwave pouch, 8.5 oz)",
+    "brand": "Ben's Original",
+    "fdcType": "label",
+    "weighed": "each",
+    "unitG": 241,
+    "packageG": 241,
+    "per100g": {
+      "kcal": 157,
+      "protein": 2.9,
+      "fat": 2.5,
+      "carbs": 30
+    },
+    "allergyChecked": "2026-11-23",
+    "shelfLife": {
+      "pantryDays": 300
+    },
+    "shoprite": {
+      "sku": "00054800423392",
+      "g": 241,
+      "name": "Ben's Original Ready Rice Jasmine, 8.5 oz"
+    },
+    "notes": "Label est: 220 kcal / 4P per 1 cup (140g); pouch ~378 kcal / 7P. Ingredients: precooked jasmine rice + sunflower/canola oil. Plain jasmine only: the flavored Ready Rice (garden vegetable, fried rice) has peas. 90 s in the microwave. Planned as WHOLE pouches so nothing is left open."
   }
 ]

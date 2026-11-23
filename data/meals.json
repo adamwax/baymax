@@ -1256,8 +1256,8 @@
         "g": 250
       },
       {
-        "food": "white-rice-dry",
-        "g": 70
+        "food": "ready-rice-jasmine",
+        "g": 241
       },
       {
         "food": "lettuce",
@@ -1268,7 +1268,7 @@
         "g": 40
       }
     ],
-    "notes": "5 eggs scrambled, rice cooked from dry, salsa on top, lettuce on the side."
+    "notes": "5 eggs scrambled, 1 microwave rice pouch (90 s), salsa on top, lettuce on the side."
   },
   {
     "id": "nj-oats-soy-grapes",
@@ -1329,8 +1329,8 @@
         "g": 195
       },
       {
-        "food": "white-rice-dry",
-        "g": 75
+        "food": "ready-rice-jasmine",
+        "g": 241
       },
       {
         "food": "broccoli-frozen",
@@ -1354,8 +1354,8 @@
         "g": 270
       },
       {
-        "food": "white-rice-dry",
-        "g": 75
+        "food": "ready-rice-jasmine",
+        "g": 241
       },
       {
         "food": "broccoli-frozen",
@@ -1379,8 +1379,8 @@
         "g": 270
       },
       {
-        "food": "white-rice-dry",
-        "g": 70
+        "food": "ready-rice-jasmine",
+        "g": 241
       },
       {
         "food": "lettuce",
@@ -1404,8 +1404,8 @@
         "g": 225
       },
       {
-        "food": "white-rice-dry",
-        "g": 75
+        "food": "ready-rice-jasmine",
+        "g": 241
       },
       {
         "food": "broccoli-frozen",
