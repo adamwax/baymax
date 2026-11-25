@@ -6733,10 +6733,10 @@
   },
   {
     "date": "2026-11-23",
-    "kcal": 570,
-    "protein": 32,
-    "carbs": 73,
-    "fat": 16,
+    "kcal": 1409,
+    "protein": 88,
+    "carbs": 107,
+    "fat": 67,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -6784,6 +6784,165 @@
         "protein": 0,
         "carbs": 25,
         "fat": 0
+      },
+      {
+        "desc": "17:00 Beef bolognese (85/15) per the plan: 260g Ground beef 85/15, raw + 30g Pasta, wheat, dry (penne/spaghetti) + 225g Rao's Homemade Marinara. Ate about half the pot (whole 1.145 lb tray, undrained). Pasta and Rao's are ESTIMATES: half of the 60g/450g suggested; broccoli not confirmed, not counted. Other half is COOKED, storage unconfirmed.",
+        "at": "2026-11-23T17:00",
+        "items": [
+          {
+            "food": "ground-beef-85",
+            "g": 260,
+            "at": "2026-11-23T17:00"
+          },
+          {
+            "food": "pasta-dry",
+            "g": 30,
+            "at": "2026-11-23T17:00"
+          },
+          {
+            "food": "marinara-raos",
+            "g": 225,
+            "at": "2026-11-23T17:00"
+          }
+        ],
+        "kcal": 839,
+        "protein": 56,
+        "carbs": 34,
+        "fat": 51
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-11-24",
+    "kcal": 3285,
+    "protein": 196,
+    "carbs": 321,
+    "fat": 133,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "14:15 Chicken salad bagel (seeded) with lettuce, tomato, red onion, out. ESTIMATE from photo; comparable bagel-shop sandwiches list 490-800 kcal.",
+        "at": "2026-11-24T14:15",
+        "kcal": 600,
+        "protein": 28,
+        "carbs": 68,
+        "fat": 24
+      },
+      {
+        "desc": "14:15 Chobani Greek yogurt, peach on the bottom. Retail listing for the 5.3 oz cup; cup size ASSUMED.",
+        "at": "2026-11-24T14:15",
+        "kcal": 110,
+        "protein": 11,
+        "carbs": 15,
+        "fat": 0
+      },
+      {
+        "desc": "14:15 Dunkin mocha iced coffee bottle, 13.7 fl oz. 270 kcal read off the bottle; macros from retail listings.",
+        "at": "2026-11-24T14:15",
+        "kcal": 270,
+        "protein": 8,
+        "carbs": 43,
+        "fat": 8
+      },
+      {
+        "desc": "11:00 Beef bolognese (85/15): 259g Ground beef 85/15, raw + 30g Pasta, wheat, dry (penne/spaghetti) + 225g Rao's Homemade Marinara. Other half of Monday's pot. Same ESTIMATES as Monday's half.",
+        "at": "2026-11-24T11:00",
+        "items": [
+          {
+            "food": "ground-beef-85",
+            "g": 259,
+            "at": "2026-11-24T11:00"
+          },
+          {
+            "food": "pasta-dry",
+            "g": 30,
+            "at": "2026-11-24T11:00"
+          },
+          {
+            "food": "marinara-raos",
+            "g": 225,
+            "at": "2026-11-24T11:00"
+          }
+        ],
+        "kcal": 837,
+        "protein": 56,
+        "carbs": 34,
+        "fat": 51
+      },
+      {
+        "desc": "17:21 Post-lift Fage + oats + honey per the plan: 296g Chobani 20g Protein drink, Strawberries & Cream (10 fl oz). Moved up: had it before the gym instead of 10 PM.",
+        "at": "2026-11-24T17:21",
+        "items": [
+          {
+            "food": "chobani-20g-strawberry",
+            "g": 296,
+            "at": "2026-11-24T17:21"
+          }
+        ],
+        "kcal": 170,
+        "protein": 20,
+        "carbs": 14,
+        "fat": 3
+      },
+      {
+        "desc": "18:54 Fage bowl (honey, granola, grapes) per the plan: 200g Fage BestSelf 0% lactose-free plain Greek yogurt + 40g Cascadian Farm No Added Sugar Blueberry Vanilla Granola + 100g Blackberries + 20g Honey. Pre-lift, granola instead of oats.",
+        "at": "2026-11-24T18:54",
+        "items": [
+          {
+            "food": "fage-bestself-0",
+            "g": 200,
+            "at": "2026-11-24T18:54"
+          },
+          {
+            "food": "granola-cascadian-blueberry",
+            "g": 40,
+            "at": "2026-11-24T18:54"
+          },
+          {
+            "food": "blackberries",
+            "g": 100,
+            "at": "2026-11-24T18:54"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-11-24T18:54"
+          }
+        ],
+        "kcal": 378,
+        "protein": 26,
+        "carbs": 59,
+        "fat": 7
+      },
+      {
+        "desc": "21:00 Beef rice bowl + salsa per the plan: 173g Ground beef 85/15, raw + 241g Ben's Original Ready Rice Jasmine (microwave pouch, 8.5 oz). Tray was 80/20, strained: logged as the 85/15 entry because draining brings it close. Time and portion (1/3 tray, 1 pouch) ASSUMED from the plan. Creatine, D3 and magnesium taken.",
+        "at": "2026-11-24T21:00",
+        "items": [
+          {
+            "food": "ground-beef-85",
+            "g": 173,
+            "at": "2026-11-24T21:00"
+          },
+          {
+            "food": "ready-rice-jasmine",
+            "g": 241,
+            "at": "2026-11-24T21:00"
+          }
+        ],
+        "kcal": 750,
+        "protein": 39,
+        "carbs": 72,
+        "fat": 32
+      },
+      {
+        "desc": "Clio strawberry Greek yogurt bar, 1 bar (time not reported). Retailer listing 170 kcal; some list 140; label not read. Listings say made on a line that processes peanuts and tree nuts.",
+        "at": "2026-11-24T21:30",
+        "kcal": 170,
+        "protein": 8,
+        "carbs": 16,
+        "fat": 8
       }
     ],
     "notes": ""

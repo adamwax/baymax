@@ -1814,6 +1814,72 @@
       "est": true,
       "source": "chat",
       "note": "1 box, kitchen freezer door"
+    },
+    {
+      "id": "k186",
+      "at": "2026-11-24T17:15",
+      "type": "buy",
+      "food": "fage-bestself-0",
+      "g": 1814,
+      "where": "fridge",
+      "est": true,
+      "source": "photo-2026-11-24",
+      "note": "ShopRite haul photo; counts/sizes from the photo, no receipt"
+    },
+    {
+      "id": "k187",
+      "at": "2026-11-24T17:15",
+      "type": "buy",
+      "food": "fairlife-milk-2",
+      "g": 1540,
+      "where": "fridge",
+      "est": true,
+      "source": "photo-2026-11-24",
+      "note": "ShopRite haul photo; counts/sizes from the photo, no receipt"
+    },
+    {
+      "id": "k188",
+      "at": "2026-11-24T17:15",
+      "type": "buy",
+      "food": "chobani-20g-strawberry",
+      "g": 1184,
+      "where": "fridge",
+      "est": true,
+      "source": "photo-2026-11-24",
+      "note": "ShopRite haul photo; counts/sizes from the photo, no receipt"
+    },
+    {
+      "id": "k189",
+      "at": "2026-11-24T17:15",
+      "type": "buy",
+      "food": "ready-rice-jasmine",
+      "g": 1446,
+      "where": "pantry",
+      "est": true,
+      "source": "photo-2026-11-24",
+      "note": "ShopRite haul photo; counts/sizes from the photo, no receipt"
+    },
+    {
+      "id": "k190",
+      "at": "2026-11-24T17:15",
+      "type": "buy",
+      "food": "strawberries",
+      "g": 454,
+      "where": "fridge",
+      "est": true,
+      "source": "photo-2026-11-24",
+      "note": "ShopRite haul photo; counts/sizes from the photo, no receipt"
+    },
+    {
+      "id": "k191",
+      "at": "2026-11-24T17:15",
+      "type": "buy",
+      "food": "blackberries",
+      "g": 340,
+      "where": "fridge",
+      "est": true,
+      "source": "photo-2026-11-24",
+      "note": "ShopRite haul photo; counts/sizes from the photo, no receipt"
     }
   ],
   "legacy": [
