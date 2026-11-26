@@ -6946,5 +6946,89 @@
       }
     ],
     "notes": ""
+  },
+  {
+    "date": "2026-11-25",
+    "kcal": 371,
+    "protein": 31,
+    "carbs": 57,
+    "fat": 5,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "11:25 Fage bowl (honey, granola, grapes) per the plan: 250g Fage BestSelf 0% lactose-free plain Greek yogurt + 20g Honey + 30g Cascadian Farm No Added Sugar Blueberry Vanilla Granola + 120g Blackberries.",
+        "at": "2026-11-25T11:25",
+        "items": [
+          {
+            "food": "fage-bestself-0",
+            "g": 250,
+            "at": "2026-11-25T11:25"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-11-25T11:25"
+          },
+          {
+            "food": "granola-cascadian-blueberry",
+            "g": 30,
+            "at": "2026-11-25T11:25"
+          },
+          {
+            "food": "blackberries",
+            "g": 120,
+            "at": "2026-11-25T11:25"
+          }
+        ],
+        "kcal": 371,
+        "protein": 31,
+        "carbs": 57,
+        "fat": 5
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "date": "2026-11-26",
+    "kcal": 344,
+    "protein": 25,
+    "carbs": 55,
+    "fat": 5,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "14:34 Fage bowl (honey, granola, grapes) per the plan: 200g Fage BestSelf 0% lactose-free plain Greek yogurt + 20g Honey + 30g Cascadian Farm No Added Sugar Blueberry Vanilla Granola + 120g Blackberries.",
+        "at": "2026-11-26T14:34",
+        "items": [
+          {
+            "food": "fage-bestself-0",
+            "g": 200,
+            "at": "2026-11-26T14:34"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-11-26T14:34"
+          },
+          {
+            "food": "granola-cascadian-blueberry",
+            "g": 30,
+            "at": "2026-11-26T14:34"
+          },
+          {
+            "food": "blackberries",
+            "g": 120,
+            "at": "2026-11-26T14:34"
+          }
+        ],
+        "kcal": 344,
+        "protein": 25,
+        "carbs": 55,
+        "fat": 5
+      }
+    ],
+    "notes": ""
   }
 ]

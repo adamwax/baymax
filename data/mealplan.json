@@ -4055,13 +4055,13 @@
     },
     {
       "date": "2026-11-25",
-      "lift": true,
+      "lift": false,
       "slots": [
         {
           "slot": "breakfast",
           "meal": "nj-fage-bowl",
-          "time": "09:00",
-          "status": "planned",
+          "time": "11:00",
+          "status": "eaten",
           "items": [
             {
               "food": "fage-bestself-0",
@@ -4089,7 +4089,7 @@
         {
           "slot": "lunch",
           "meal": "nj-lamb-chops-pasta",
-          "time": "12:45",
+          "time": "13:00",
           "status": "planned",
           "items": [
             {
@@ -4110,7 +4110,7 @@
         {
           "slot": "afternoon",
           "meal": "nj-oats-soy-grapes",
-          "time": "14:15",
+          "time": "16:00",
           "status": "planned",
           "items": [
             {
@@ -4181,35 +4181,10 @@
       "lift": false,
       "slots": [
         {
-          "slot": "breakfast",
-          "meal": "nj-fage-bowl",
-          "time": "09:30",
-          "status": "planned",
-          "items": [
-            {
-              "food": "fage-bestself-0",
-              "g": 250
-            },
-            {
-              "food": "honey",
-              "g": 20
-            },
-            {
-              "food": "granola-cascadian-blueberry",
-              "g": 30
-            },
-            {
-              "food": "blackberries",
-              "g": 120
-            }
-          ],
-          "gcal": "63p01ifhgot1rvkk4196nved14"
-        },
-        {
           "slot": "lunch",
           "meal": "nj-buffalo-chicken-rice",
           "time": "12:30",
-          "status": "planned",
+          "status": "skipped",
           "items": [
             {
               "food": "chicken-breast-raw",
@@ -4229,6 +4204,31 @@
             }
           ],
           "gcal": "n1hbfs564jskbksc2tbcfsnqac"
+        },
+        {
+          "slot": "breakfast",
+          "meal": "nj-fage-bowl",
+          "time": "14:30",
+          "status": "eaten",
+          "items": [
+            {
+              "food": "fage-bestself-0",
+              "g": 250
+            },
+            {
+              "food": "honey",
+              "g": 20
+            },
+            {
+              "food": "granola-cascadian-blueberry",
+              "g": 30
+            },
+            {
+              "food": "blackberries",
+              "g": 120
+            }
+          ],
+          "gcal": "63p01ifhgot1rvkk4196nved14"
         },
         {
           "slot": "dinner",
