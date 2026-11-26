@@ -6949,12 +6949,12 @@
   },
   {
     "date": "2026-11-25",
-    "kcal": 371,
-    "protein": 31,
-    "carbs": 57,
-    "fat": 5,
+    "kcal": 1564,
+    "protein": 102,
+    "carbs": 195,
+    "fat": 42,
     "meals": [],
-    "method": "reported-as-eaten. DAY OPEN.",
+    "method": "reported-as-eaten. Sick day (fever 100.6). Soup, Clio and burger estimated.",
     "deviations": [
       {
         "desc": "11:25 Fage bowl (honey, granola, grapes) per the plan: 250g Fage BestSelf 0% lactose-free plain Greek yogurt + 20g Honey + 30g Cascadian Farm No Added Sugar Blueberry Vanilla Granola + 120g Blackberries.",
@@ -6985,6 +6985,52 @@
         "protein": 31,
         "carbs": 57,
         "fat": 5
+      },
+      {
+        "desc": "~13:45 Fairlife 2% ultra-filtered milk, 480g (2 cups), sick day.",
+        "at": "2026-11-25T13:45",
+        "items": [
+          {
+            "food": "fairlife-milk-2",
+            "g": 480,
+            "at": "2026-11-25T13:45"
+          }
+        ],
+        "kcal": 240,
+        "protein": 26,
+        "carbs": 12,
+        "fat": 9
+      },
+      {
+        "desc": "~15:00 Homemade chicken soup broth from the freezer (one deli quart, broth + carrot, no chicken or matzah balls; ESTIMATED ~80 kcal/4P) + 1 Ben's Jasmine pouch (241g) stirred in. Soup ingredients not confirmed.",
+        "at": "2026-11-25T15:00",
+        "items": [
+          {
+            "food": "ready-rice-jasmine",
+            "g": 241,
+            "at": "2026-11-25T15:00"
+          }
+        ],
+        "kcal": 458,
+        "protein": 11,
+        "carbs": 80,
+        "fat": 9
+      },
+      {
+        "desc": "Clio strawberry Greek yogurt bar, 1 bar (time not reported). Retailer listing 170 kcal; label not read. Listings say made on a line that processes peanuts and tree nuts.",
+        "at": "2026-11-25T17:00",
+        "kcal": 170,
+        "protein": 8,
+        "carbs": 16,
+        "fat": 8
+      },
+      {
+        "desc": "~20:00 Turkey burger on a bun with a bit of ketchup. ESTIMATED: 4 oz patty ~170 kcal/21P/9F, bun ~140/5P/26C/2F, ketchup ~15g 15/4C. Patty/bun brand and size not reported.",
+        "at": "2026-11-25T20:00",
+        "kcal": 325,
+        "protein": 26,
+        "carbs": 30,
+        "fat": 11
       }
     ],
     "notes": ""

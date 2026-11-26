@@ -4377,7 +4377,7 @@
     },
     {
       "date": "2026-11-28",
-      "lift": false,
+      "lift": true,
       "slots": [
         {
           "slot": "breakfast",
