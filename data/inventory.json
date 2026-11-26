@@ -1880,6 +1880,15 @@
       "est": true,
       "source": "photo-2026-11-24",
       "note": "ShopRite haul photo; counts/sizes from the photo, no receipt"
+    },
+    {
+      "id": "k192",
+      "at": "2026-11-26T14:48",
+      "type": "move",
+      "food": "lamb-shoulder-chop",
+      "g": 363,
+      "to": "fridge",
+      "source": "chat"
     }
   ],
   "legacy": [

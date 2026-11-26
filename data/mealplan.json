@@ -4275,21 +4275,21 @@
         },
         {
           "slot": "lunch",
-          "meal": "nj-salsa-chicken-bowl",
+          "meal": "nj-beef-rice-bowl",
           "time": "12:15",
           "status": "planned",
           "items": [
             {
-              "food": "chicken-breast-raw",
-              "g": 270
+              "food": "ground-beef-85",
+              "g": 195
             },
             {
               "food": "ready-rice-jasmine",
               "g": 241
             },
             {
-              "food": "lettuce",
-              "g": 60
+              "food": "broccoli-frozen",
+              "g": 100
             },
             {
               "food": "salsa-tostitos-mild",
